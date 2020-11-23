@@ -1,0 +1,3 @@
+#! /bin/bash
+
+docker run -v $PROJECT_DIR:/project -e PROJECT_DIR=/project quay.io/stauchen/tweego:1.0.0 /tweego $@
