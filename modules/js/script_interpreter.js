@@ -18,6 +18,12 @@
         if (this.interpreter && this.interpreter.exit) {
             this.interpreter.exit(this.instruction, this.passage);
         }
+        if (this.step == this.sceneScript.length) {
+            if (this.last) {
+                this.last();
+                return this;
+            }
+        }
         this.step = this.step + 1;
         this.instruction = this.sceneScript[this.step];
         return this;
@@ -93,6 +99,9 @@
             this.removeElements();
             this.createElements();
             this.updateUI();
+        },
+        reset: function () {
+            this.settings = {};
         },
         hideAll: function () {
             this.elements.$leftCharacter.hide();
@@ -235,8 +244,6 @@
         }
     }
 
-    window.Layout = Layout; // For Debugging
-
     Interpreters.setup = {
             perform: function (instruction, passage) {
                 var setup = {};
@@ -334,9 +341,13 @@
         $(window).on('sm.passage.shown', function (event, eventObject) {
             try {
                 sceneScript = jsyaml.load(passage.source);
+                Layout.reset();
                 Layout.redraw();
                 passage.scriptRunner = new ScriptRunner(sceneScript);
                 passage.scriptRunner.passage = passage;
+                passage.scriptRunner.last = function () {
+                    console.log('Finis');
+                };
                 passage.scriptRunner.perform();
             } catch (error) {
                 // Doesn't look like yaml, so ignore

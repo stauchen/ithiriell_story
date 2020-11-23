@@ -11,6 +11,10 @@
     background-color: rgba(0, 0, 0, 0);
 }
 
+#backgroundLayer {
+    background-size: cover;
+}
+
 #twoCharacterLayer {
     z-index: 100;
     display: grid;

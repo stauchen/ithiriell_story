@@ -1,0 +1,15 @@
+:: Start
+<% 
+    _(initializers).each(function (f) { f() });
+    story.show("Passage 1");
+%>
+
+:: StoryTitle 
+A test story
+
+:: StoryData
+{
+	"ifid": "D7303F4D-E239-4BFA-923F-C2F45C758791",
+	"format": "snowman",
+	"format-version": "2.0.3"
+}

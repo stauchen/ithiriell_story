@@ -1,0 +1,4 @@
+:: Passage 1 
+- setup:
+    background: wald
+- description: "Mücke hört ein Geräusch. Da ist noch jemand anderes im Wald ... "
