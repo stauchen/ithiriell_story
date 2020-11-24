@@ -1,4 +1,31 @@
 :: Passage 1 
 - setup:
     background: wald
-- description: "Mücke hört ein Geräusch. Da ist noch jemand anderes im Wald ... "
+    characters:
+      - name: muecke
+        caption: Mücke
+        color: red
+      - name: wolf
+        caption: Wolf
+        color: blue
+- character: wolf
+  text: "Gehen wir in die Berge Ewiger Verdammnis oder die Wüste des Quälenden Verdursten?"
+- choice:
+  - option: Berge Ewiger Verdammnis
+    passage: Berge Ewiger Verdammnis
+  - option: Wüste des Quälenden Verdurstens
+    script:
+      - character: wolf
+        text: "Ich packe noch etwas Wasser ein"
+      - passage: Wüste des Quälenden Verdurstens
+
+
+:: Berge Ewiger Verdammnis
+- setup:
+    background: berge
+- description: Berge Ewiger Verdammnis
+
+:: Wüste des Quälenden Verdurstens
+- setup:
+    background: wueste
+- description: Wüste des Quälenden Verdurstens

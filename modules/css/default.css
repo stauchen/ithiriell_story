@@ -77,3 +77,39 @@
 .mutedCharacter {
     filter: saturate(0.5) brightness(0.5);
 }
+
+#choiceLayer {
+    display: grid;
+    row-gap: 1rem;
+    z-index: 400;
+}
+
+.choice {
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    align-self: center;
+    padding: 2rem;
+    cursor: pointer;
+}
+
+.singleColumn {
+    grid-template-columns: 20% 60% 20%;
+    /* grid-template-areas: . c1 . */
+}
+
+.unevenColumns {
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    /*
+    grid-template-areas:
+    ". c1 c1 c1 ."
+    "c2 c2 . c3 c3"
+    "c4 c4 . c5 c5"
+    */
+
+}
+
+.twoColumns {
+    grid-template-columns: 20% 30% 30% 20%;
+    /* grid-template-areas: . c1 c2 . */
+}
