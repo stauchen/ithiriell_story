@@ -1,4 +1,4 @@
-:: Passage 1 
+:: Passage 1 [start]
 - setup:
     background: wald
     characters:
@@ -30,7 +30,7 @@
   text: "Dann bleib in meiner Nähe ..."
 - passage: Verlaufen
 
-:: Verlaufen
+:: Verlaufen [cisco]
 - setup:
     background: wueste
 - description: "Nach einer Weile des umherirrens stolpern Mücke und Wolf aus dem Wald heraus..."

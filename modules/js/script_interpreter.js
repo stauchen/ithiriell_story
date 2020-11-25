@@ -534,6 +534,10 @@
     window.initializers.push(function () {
         $(window).on('sm.passage.shown', function (event, eventObject) {
             try {
+                if (passage.tags.includes("noyaml")) {
+                    console.log("Passage ", passage.name, " includes 'noyaml' tag, so skipping script parsing");
+                    return;
+                }
                 sceneScript = jsyaml.load(passage.source);
                 Layout.reset();
                 Layout.redraw();

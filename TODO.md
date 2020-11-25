@@ -1,4 +1,3 @@
-* Quick Jump
 * Error handling
 * Editiermöglichkeit für's Team
 ---
