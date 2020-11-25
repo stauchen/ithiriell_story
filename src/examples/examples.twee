@@ -2,30 +2,47 @@
 - setup:
     background: wald
     characters:
-      - name: muecke
-        caption: Mücke
-        color: red
-      - name: wolf
-        caption: Wolf
-        color: blue
-- character: wolf
-  text: "Gehen wir in die Berge Ewiger Verdammnis oder die Wüste des Quälenden Verdursten?"
-- choice:
-  - option: Berge Ewiger Verdammnis
-    passage: Berge Ewiger Verdammnis
-  - option: Wüste des Quälenden Verdurstens
-    script:
-      - character: wolf
-        text: "Ich packe noch etwas Wasser ein"
-      - passage: Wüste des Quälenden Verdurstens
-
-
-:: Berge Ewiger Verdammnis
+        - name: muecke
+          caption: Mücke
+          color: red
+- description: "Mücke hört ein Geräusch. Da ist noch jemand anderes im Wald ... "
+- character: muecke
+  text: Hallo, ist da wer?
+- description: "Keine Antwort."
+- character: muecke
+  text: "**Halooohooooooo!**"
+- description: "*raschel*"
+  caption: ???
 - setup:
-    background: berge
-- description: Berge Ewiger Verdammnis
+    characters:
+        - name: muecke
+          caption: Mücke
+          color: red
+        - name: wolf
+          caption: Wolf
+          color: blue
+- character: wolf
+  text: "Du solltest nicht hier sein."
+- description: "Mücke schaut Wolf herausfordernd an."
+- character: muecke
+  text: "Ich habe versprochen, nach ihm zu suchen."
+- character: wolf
+  text: "Dann bleib in meiner Nähe ..."
+- passage: Verlaufen
 
-:: Wüste des Quälenden Verdurstens
+:: Verlaufen
 - setup:
     background: wueste
-- description: Wüste des Quälenden Verdurstens
+- description: "Nach einer Weile des umherirrens stolpern Mücke und Wolf aus dem Wald heraus..."
+- setup:
+    characters:
+        - name: muecke
+          caption: Mücke
+          color: red
+        - name: wolf
+          caption: Wolf
+          color: blue
+- character: wolf
+  text: "Gut. Ich bin bereit einzuräumen, dass ich mich **vielleicht** verlaufen habe ..."
+
+
