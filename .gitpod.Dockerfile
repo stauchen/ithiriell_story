@@ -1,4 +1,4 @@
-FROM quay.io/stauchen/tweego_ws:1.0.0
+FROM quay.io/stauchen/tweego_ws:1.0.1
 
 # Install custom tools, runtimes, etc.
 # For example "bastet", a command-line tetris clone:
