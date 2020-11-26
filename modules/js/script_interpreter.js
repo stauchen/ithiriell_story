@@ -55,7 +55,7 @@
     }
 
     ScriptRunner.prototype.performInstruction = function(instruction) {
-        console.log("Performing", instruction);
+        Log.debug("Performing", instruction);
         var self = this;
         var passage = this.passage;
         if (this.interpreter && this.interpreter.exit) {
@@ -74,13 +74,13 @@
         var found = false;
         _(_(Interpreters).keys()).each(function (key) {
             if (!found && instruction[key]) {
-                console.log("Found", key);
+                Log.debug("Found", key);
                 self.interpreter = Interpreters[key];
-                console.log('Running interpreter for ', key);
+                Log.debug('Running interpreter for ', key);
                 Interpreters[key].perform(instruction, passage);
                 found = true;
             } else if (!found) {
-                console.log("Did not find", key);
+                Log.debug("Did not find", key);
             }
         });
 
@@ -531,11 +531,29 @@
 
     window.initializers = window.initializers || [];
 
+    function getQueryParams(queryString) {
+        var query = (queryString || window.location.hash).substring(1); // delete #
+        if (!query) {
+          return {};
+        }
+        return _
+        .chain(query.split('&'))
+        .map(function(params) {
+          var p = params.split('=');
+          return [p[0], decodeURIComponent(p[1])];
+        })
+        .object()
+        .value()
+    }
+
+
     window.initializers.push(function () {
+        window.query = getQueryParams();
+
         $(window).on('sm.passage.shown', function (event, eventObject) {
             try {
                 if (passage.tags.includes("noyaml")) {
-                    console.log("Passage ", passage.name, " includes 'noyaml' tag, so skipping script parsing");
+                    Log.debug("Passage ", passage.name, " includes 'noyaml' tag, so skipping script parsing");
                     return;
                 }
                 sceneScript = jsyaml.load(passage.source);
@@ -544,7 +562,7 @@
                 passage.scriptRunner = new ScriptRunner(sceneScript);
                 passage.scriptRunner.passage = passage;
                 passage.scriptRunner.last = function () {
-                    console.log('Finis');
+                    Log.debug('Finis');
                 };
                 passage.scriptRunner.perform();
             } catch (error) {

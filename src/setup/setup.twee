@@ -1,7 +1,7 @@
 :: Start [noyaml]
 <% 
     _(initializers).each(function (f) { f() });
-	stauchen.start();
+	navigation.start();
 %>
 
 :: StoryTitle 
