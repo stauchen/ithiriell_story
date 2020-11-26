@@ -2,8 +2,6 @@
 
     window.navigation = window.navigation || {};
 
-
-
     window.navigation.start = function () {
         var startTag = window.query.startTag || "start";
         window.Log.debug("Looking for passage tagged ", startTag);

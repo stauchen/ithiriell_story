@@ -37,6 +37,8 @@
                 this.exit();
             }
             this.parent.jumpToMarker(markerName);
+        } else {
+            this.error('Kann keine Markierung ' + markerName + ' finden');
         }
         return this;
     }
@@ -55,7 +57,13 @@
     }
 
     ScriptRunner.prototype.performInstruction = function(instruction) {
-        Log.debug("Performing", instruction);
+        if (!instruction) {
+            return;
+        }
+        this.debug("Performing", instruction);
+        if (!$.isPlainObject(instruction)) {
+            this.error("Ungültige Anweisung ", instruction);
+        }
         var self = this;
         var passage = this.passage;
         if (this.interpreter && this.interpreter.exit) {
@@ -74,19 +82,53 @@
         var found = false;
         _(_(Interpreters).keys()).each(function (key) {
             if (!found && instruction[key]) {
-                Log.debug("Found", key);
+                self.debug("Habe gefunden:", key);
                 self.interpreter = Interpreters[key];
-                Log.debug('Running interpreter for ', key);
+                self.debug('Interpretiere Anweisung für ', key);
                 Interpreters[key].perform(instruction, passage);
                 found = true;
             } else if (!found) {
-                Log.debug("Did not find", key);
+                self.debug("Habe keine Interpretation gefunden für", key);
             }
         });
 
         if (!found) {
-            console.error("Don't know how to interpret instruction", instruction);
+            self.error("Ich weiß nicht, wie ich diese Anweisung interpretieren soll: ", instruction, ". Ich verstehe diese Anweisungen: ", _(Interpreters).keys() );
         }
+        return this;
+    }
+
+    ScriptRunner.prototype.debug = function() {
+        var name = passage.name + ": Anweisung(" + this.runnerLocation() + ")"
+        var args = $.makeArray(arguments);
+        args.unshift(name)
+        Log.debug.apply(Log, args);
+        return this;
+    }
+
+    ScriptRunner.prototype.runnerLocation = function () {
+        if (this.parent) {
+            return this.parent.runnerLocation() + "::" + (this.step + 1);
+        }
+        return "" + (this.step + 1);
+    }
+
+    ScriptRunner.prototype.error = function() {
+        var name = passage.name + ": Anweisung(" + this.runnerLocation() + "): "
+        var logLine = name
+        _(arguments).each(function (arg) {
+             if ($.isPlainObject(arg)) {
+                logLine += " " + JSON.stringify(arg);
+            } else if ($.isArray(arg)) {
+                logLine += " " + arg.join(', ');
+            } else {
+                logLine += " " + arg;
+            }
+        });
+        var args = $.makeArray(arguments);
+        args.unshift(name)
+        Log.error.apply(Log, args);
+        alert(logLine);
         return this;
     }
 
@@ -400,8 +442,38 @@
         }
     }
 
+    function checkKeys(object, knownKeys, type) {
+        var clone = JSON.parse(JSON.stringify(object));
+        _(knownKeys).each(function (k) {
+            delete clone[k];
+        });
+        var extra = _(clone).keys();
+        if(extra.length > 0) {
+            passage.scriptRunner.error('Ich kenne diese Attribute nicht für den Typ ' + type + ' : ', extra, ' Ich kenne nur ', knownKeys);
+        }
+    }
+
     Interpreters.setup = {
             perform: function (instruction, passage) {
+                if (!$.isPlainObject(instruction.setup)) {
+                    passage.scriptRunner.error('Setup hat das falsche Format');
+                }
+                if (instruction.setup.background && typeof instruction.setup.background !== 'string') {
+                    passage.scriptRunner.error('Ungültiges Format für "background". Bitte gib den Background-Namen ein. Beispiel: background: "wald"');
+                }
+                if (instruction.setup.characters) {
+                    if (!$.isArray(instruction.setup.characters)) {
+                        passage.scriptRunner.error('Ungültiges Format für "characters". Bitte gib eine Liste von Charakteren an');
+                    }
+                    _(instruction.setup.characters).each(function (character) {
+                        if (!$.isPlainObject(character)) {
+                            passage.scriptRunner.error('Ungültiges Format für "characters" Eintrag. Bitte gib die Attribute des Charakters ein (name, caption, mood oder color)', character);
+                        }
+                        checkKeys(character, ["name", "caption", "color", "mood"], 'character');
+                    });
+                }
+                checkKeys(instruction.setup, ['background', 'characters'], 'Setup');
+
                 var setup = {};
                 if (passage.scriptRunner.state.setup) {
                     _.extend(setup, passage.scriptRunner.state.setup, instruction.setup);
@@ -442,10 +514,11 @@
     Interpreters.character = {
             perform: function (instruction, passage) {
                 var characterName = instruction.character;
-                var characterSetupData = passage.scriptRunner.state.characters[characterName] || {};
+                var characterSetupData = passage.scriptRunner.state.characters[characterName] || passage.scriptRunner.error('Charakter ' + characterName + ' ist nicht in der Szene. Hier sind nur: ', _(passage.scriptRunner.state.characters).keys());
                 var caption = instruction.caption || characterSetupData.caption || characterName;
-                var text = instruction.text;
+                var text = instruction.text || passage.scriptRunner.error('Bitte gib einen Text für den Charakter ' + characterName + ' ein.');
                 var color = instruction.color || characterSetupData.color || 'black';
+                checkKeys(instruction, ['character', 'text', 'color', 'caption'], 'Charaktersatz ("character")');
                 Layout.setText(text, {caption: caption, color: color});
                 Layout.showTextBox();
                 
@@ -467,15 +540,25 @@
                 var caption = instruction.caption;
                 var text = instruction.description;
                 var color = instruction.color || 'black';
+                checkKeys(instruction, ['description', 'color', 'caption'], 'Beschreibung ("description")');
                 Layout.setText(text, {caption: caption, color: color});
                 Layout.showTextBox();
             }
         };
 
     Interpreters.choice = {
-            perform: function (instruction) {
+            perform: function (instruction, passage) {
                 var choices = [];
+                if (!$.isArray(instruction.choice)) {
+                    passage.scriptRunner.error("Falsches Format für 'choice'. Muss eine Optionsliste beinhalten", instruction );
+                }
                 _(instruction.choice).each(function (option) {
+                    if (!$.isPlainObject(option)) {
+                        passage.scriptRunner.error("Falsches Format für 'option'. Muss einen 'option: ' Ausdruck beinhalten", instruction );
+                    }
+                    if (! option.option || typeof option.option !== 'string') {
+                        passage.scriptRunner.error("Bitte gib den Optionstext ein (Beispiel: 'option: \"Gehe links\"'");
+                    }
                     var choice = {
                         option: option.option,
                         click: function (e) {
@@ -529,6 +612,12 @@
             }
     };
 
+    Interpreters.debugger = {
+        perform: function (instruction, passage) {
+            debugger;
+        }
+    };
+
     window.initializers = window.initializers || [];
 
     function getQueryParams(queryString) {
@@ -567,6 +656,7 @@
                 passage.scriptRunner.perform();
             } catch (error) {
                 // Doesn't look like yaml, so ignore
+                console.error(error);
             }
         });
         
