@@ -28,13 +28,11 @@
   text: "Ich habe versprochen, nach ihm zu suchen."
 - character: wolf
   text: "Dann bleib in meiner Nähe ..."
-- passage: Verlaufen
+- passage: Verzweigung
 
-:: Verlaufen [cisco]
+:: Verzweigung
 - setup:
-    background: wueste
-- description: "Nach einer Weile des umherirrens stolpern Mücke und Wolf aus dem Wald heraus..."
-- setup:
+    background: wald
     characters:
         - name: muecke
           caption: Mücke
@@ -42,7 +40,51 @@
         - name: wolf
           caption: Wolf
           color: blue
+- description: "Wolf und Mücke kommen an eine Weggabelung."
+- choice: 
+  - option: Wüste des Quälenden Durstes
+    script:
+      - character: muecke
+        text: Packen wir lieber etwas Wasser ein
+      - passage: Verlaufen in der Wüste
+  - option: Berge der Ewigen Verdammnis
+    passage: Berge der Ewigen Verdammnis
+
+:: Verlaufen in der Wüste
+- marker: anfang
+- setup:
+    background: wueste
+- description: "Nach einer Weile des umherirrens stolpern Mücke und Wolf aus dem Wald heraus..."
+- marker: richtungsauswahl
+- choice: 
+  - option: "Gehe nach Norden"
+  - option: "Gehe nach Osten"
+  - option: "Gehe nach Süden"
+    jumpTo: verlaufen
+  - option: "Gehe nach Westen"
+    script:
+      - description: Du kommst an einem seltsamen Stein vorbei, der dich anzulächeln scheint
+      - choice:
+        - option: Weiter gehen und den Stein nicht beachten
+        - option: Den Stein höflich nach dem Weg fragen
+          passage: Berge der Ewigen Verdammnis
+- description: Hier sieht alles gleich aus...
+- jumpTo: richtungsauswahl
+
+- marker: verlaufen
+- setup:
+    characters:
+        - name: wolf
+          caption: Wolf
+          color: blue
 - character: wolf
   text: "Gut. Ich bin bereit einzuräumen, dass ich mich **vielleicht** verlaufen habe ..."
+- setup:
+    background: wueste
+- jumpTo: richtungsauswahl
 
 
+:: Berge der Ewigen Verdammnis
+- setup: 
+    background: berge
+- description: Die Berge der Ewigen Verdammnis

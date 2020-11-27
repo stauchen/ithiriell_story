@@ -58,6 +58,13 @@
 
     ScriptRunner.prototype.performInstruction = function(instruction) {
         if (!instruction) {
+            this.debug("Last instruction found. Trying to continue with parent script");
+            if (this.exit) {
+                this.exit();
+            }
+            if (this.last) {
+                this.last();
+            }
             return;
         }
         this.debug("Performing", instruction);
@@ -69,15 +76,6 @@
         if (this.interpreter && this.interpreter.exit) {
             this.interpreter.exit(this.instruction, this.passage);
             this.interpreter = null;
-        }
-        if (!instruction) {
-            if (this.exit) {
-                this.exit();
-            }
-            if (this.last) {
-                this.last();
-            }
-            return;
         }
         var found = false;
         _(_(Interpreters).keys()).each(function (key) {
@@ -563,7 +561,14 @@
                         option: option.option,
                         click: function (e) {
                             // Interpret other steps in the object 
-                            passage.scriptRunner.performInstruction(option);
+                            var clone = JSON.parse(JSON.stringify(option));
+                            delete clone.option;
+                            if ($.isEmptyObject(clone)) {
+                                debugger;
+                                passage.scriptRunner.next().perform();
+                            } else {
+                                passage.scriptRunner.performInstruction(clone);
+                            }
                         }
                     };
                     choices.push(choice);
