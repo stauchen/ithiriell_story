@@ -5,7 +5,7 @@
         - name: muecke
           caption: Mücke
           color: red
-- description: "Mücke hört ein unheimliches Geräusch. Da ist noch jemand anderes im Wald ... "
+- description: "Mücke hört ein verwirrendes Geräusch. Da ist noch jemand anderes im Wald ... "
 - character: muecke
   text: Hallo, ist da wer?
 - description: "Keine Antwort."
