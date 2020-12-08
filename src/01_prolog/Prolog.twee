@@ -6,16 +6,16 @@
     characters: 
         - name: flavius
           caption: Flavius
-- description: "Ringsherum gab es nur das **undurchdringliche Dickicht** des Waldes. Wo waren die anderen? Rost, der Gläubige? Offenbar waren sie in eine **andere Richtung** gelaufen als er. " [Ängstlich1]
-- description: "Er erlaubte sich eine **kleine Pause** und lehnte sich schwer atmend an einen Baum. " [Erschöpft]
-- description: "Unbewusst griff er nach seinem **Messer**, um sich seine Fingernägel zu reinigen. Das tat er immer, wenn er nervös wurde. Doch die Scheide war **leer**." [Erschrocken]
+- description: "Ringsherum gab es nur das **undurchdringliche Dickicht** des Waldes. Wo waren die anderen? Rost, der Gläubige? Offenbar waren sie in eine **andere Richtung** gelaufen als er. "
+- description: "Er erlaubte sich eine **kleine Pause** und lehnte sich schwer atmend an einen Baum. "
+- description: "Unbewusst griff er nach seinem **Messer**, um sich seine Fingernägel zu reinigen. Das tat er immer, wenn er nervös wurde. Doch die Scheide war **leer**."
 - description: "**Fluchend** machte er sich auf die Suche nach seinem Messer, musste aber schnell feststellen, dass es **im Unterholz verschwunden** war und er es so schnell vermutlich **nicht wieder sehen würde.**"  
-- description: "Das entlockte im ein **weiteres unschönes Schimpfwort**." [Fluchend]
-- description: "Und dann hörte er es: Ein **schriller Schrei** und ein Trampeln. " [Erschrocken]
+- description: "Das entlockte im ein **weiteres unschönes Schimpfwort**."
+- description: "Und dann hörte er es: Ein **schriller Schrei** und ein Trampeln. "
 - description: "Diese Geräusche fügten sich nicht in die ansonsten so abgestimmte Melodie ein. Das musste **das Monster** sein. Und es kam eindeutig **näher**."
-- description: "Er sah sich um und entschloss sich, zu **fliehen**. " [Ängstlich]
+- description: "Er sah sich um und entschloss sich, zu **fliehen**. "
 - description: "Kämpfen konnte er gegen dieses Vieh eh nicht, erst recht nicht **ohne sein Messer**."
-- description: "Doch **wohin?**" [Spieler anschauen]
+- description: "Doch **wohin?**"
 - choice:
     - option: "Im **Unterholz** verstecken"
       passage: "Prolog - Unterholz"
@@ -52,7 +52,7 @@
 - description: "Das letzte was er sah, war der **hungrige Blick der Bestie...**"
 - passage: "Prolog - Ende"
 
-:: Prolog - Holzhütte [cisco]
+:: Prolog - Holzhütte
 - setup: 
     background: wald 
 - description: "Seine **Lunge** würde ihn dafür **hassen**, aber er fing wieder an zu **rennen**. "
