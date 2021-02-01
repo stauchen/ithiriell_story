@@ -65,7 +65,8 @@ body {
 #textField {
     grid-area: textField;
     background-color: white;
-    border: 2px solid black
+    border: 2px solid black;
+    overflow: auto;
 }
 
 #caption {
@@ -103,16 +104,13 @@ body {
 
 .unevenColumns {
     grid-template-columns: 20% 20% 20% 20% 20%;
-    /*
     grid-template-areas:
     ". c1 c1 c1 ."
     "c2 c2 . c3 c3"
     "c4 c4 . c5 c5"
-    */
-
 }
 
 .twoColumns {
     grid-template-columns: 20% 30% 30% 20%;
-    /* grid-template-areas: . c1 c2 . */
+    grid-template-areas: . c1 c2 . 
 }
