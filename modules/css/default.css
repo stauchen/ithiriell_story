@@ -70,12 +70,13 @@ body {
 }
 
 #caption {
-    padding: 1rem;
+    padding: 0.4rem;
     border-bottom: 1px solid black;
 }
 
 #messageField {
     padding: 1rem;
+    overflow: auto;
 }
 
 .mutedCharacter {
