@@ -280,10 +280,11 @@
                     if (this.settings.choices.length % 2 == 1) {
                         // Two columns, first choice on top
                         this.elements.$choiceLayer.addClass('unevenColumns');
-                        var choiceGridTemplateAreas = '". c1 c1 c1 ."';
+                        var choiceGridTemplateAreas = '". c0 c0 c0 ."';
                         var firstChoice = this.settings.choices[0];
                         self.elements.$choiceLayer.append(
                             $('<div class="choice">').css('grid-area', 'c0').html(render(firstChoice.option)).on('click', function (e) {
+                                console.log(e);
                                 e.stopPropagation();
                                 self.settings.choicesVisible = false;
                                 self.settings.choices = null;
@@ -295,18 +296,20 @@
                             var choiceB = this.settings.choices[index+1];
                             choiceGridTemplateAreas = choiceGridTemplateAreas + '"c' + index +' c' + index + ' . c' + (index + 1) + ' c' + (index + 1)+'" '; // c1 c1 . c2 c2
                             self.elements.$choiceLayer.append(
-                                $('<div class="choice">').css('grid-area', 'c' + index).html(render(choiceA.option)).on('click', function (e) {
+                                $('<div class="choice">').data('choice', index).css('grid-area', 'c' + index).html(render(choiceA.option)).on('click', function (e) {
                                     e.stopPropagation();
                                     self.settings.choicesVisible = false;
+                                    var choice = self.settings.choices[$(e.target).data('choice')];
                                     self.settings.choices = null;
-                                    choiceA.click();
+                                    choice.click();
                             }));
                             self.elements.$choiceLayer.append(
-                                $('<div class="choice">').css('grid-area', 'c' + (index + 1)).html(render(choiceB.option)).on('click', function (e) {
+                                $('<div class="choice">').data('choice', index).css('grid-area', 'c' + (index + 1)).html(render(choiceB.option)).on('click', function (e) {
                                     e.stopPropagation();
                                     self.settings.choicesVisible = false;
+                                    var choice = self.settings.choices[$(e.target).data('choice')];
                                     self.settings.choices = null;
-                                    choiceB.click();
+                                    choice.click();
                             }));
                         }
                         this.elements.$choiceLayer.css('grid-template-areas', choiceGridTemplateAreas);
@@ -557,14 +560,14 @@
                     if (! option.option || typeof option.option !== 'string') {
                         passage.scriptRunner.error("Bitte gib den Optionstext ein (Beispiel: 'option: \"Gehe links\"'");
                     }
+                    var clone = JSON.parse(JSON.stringify(option));
+                    delete clone.option;
                     var choice = {
                         option: option.option,
+                        instructions: clone,
                         click: function (e) {
                             // Interpret other steps in the object 
-                            var clone = JSON.parse(JSON.stringify(option));
-                            delete clone.option;
                             if ($.isEmptyObject(clone)) {
-                                debugger;
                                 passage.scriptRunner.next().perform();
                             } else {
                                 passage.scriptRunner.performInstruction(clone);

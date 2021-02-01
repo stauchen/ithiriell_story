@@ -1,0 +1,483 @@
+:: Wanderschaft_Stachel [akt1_1]
+- setup: 
+    background: weg_zwischen_huegel_und_feldern_sonnenuntergang
+- description: "Ein paar Wochen später ... "
+- setup: 
+    characters: 
+        - name: stachel
+          mood: erschoepft
+          caption: Stachel
+          color: red
+- description: |-
+    Die Sonne näherte sich unaufhörlich dem Horizont. Die Wiesen wurden grauer und die Bäume verwandelten sich in lange Schemen. Stachel stampfte den Weg entlang und versetzte einem herumliegenden Stein einen ordentlichen Tritt. Aber eigentlich war sie selbst schuld an dieser Situation. Besser gesagt, ihre jugendliche Selbstüberschätzung war schuld. Der Alte aus dem letzten Dorf hatte ihr ja gesagt, dass man bis zur nächsten Siedlung mehr als einen Sonnendurchlauf brauchen würde. Er übertreibt vielleicht, hatte sie gedacht. 
+- description: |-
+    Schnaufend erklomm sie den nächsten Hügel, blieb stehen und schaute sich aufmerksam um. Es war weit und breit kein Haus zu sehen, nicht einmal eine Rauchfahne. Der Alte hatte Recht behalten. Stachel hatte keine Lust eine Nacht draußen in der Kälte zu verbringen, aber das war vielleicht eine angemessene Strafe für ihren Übermut. Da entdeckte sie links von sich einen kleinen rötlichen Punkt. Vielleicht ein Lagerfeuer? Doch wer macht so weit abseits des Weges Rast? Das waren bestimmt keine ehrbaren Leute.
+- description: |-
+    Sie sollte trotzdem hingehen
+- passage: Lagerfeuer
+
+:: Lagerfeuer [akt1_2]
+- setup: 
+    background: lagerfeuer_rand
+- description: |-
+    Stachel folgte dem Schein des Lagerfeuers. Das Ziel vor Augen zu haben motivierte ihre Beine zu einer letzten Kraftanstrengung. Die nassen Grashalme knickten unter ihren energischen Schritten und die Vögel flogen erschrocken aus den Sträuchern auf. Beim Näherkommen erkannte sie vier Personen, die um das Feuer saßen. Sie hatten es zwischen ein paar Büschen und Bäumen entfacht, sodass es ein bisschen vor dem Wind geschützt war. 
+- description: |-
+    Völlig erschöpft trat Stachel in den Lichtschein und starrte die anderen an. Sie sah sich einer wohlbewaffneten Meute gegenüber. Alle waren sofort aufgesprungen und hatten ihre Waffen gezogen. Eine Frau sah sie aggressiv an und hatte ihre Fäuste erhoben. Neben ihr schwang ein riesengroßer Mann sein bluttriefendes Schwert. Und dort - war das wirklich ein Zwerg? Er war zwar klein, doch schien es, als ob er mit seinen Händen Knochen brechen könnte. Stachel wich angstvoll zurück. Gegen so eine Übermacht konnte sie sich nicht behaupten, erst recht nicht in ihrem Zustand. 
+- description: |-
+    Da schob sich zwischen den Fremden noch ein breitschultriger Mann hervor. Stachel erschreckte sich zu Tode. Einen Moment lang hielt sie ihn für - aber nein. Erleichtert atmete sie tief durch. Der Mann hatte zwar eine weiße Kutte unter seinem Mantel an. Um seinen Hals hingen dutzende eiserner Ketten, die mächtige Drachen darstellten. Das Motiv bedeckte auch sein großes Holzschild. Er sah sie jedoch nur mitleidig an und winkte den anderen zu. Diese legten daraufhin ihre Waffen nieder und betrachteten sie nun gelangweilt, neugierig oder sehr mitleidig. Stachel schaute an sich herunter: braune verfilzte Haare, brauner Mantel und Dreck. Was kann man nach tagelanger Wanderschaft schon anderes erwarten? Es kann ja nicht jeder in weißen Klamotten rumlaufen, die auf zauberische Weise nie schmutzig werden.
+- setup: 
+    characters: 
+        - name: stachel
+          caption: Stachel
+          color: red
+        - name: glaeubige
+          caption: Der Gläubige (sanft)
+          color: blue
+- character: glaeubige
+  text: Mein Kind, den Fauchern zum Gruße! Ich bin der Gläubige. Möchtest du dich an unserem Feuer etwas wärmen?
+- description: |-
+    Stachel verbeugte sich nervös vor dem Frater und murmelte ein Begrüßungsgebet, bevor ihr sie sich ihrer automatischen Handlung bewusst wurde. So stark hatte sich diese Gewohnheit also in ihren Geist eingebrannt. Die anderen hatten es aber nicht bemerkt, weil sie sich schon wieder um das Feuer gedrängt hatten. Stachel setzte sich zu ihnen und genoss die wohlige Wärme der Flammen. Die Fremden strahlten nun keine Gefahr mehr aus und Stachel schaute sie neugierig an. 
+- description: |-
+    Stachel verbeugte sich nervös vor dem Frater und murmelte ein Begrüßungsgebet, bevor ihr sie sich ihrer automatischen Handlung bewusst wurde. So stark hatte sich diese Gewohnheit also in ihren Geist eingebrannt. Die anderen hatten es aber nicht bemerkt, weil sie sich schon wieder um das Feuer gedrängt hatten. Stachel setzte sich zu ihnen und genoss die wohlige Wärme der Flammen. Die Fremden strahlten nun keine Gefahr mehr aus und Stachel schaute sie neugierig an. 
+- description: |-
+    Der Gläubige bemerkte ihre Blicke und stellte die anderen vor. "Das ist Rost", sagte er und deutete auf den langen, schlanken Mann, der nun gar nicht mehr so riesig wirkte. Unter seinem Kopftuch kringelten sich rötliche Locken hervor. Er putzte an seinem Schwert herum. Das war nicht blutig, wie Stachel zuerst geglaubt hatte, sondern nur sehr rostig. Die kräftige Frau neben ihm wurde ihr als Schlinge vorgestellt. Sie stocherte genervt im Feuer herum und schien sich zu langweilen. Der Zwerg namens Ohrelaus Minnfroh zupfte dagegen fröhlich ein Lied auf seiner Harfe. Dies schien die Frau nur noch weiter zu reizen.
+- description: |-
+    Stachel könnte sich jetzt gleich schlafen legen. Der Tag war echt lang gewesen. Oder sie konnte eine der Personen ansprechen: Der Gläubige, Rost, Schlinge oder den Zwerg. Selten hat man doch die Gelegenheit mit so außergewöhnlichen Leuten in Kontakt zu treten.
+- passage: Lagerfeuer_Auswahl
+
+:: Lagerfeuer_Auswahl
+- setup: 
+    background: lagerfeuer_rand
+- choice:
+    - option: "Sich schlafen legen"
+      passage: "28"
+    - option: "Den Gläubigen ansprechen"
+      passage: "Lagerfeuer_Der-Gläubige"
+    - option: "Rost ansprechen"
+      passage: "17"
+    - option: "Schlinge ansprechen"
+      passage: "9"
+    - option: "Den Zwerg ansprechen"
+      passage: "25"
+
+:: Lagerfeuer_Der-Gläubige [akt1_3]
+- setup: 
+    background: lagerfeuer
+    characters: 
+        - name: stachel
+          caption: Stachel
+          color: red
+        - name: glaeubige
+          caption: Der Gläubige
+          color: blue
+- description: Stachel wandte sich dem Gläubigen zu, weil er noch am ehesten an ihr und ihrem Schicksal interessiert schien. Im Schein des Lichtes wirkte er nicht mehr ganz so einschüchternd auf sie. Sein Gesichtszüge waren schon etwas eingefallen und einige Falten zeugten von seinem ernsten Character."
+- character: stachel
+  text: |-
+    "Darf ich Euch etwas fragen?", sprach Stachel ihn an
+- character: glaeubige
+  text: |-
+    "Natürlich mein Kind. Was möchtest du denn wissen?", gab er höflich zurück
+- description: |-
+    Er ging bestimmt davon aus, dass sie sich für irgendwelche theologische Fragen interessierte. Doch  Stachel wollte wissen, was es mit seinem lustigen Spitznamen "Der Gläubige" auf sich hatte oder welche Umstände ihn an dieses Lagerfeuer führten.
+- choice:
+    - option: "Nach dem Spitznamen fragen"
+      passage: "Namenshintergrund_Der-Gläubige"
+    - option: "Nach den Umständen, die ihn an dieses Lagerfeuer führten fragen"
+      passage: "Hintergrundgeschichte_Stachel_Der-Gläubige"
+
+:: Namenshintergrund_Der-Gläubige [akt1_4]
+- setup: 
+    background: lagerfeuer
+    characters: 
+        - name: stachel
+          caption: Stachel
+          color: red
+        - name: glaeubige
+          caption: Der Gläubige
+          color: blue
+- character: stachel
+  text: |- 
+    "Habt Ihr einen richtigen Namen? Oder nennt man Euch wirklich immer nur den Gläubigen?"
+- description: |-
+    Der Angesprochene schnappte nach Luft und rümpfte gleichzeitig die Nase. Stachel war deutlich beeindruckt von seiner Gesichtsgymnastik.
+- character: glaeubige
+  text: |- 
+    "Ich hoffe du weißt, dass diese Frage äußerst unhöflich und unpassend ist? Natürlich habe ich einen richtigen Namen, aber wieso sollte ich dir den verraten? Das geht dich gar nichts an."
+- description: |-
+    Damit drehte sich der Gläubige von ihr weg und das Gespräch war beendet.
+- description: |-
+    Damit drehte sich der Gläubige von ihr weg und das Gespräch war beendet.
+- description: |-
+    Stachel runzelte die Stirn. Sie hatte nicht mit einem solchen Tadel gerechnet, aber er wollte sich offensichtlich wichtigmachen. Stachel mochte solche Leute nicht besonders und spätestens nachdem er den Rest der Gruppe am Abend daran erinnerte, dass sie alle zu allen sechs Fauchern beten sollten, war er ihr gänzlich unsympathisch. Aber wenn Stachel eins im Heim gelernt hatte, dann, dass auch der Glaube bei Abenteuern wichtig war und sie den Gläubigen deshalb nicht allzu sehr verachten sollte. 
+- passage: Lagerfeuer_Auswahl
+
+:: Hintergrundgeschichte_Stachel_Der-Gläubige [akt1_5]
+- setup: 
+    background: lagerfeuer
+    characters: 
+        - name: stachel
+          caption: Stachel
+          color: red
+        - name: glaeubige
+          caption: Der Gläubige
+          color: blue
+- character: stachel
+  text: |-
+    "Wie kommt es, dass sich ein Frater wie ihr in so, ähm, zwielichtiger Gesellschaft bewegt?", fragte Stachel ihn neugierig. "
+- character: glaeubige
+  text: |-
+    "Und wie kommt es, dass dir niemand die Tugend des Schweigens, aber dafür anscheinend Fauchergebete beigebracht hat?", gab er bissig zurück.
+- description: |-
+    Der Gläubige hatte ihr Begrüßungsgebet also gehört. Seine wachen Augen schienen mehr mitzubekommen, als seine ernste und versteinerte Miene vermuten ließ. Stachel ermahnte sich, ihn nie wieder zu unterschätzen. Seine Neugier und Hartnäckigkeit konnten es fast schon mit ihrer aufnehmen.
+- description: |-
+    Wenn sie mehr über ihn wissen wollte, sollte sie sich nicht von seiner Antwort beeindrucken lassen und stärker nachbohren. Sie könnte ihm aber auch ihre eigene Geschichte erzählen, um ihn aus der Reserve zu locken. Vielleicht sollte sie das Risiko eingehen, sich eine auszudenken. Aber so aufmerksam wie der Gläubige war, wäre die Wahrheit bestimmt besser. 
+- choice:
+    - option: "Stärker nachbohren"
+      passage: "Hintergrundgeschichte_Der-Gläubige"
+    - option: "Eine Lügengeschichte erzählen, wie Stachel hier her gekommen ist"
+      passage: "Hintergrundgeschichte_Stachel-ausgedacht"
+    - option: "Die wahre Geschichte erzählen, wie Stachel hier her gekommen ist"
+      passage: "Hintergrundgeschichte_Stachel-real"
+
+:: Hintergrundgeschichte_Der-Gläubige [akt1_6]
+- setup: 
+    background: lagerfeuer
+    characters: 
+        - name: stachel
+          caption: Stachel
+          color: red
+        - name: glaeubige
+          caption: Der Gläubige
+          color: blue
+- character: stachel
+  text: |-
+    "Ich wollte doch nur sagen, dass ich es bewundere, wenn die Brüder der Kirche sich für jeden verantwortlich fühlen.", versuchte Stachel ihn aus seiner Deckung zu locken. 
+- description: |-
+    Der Gläubige plusterte sich stolz auf. Eitelkeit war also sein Schwachpunkt, vermerkte Stachel bei sich. 
+- character: glaeubige
+  text: |-
+    Du hast das ganz richtig erkannt. Selbst diese Personen hier um uns brauchen nur ein paar Wörter von einem Gläubigen wie mir, um auf den richtigen Weg zurück zu finden. Früher arbeitete ich in einem Kloster als Miniaturmaler. Das ist jemand, der an die Ränder von Büchern gestaltet. Mit Drachen, Menschen, Zwergen, Blumen und Monstern. Ich war wirklich ein Meister meines Faches.", erzählte der Gläubige und starrte dabei verträumt in die Flammen.
+- character: glaeubige
+  text: |-
+    "Doch man versinkt dabei immer mehr zwischen staubigen Bücherseiten und kann seiner eigentlichen Bestimmung nicht mehr nachkommen. Als Frater will ich dieses Land und die Menschen darin positiv beeinflussen. Ich bin für sie verantwortlich. Darum kämpfe ich gegen die Übel in dieser Welt. Egal ob sie die Form von wirklichen Monstern haben oder in Form von falsch geleiteten Gedanken in den Köpfen der Menschen.", sagte er mit leidenschaftlicher Inbrunst. 
+- description: |-
+    Stachel konnte so selbstsichere Menschen nicht ausstehen und hoffte immer, dass diese mal ordentlich auf die Nase flögen. 
+- description: |-
+    Der Gläubige deutete ihren genervten Gesichtsausdruck jedoch falsch.  
+- character: glaeubige
+  text: |-
+    "Ich sehe, du verstehst, wovon ich spreche. Doch überlasse es lieber uns Erwachsenen, uns um solche Probleme zu kümmern." 
+- description: |-
+    Stachel nickte einfach zustimmend und wandte sich murmelnd ab. Sie wollte auf keinen Fall Fragen zu ihren Eltern oder zu ihrer Zukunft hören. Erst recht brauchte sie keine Belehrungen zu den Vorteilen, eine Fratise zu werden, ein ordentliches Handwerk zu erlernen oder zu heiraten. Solche Vorträge hat sie sich schon zu oft anhören müssen. 
+- passage: Lagerfeuer_Auswahl
+
+
+:: Hintergrundgeschichte_Stachel-ausgedacht [akt1_7]
+- setup: 
+    background: lagerfeuer
+    characters: 
+        - name: stachel
+          caption: Stachel
+          color: red
+        - name: glaeubige
+          caption: Der Gläubige
+          color: blue
+- character: stachel
+  text: |-
+    "Ähh, die Fauchergebete von vorhin sind die einzigen die ich kenne. In meinem Dorf gibt es einen Verrückten, der immer nur diese Verse rezitiert hat. War vielleicht mal ein Frater. Jetzt tickt er jedenfalls nicht mehr richtig im Kopf. Wieso weiß keiner aus dem Dorf. ..mmh.. Er kann aber ganz gut schnitzen. Mir hat er mal ein Pferd gemacht. … Ich bin übrigens nur auf dem Weg zum nächsten Dorf. Dort etwas tauschen.", erzählte Stachel. 
+- description: |-
+    Sie war stolz, wie gut sie lügen konnte. Eine Fähigkeit, die darauf beruhte, die Erwartungen des anderen bestmöglich zu erfüllen. Außerdem musste sie ständig geübt werden, sonst rostete sie schnell ein.
+- character: glaeubige
+  text: |-
+    "So, so, ganz alleine nachts unterwegs. Was genau willst du den eintauschen?", bohrte der Gläubige nach.
+- description: |-
+    Er war wirklich gewitzt. Vielleicht war ihr böser Ausrutscher mit dem verrückten Frater doch zu dick aufgetragen gewesen. Jetzt durfte sie sich nur nicht von ihm in Widersprüche verwickeln lassen, sondern musste zum Gegenangriff übergehen. 
+- character: stachel
+  text: |-
+    "Was ratet Ihr mir, Frater, wie soll ich eine Zweitagesreise von einem Dorf zum nächsten schaffen, ohne dass es Nacht wird?", fragst du ihn so unschuldig wie möglich
+- character: glaeubige
+  text: |-
+    Der Gläubige starrte sie daraufhin nur noch strenger an. "Deine Aussprache ist sehr elegant und dein Satzbau vortrefflich. Wenn du von hier kämst, hätte dich ein Fuhrwerk mitgenommen. Möchtest du mir noch mehr Lügen erzählen oder jetzt endlich die Wahrheit sagen?", beendetet der Gläubige das Schauspiel. 
+- description: |-
+    Er war wirklich gewitzt. Vielleicht war ihr böser Ausrutscher mit dem verrückten Frater doch zu dick aufgetragen gewesen. Jetzt durfte sie sich nur nicht von ihm in Widersprüche verwickeln lassen, sondern musste zum Gegenangriff übergehen. 
+- description: |-
+    Stachel ärgerte sich, sie hatte den Gläubigen unterschätzt und sich natürlich nicht genug Zeit genommen, um den hiesigen Akzent zu übernehmen. Stachel könnte ihm jetzt die Wahrheit sagen oder sich gleich schlafen legen oder mite den anderen unterhalten. Vielleicht ließen die sich leichter um den Finger wickeln.
+- choice:
+    - option: "Die Wahrheit sagen"
+      passage: "Hintergrundgeschichte_Stachel-real"
+    - option: "Sich schlafen legen"
+      passage: "28"
+    - option: "Mit einem anderen reden"
+      passage: "Lagerfeuer_Auswahl"
+
+:: Hintergrundgeschichte_Stachel-real [akt1_8]
+- setup: 
+    background: lagerfeuer
+    characters: 
+        - name: stachel
+          caption: Stachel
+          color: red
+        - name: glaeubige
+          caption: Der Gläubige
+          color: blue
+- character: stachel
+  text: |-
+    "Ich kann diese Fauchergebete, weil ich sie auswendig lernen musste. Ich war nämlich bisher in einem Waisenhaus, das von der Kirche geführt wurde.", sagte Stachel knapp.
+- description: |-
+    Über die Zeit im Kloster redete sie nicht gerne. Es war ihr dort eigentlich sehr gut ergangen. Sie hatte lesen, schreiben, nähen und andere Fähigkeiten gelernt. Ihr wurde Stauchen bis in das kleinste Fürstentum mit den jeweiligen kulturellen Besonderheiten erklärt. Neben Geschichte, Algebra und Kirchenlehre wurde sie in noch vielen weiteren Themenbereichen mit Wissen vollgestopft. Doch so friedvoll dieser Lebensabschnitt auch gewesen sein mochte, sie fühlte sich immer eingesperrt und abhängig.
+- character: glaeubige
+  text: |-
+    "Wie kommst du denn aber hier her?", unterbrach der Gläubige ihre Gedanken. Stachel fing an, an ihren Ärmeln zu zupfen. Der Gläubige machte sie nervös, weil er sie so gut durchschaute. 
+- character: stachel
+  text: |-
+    "Ich bin weggelaufen. Ich bin schließlich alt genug, um in die Welt hinaus zu gehen. Außerdem muss ich der Tradition der Familie folgen. Das verstehst du doch bestimmt?", antwortete sie ihm.
+- description: |-
+    Zu lügen hatte sie sich nicht getraut, aber sie hatte auch die Hälfte der Wahrheit weggelassen.
+- description: |-
+    Stachel musste in die Welt hinaus gehen, um zu lernen, was ihr das Kloster nicht beibringen konnte. Kämpfen, Lügen, Betrügen, Schauspielerei und Überleben kann man nur im wahren Leben lernen. Und nur mit diesen Fähigkeiten konnte sie eine gute Kopfgeldjägerin werden. Dieses Handwerk lag seit Ewigkeiten in ihrer Familie, die dadurch aber immer stärker schrumpfte. Auch wenn diese Tradition mit Stachel vielleicht aussterben würde, erfüllt sie nichts sehnlicher als der Wunsch, in die Fußstapfen ihrer Eltern zu treten.
+- character: glaeubige
+  text: |-
+    "Traditionen sind sehr ehrenwert. Bei mir in der Familie tritt immer der dritte Sohn der Kirche bei und verschreibt sich der Anbetung der Faucher. Den Fauchern sei Dank wurde ich für dieses Amt bestimmt.", sagte der Gläubige verträumt.
+- description: |-
+    Er versank langsam in seine Gebete an die Faucher und Stachel wollte ihn dabei nicht stören.
+- passage: Lagerfeuer_Auswahl
+
+:: Lagerfeuer_Schlinge [akt1_9]
+- setup: 
+    background: lagerfeuer
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Hintergrund_Kopfgeldjäger [akt1_10]
+- setup: 
+    background: lagerfeuer
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+ 
+:: Ausbildung_Stachel [akt1_11]
+- setup: 
+    background: lagerfeuer
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Interesse-an-Kopfgeldjägern_Schlinge [akt1_12]
+- setup: 
+    background: lagerfeuer
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Hintergrund_Jäger [akt1_13]
+- setup: 
+    background: lagerfeuer
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Erfahrungen_Jäger [akt1_14]
+- setup: 
+    background: lagerfeuer
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Teilnahme-Stachel_Schlinge [akt1_15]
+- setup: 
+    background: lagerfeuer
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Auftrag_Schlinge [akt1_16]
+- setup: 
+    background: jagdschloss_saal
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Lagerfeuer_Rost [akt1_17]
+- setup: 
+    background: lagerfeuer
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Mitleid_mit_Rost [akt1_18]
+- setup: 
+    background: lagerfeuer
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Essen_Rost [akt1_19]
+- setup: 
+    background: lagerfeuer
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Hintergrundgeschichte_Flavius [akt1_20]
+- setup: 
+    background: lagerfeuer
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Ausfragen_von_Rost [akt1_21]
+- setup: 
+    background: lagerfeuer
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Erfahrungen_Clannthin [akt1_22]
+- setup: 
+    background: lagerfeuer
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Teilnahme-Stachel_Rost [akt1_23]
+- setup: 
+    background: lagerfeuer
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Auftrag_Rost [akt1_24]
+- setup: 
+    background: jagdschloss_saal
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Lagerfeuer_Zwerg [akt1_25]
+- setup: 
+    background: lagerfeuer
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Ballade_Ablehnung [akt1_26]
+- setup: 
+    background: lagerfeuer
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Ballade_Zwerg [akt1_27]
+- setup: 
+    background: lagerfeuer
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Lagerfeuer_schlafen [akt1_28]
+- setup: 
+    background: lagerfeuer_rand
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Mob_wecken [akt1_29]
+- setup: 
+    background: lagerfeuer_rand
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Teilnahme-Stachel_Der-Gläubige [akt1_30]
+- setup: 
+    background: weg_zwischen_huegel_und_feldern_sonnenaufgang
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Mob_abhauen [akt1_31]
+- setup: 
+    background: kneipe
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
+
+:: Auftrag_Der-Gläubige [akt1_32]
+- setup: 
+    background: jagschloss_saal
+- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
+- setup: 
+    characters: 
+        - name: flavius
+          caption: Flavius
+- description: ""
