@@ -304,7 +304,7 @@
                                     choice.click();
                             }));
                             self.elements.$choiceLayer.append(
-                                $('<div class="choice">').data('choice', index).css('grid-area', 'c' + (index + 1)).html(render(choiceB.option)).on('click', function (e) {
+                                $('<div class="choice">').data('choice', (index+1)).css('grid-area', 'c' + (index + 1)).html(render(choiceB.option)).on('click', function (e) {
                                     e.stopPropagation();
                                     self.settings.choicesVisible = false;
                                     var choice = self.settings.choices[$(e.target).data('choice')];
