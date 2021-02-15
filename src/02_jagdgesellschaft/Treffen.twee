@@ -45,7 +45,7 @@
     Stachel könnte sich jetzt gleich schlafen legen. Der Tag war echt lang gewesen. Oder sie konnte eine der Personen ansprechen: Der Gläubige, Rost, Schlinge oder den Zwerg. Selten hat man doch die Gelegenheit mit so außergewöhnlichen Leuten in Kontakt zu treten.
 - passage: Lagerfeuer_Auswahl
 
-:: Lagerfeuer_Auswahl
+:: Lagerfeuer_Auswahl [lagerfeuer_auswahl]
 - setup: 
     background: lagerfeuer_rand
 - choice:
