@@ -53,12 +53,16 @@
       passage: "28"
     - option: "Den Gläubigen ansprechen"
       passage: "Lagerfeuer_Der-Gläubige"
+      unless: "treffen_glaeubiger"
     - option: "Rost ansprechen"
       passage: Lagerfeuer_Rost
+      unless: "treffen_rost"
     - option: "Schlinge ansprechen"
       passage: Lagerfeuer_Schlinge
+      unless: "treffen_schlinge"
     - option: "Den Zwerg ansprechen"
       passage: "25"
+      unless: "treffen_zwerg"
 
 :: Lagerfeuer_Der-Gläubige [akt1_3]
 - setup: 
@@ -70,6 +74,9 @@
         - name: glaeubige
           caption: Der Gläubige
           color: blue
+- set: 
+    name: 'treffen_glaeubiger'
+    value: true
 - description: Stachel wandte sich dem Gläubigen zu, weil er noch am ehesten an ihr und ihrem Schicksal interessiert schien. Im Schein des Lichtes wirkte er nicht mehr ganz so einschüchternd auf sie. Sein Gesichtszüge waren schon etwas eingefallen und einige Falten zeugten von seinem ernsten Character."
 - character: stachel
   text: |-
@@ -250,6 +257,9 @@
           caption: Schlinge
         - name: stachel
           caption: Stachel
+- set: 
+    name: 'treffen_schlinge' 
+    value: true
 - description: |-
     Vorsichtig setzte Stachel sich neben Schlinge. Von nahem wirkten ihre Arme noch muskulöser und ihr Blick noch bohrender. Zögerlich versucht Stachel sie anzulächeln, doch das hatte keinerlei Wirkung auf die Frau. Ihre Geschichtsmuskeln schienen versteinert, nur ihr Mund bewegte sich mechanisch, als ob sie auf irgendetwas herum kaute. Das verunsicherte Stachel noch mehr. 
 - character: stachel
@@ -293,7 +303,7 @@
     Enttäuscht verzog Schlinge ihr Gesicht und trat einen Stein ins Feuer. Stachel war neugierig, wieso dieser Frau so viel an den Kopfgeldjägern lag (12). Sie wollte ihr aber auch noch mehr über sich selbst erzählen (11). Das verunsicherte Stachel, weil sie das sonst nie tat. Wollte sie Schlinge damit aufmuntern oder beeindrucken? 
 - choice:
     - option: "Herausfinden, wieso Schlinge sich für die Kopfgeldjäger interessiert"
-      passage: "Kopfgeldjägern_Schlinge"
+      passage: "Kopfgeldjäger_Schlinge"
     - option: "Mehr erzählen"
       passage: "Ausbildung_Stachel"
 
@@ -321,7 +331,7 @@
     Schlinge nickt nur. Anscheinend war in Stachels Erzählung nichts wirklich Neues oder Relevantes für sie gewesen. Stachel sah ein, dass das Gespräch zu nichts mehr führen würde.
 - passage: Lagerfeuer_Auswahl
 
-:: Interesse-an-Kopfgeldjägern_Schlinge [akt1_12]
+:: Kopfgeldjäger_Schlinge [akt1_12]
 - setup: 
     background: lagerfeuer
     characters: 
@@ -531,6 +541,9 @@
         caption: Stachel
       - name: rost
         caption: Rost
+- set: 
+    name: 'treffen_rost'
+    value: true
 - description: |-
     Rost hatte sich am Feuer zusammenkauert und seine lange, dürre Gestalt in einen dicken Mantel gewickelt. Lustlos knabberte er an einer Möhre, die genauso rot war, wie sein Haar. Unter seinem Kopftuch schauten ein paar Strähnen hervor und leuchteten mit dem Feuer um die Wette. 
 - character: stachel

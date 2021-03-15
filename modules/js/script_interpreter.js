@@ -554,27 +554,35 @@
                     passage.scriptRunner.error("Falsches Format für 'choice'. Muss eine Optionsliste beinhalten", instruction );
                 }
                 _(instruction.choice).each(function (option) {
+                    var include = true
                     if (!$.isPlainObject(option)) {
                         passage.scriptRunner.error("Falsches Format für 'option'. Muss einen 'option: ' Ausdruck beinhalten", instruction );
                     }
                     if (! option.option || typeof option.option !== 'string') {
                         passage.scriptRunner.error("Bitte gib den Optionstext ein (Beispiel: 'option: \"Gehe links\"'");
                     }
-                    var clone = JSON.parse(JSON.stringify(option));
-                    delete clone.option;
-                    var choice = {
-                        option: option.option,
-                        instructions: clone,
-                        click: function (e) {
-                            // Interpret other steps in the object 
-                            if ($.isEmptyObject(clone)) {
-                                passage.scriptRunner.next().perform();
-                            } else {
-                                passage.scriptRunner.performInstruction(clone);
-                            }
+                    if (option.unless) {
+                        if (window.story.state[option.unless]) {
+                            include = false;
                         }
-                    };
-                    choices.push(choice);
+                    }
+                    if (include) {
+                        var clone = JSON.parse(JSON.stringify(option));
+                        delete clone.option;
+                        var choice = {
+                            option: option.option,
+                            instructions: clone,
+                            click: function (e) {
+                                // Interpret other steps in the object 
+                                if ($.isEmptyObject(clone)) {
+                                    passage.scriptRunner.next().perform();
+                                } else {
+                                    passage.scriptRunner.performInstruction(clone);
+                                }
+                            }
+                        };
+                        choices.push(choice);    
+                    }
                 });
                 Layout.presentChoice(choices);
                 Layout.showChoices();
@@ -598,6 +606,12 @@
     Interpreters.passage = {
             perform: function (instruction) {
                 window.story.show(instruction.passage);
+            }
+        };
+    Interpreters.set = {
+            perform: function (instruction) {
+                var setExpr = instruction.set
+                window.story.state[setExpr.name] = setExpr.value;
             }
         };
     
