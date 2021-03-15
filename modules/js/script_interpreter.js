@@ -612,6 +612,8 @@
             perform: function (instruction) {
                 var setExpr = instruction.set
                 window.story.state[setExpr.name] = setExpr.value;
+                 // Go to next step
+                 passage.scriptRunner.next().perform();
             }
         };
     

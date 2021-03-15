@@ -789,37 +789,76 @@
     Nach Rosts Erzählung schickte der Gläubige alle schlafen. Stachel legte sich beunruhigt hin, weil sie Angst hatte. Worauf hatte sie sich gerade eingelassen? Rost schien Zita sehr zu mögen und die Situation auf die leichte Schulter nehmen. Stachel glaubte jedenfalls, dass Zita noch merkwürdiger war als die Jäger um sie herum.
 - passage: Ankunft_RandDesClannthin
 
-
-
 :: Lagerfeuer_Zwerg [akt1_25]
 - setup: 
     background: lagerfeuer
-- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
-- setup: 
     characters: 
-        - name: flavius
-          caption: Flavius
-- description: ""
+      - name: stachel
+        caption: Stachel
+      - name: zwerg
+        caption: Ohrelaus Minnfroh
+- set: 
+    name: treffen_zwerg
+    value: true
+- description: |-
+    Stachel setzte sich neben den Zwerg, der Ohrelaus Minnfroh hieß. Sie überragte ihn um einen ganzen Kopf. Er sah so aus, wie sie sich Zwerge schon immer vorgestellt hatte: ein langer geflochtener grauer Bart, eine gute Rüstung, ein Helm und dicke Stiefel. Nur der Bogen und die Harfe passten nicht so recht ins Bild. Aber da Stachel vorher noch keinem Zwerg begegnet war, merkte sie sich diese Ausrüstung als normal und typisch zwergisch. 
+- description: |-
+    Ohrelaus klimperte auf der Harfe, brummte dabei und schaute versonnen in den Himmel. Stachel räusperte sich, um den Zwerg aus seiner dichterischen Blase zu wecken und auf sich aufmerksam zu machen. 
+- character: zwerg
+  text: |-
+    "Oh, holde Maid", brummte er mit klarer Stimme, "es tut mir leid. Ich war in meinen Gedanken versunken. In diesem Zustand bin ich noch unumgänglicher als wenn ich betrunken bin."
+- character: zwerg
+  text: |-
+    "Sie möchten sich bestimmt eine Ballade vorspielen lassen, weil Sie anders als meine Gefährten die große Kunst nicht hassen. Nun denn, welcher Melodie möchten Sie lauschen statt dem Blätter-Rauschen?".
+- description: |-
+    Stachel war immer noch so begeistert, endlich einen echten Zwerg zu begegnen, dass sie ihn eine Weile einfach nur stumm anstarrte. Für Schönheit und Kunst hatte sie nie viel übrig gehabt. Vor allem die ganzen Kirchenlieder hingen ihr zum Hals raus. Mit ihnen wurde immer nur eine heile Welt vorgespielt und übertriebene Schönmalerei verachtete Stachel. 
+- description: |-
+    Ein echtes Zwergenlied zu hören, wäre vielleicht etwas anderes (27). Aber eine Ballade zog sich immer und so viel Zeit wollte sie nicht verschwenden. Sie könnte also auch höflich ablehnen(26).
+- choice:
+    - option: Die Ballade anhören
+      passage: Ballade_Zwerg
+    - option: Höflich ablehnen
+      passage: Ballade_Ablehnung    
 
 :: Ballade_Ablehnung [akt1_26]
 - setup: 
     background: lagerfeuer
-- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
-- setup: 
     characters: 
-        - name: flavius
-          caption: Flavius
-- description: ""
+      - name: stachel
+        caption: Stachel
+      - name: zwerg
+        caption: Ohrelaus Minnfroh
+- character: stachel
+  text: |-
+    "Sehr geehrter Ohrelaus Minnfroh. Es wäre mir eine Ehre, ein Lied von Euch zu hören. Doch mit größtem Bedauern muss ich für heute ablehnen. Ich bin sehr weit gewandert und mein Körper ist recht empfindlich. Deshalb möchte ich mich bald ausruhen und einen heilenden Schlaf genießen. Doch will ich auch nicht unhöflich sein und jedem von euch einen Augenblick meiner Aufmerksamkeit schenken, weil ihr so freundliche Gastgeber seid.", lehnte Stachel höflich ab.
+- description: |-
+    Der Zwerg lächelte sie an und vertiefte sich dann wieder in sein Geklimper.
+- passage: Lagerfeuer_Auswahl
 
 :: Ballade_Zwerg [akt1_27]
 - setup: 
     background: lagerfeuer
-- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
-- setup: 
     characters: 
-        - name: flavius
-          caption: Flavius
-- description: ""
+      - name: stachel
+        caption: Stachel
+      - name: zwerg
+        caption: Ohrelaus Minnfroh
+- character: stachel
+  text: |-
+    Stachel riss sich aus ihren Gedanken und antwortete: "Sicher wäre eine klassische Ballade eine Freude für meine Ohren, die solche Kunst schon lange entbehrt haben. Aber sagt, habt Ihr nicht ein Lied, was Ihr selbst geschrieben habt, etwas über Eure eigenen  Abenteuer?" 
+- description: |-
+    Vielleicht konnte sie so dem Zwerg noch ein paar nützliche Informationen entlocken. Ohrelaus setzte sich entzückt zurecht. 
+- character: zwerg
+  text: |-
+    "Bei solch holden Worten kommen mir spontan ein paar Verse in den Sinn. Ein paar Strophen sind da schon drin."
+- character: zwerg
+  text: |-
+    <audio src="assets/ohrelaus1.mp3" controls>
+- description: |-
+    Erwartungsvoll sah der Zwerg Stachel an. 
+- description: |-
+    Sie zwang sich zu einem Lächeln und bedankte sich. Der erfreute Zwerg beugte sich wieder über seine Harfe. 
+- passage: Lagerfeuer_Auswahl
 
 :: Lagerfeuer_schlafen [akt1_28]
 - setup: 
