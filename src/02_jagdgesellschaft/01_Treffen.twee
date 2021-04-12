@@ -531,7 +531,7 @@
 - character: glaeubige
   text: |-
     Nach Schlinges Erzählung schickte der Gläubige alle schlafen. Stachel legte sich beunruhigt hin, weil sie Angst hatte. Worauf hatte sie sich da gerade eingelassen? Die Informationen, die Zita den Jägern verheimlicht hatte, malten bestimmt ein noch schrecklicheres Bild von dem Wesen.
-- passage: Ankunft_RandDesClannthin
+- passage: Ankunft_Clannthin
 
 :: Lagerfeuer_Rost [akt1_17]
 - setup: 
@@ -787,7 +787,7 @@
 - character: glaeubige
   text: |-
     Nach Rosts Erzählung schickte der Gläubige alle schlafen. Stachel legte sich beunruhigt hin, weil sie Angst hatte. Worauf hatte sie sich gerade eingelassen? Rost schien Zita sehr zu mögen und die Situation auf die leichte Schulter nehmen. Stachel glaubte jedenfalls, dass Zita noch merkwürdiger war als die Jäger um sie herum.
-- passage: Ankunft_RandDesClannthin
+- passage: Ankunft_Clannthin
 
 :: Lagerfeuer_Zwerg [akt1_25]
 - setup: 
@@ -862,55 +862,325 @@
 
 :: Lagerfeuer_schlafen [akt1_28]
 - setup: 
-    background: lagerfeuer_rand
-- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
-- setup: 
+    background: lagerfeuer
     characters: 
-        - name: flavius
-          caption: Flavius
-- description: ""
+      - name: stachel
+        caption: Stachel
+- character: stachel
+  text: |-
+    Stachel legte sich ans Feuer. Sie wollte eigentlich noch die anderen heimlich belauschen. Doch schon fielen ihr die Augen zu und sie schlief......
+- description: |-
+    Die große Glocke schellte. Stachel sprang sofort auf und wollte nach ihrem Kittel greifen. Wenn sie nicht vor dem letzten Glockenschlag unten zum Morgengebet angetreten wäre, würden die Fratisen sie wieder vorsingen lassen. Doch wo war ihr Kittel und die Schlafbetten? 
+- description: |-
+    Nachdem sie sich die Augen gerieben und gegähnt hatte, erinnerte sie sich an den gestrigen Abend. Sie sah sich um und entdeckte die anderen, die alle noch friedlich schliefen. Auch die Ursache des Lärms fand sie jetzt. 
+- description: |-
+    Über das Feld kam eine große Menge Männer angestapft. Sie trugen Mistgabeln und Fackeln bei sich und steuerten direkt auf sie zu.  Sie schienen aus dem letzten Dorf zu kommen und die ganze Nacht marschiert zu sein.
+- description: |-
+    Aber bestimmt hatten sie das alles nicht auf sich genommen, um sich an Stachel zu rächen. Die paar Brotkanten und Käsestücken, die sie entwendet hatte, waren so einen Aufwand gewiss nicht wert. Wahrscheinlicher war es doch, dass der Zwerg die Dorfkasse gelehrt, Schlinge Tische zerkleinert  oder der Gläubige sie mit seinen Predigen genervt hat. 
+- description: |-
+    Langsam war der Mob schon so nahe, dass sie die zornigen Gesichter und wütenden Stimmen wahrnahm. Wenn Stachel sich jetzt aus dem Staub machen würde, dann würde sie noch mit heiler Haut davon kommen. Oder sie weckt die anderen. Schlafend sahen sie alle so unschuldig und verletzlich aus. Naja, außer Schlinge, die anschneiden von einer Prügelei träumte, so wie sie mit den Armen in der Luft herum fuchtelt. 
+- choice:
+    - option: Sich aus dem Staub machen
+      passage: Mob_abhauen
+    - option: Die anderen wecken
+      passage: Mob_wecken
 
 :: Mob_wecken [akt1_29]
-- setup: 
-    background: lagerfeuer_rand
-- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
-- setup: 
-    characters: 
-        - name: flavius
-          caption: Flavius
-- description: ""
+- setup:
+    background: lagerfeuer
+    characters:
+      - name: stachel
+        caption: Stachel
+- description: >-
+    Schnell ohrfeigte Stachel die anderen wach. Als alle endlich standen, waren
+    sie schon von der Meute umzingelt worden. Es waren viel zu viele für sie.
+    Außerdem waren sie gerade erst aufgestanden.
+- description: >-
+    Die anderen dagegen waren befeuert von ihrer Wut. Die Fackel beleuchten ihre
+    zusammengekniffenen Münder und blitzenden Augen. Schlinge schien das jedoch
+    nicht zu beeindrucken.
+- setup:
+    characters:
+      - name: stachel
+        caption: Stachel
+      - name: schlinge
+        caption: Schlinge
+- character: schlinge
+  text: >-
+    Sie baute sich vor ihnen auf, knackte angriffslustig mit ihren
+    Fingerknöcheln und fuhr sie an: "Was wollt ihr hier? Schert euch weg, wenn
+    euch euer Leben lieb ist."
+- description: >-
+    "Verschwindet ihr doch", kam es aus der Masse zurück. "Genau, ihr dreckigen
+    Miststücke", "Ihr denkt wohl, dass ihr die Monster des Clannthins wecken
+    könnt?", "Gedankenlose und arrogant seid ihr." ,"Was denkt ihr wohl, was
+    passiert, wenn ihr weg seid?", "Aber ihr denkt wahrscheinlich nicht nach!"
+    "Wegen euch kommen die Monster aus dem Clannthin in unser Dorf", "Meine
+    Felder sind verwüstet", "Meine Kühe tot", "Ihr Zerstörer, sollen euch doch
+    die Ewigen holen!".
+- description: >-
+    Stachel dachte fiebrig nach, während die Dorfbewohner schrien. So lang sie
+    nur riefen, waren sie nicht gefährlich. Aber wenn der erste zustach, würde
+    sich ihr geballter Hass und ihre Verzweiflung entladen. Vielleicht sollten
+    sie auf die Bäume klettern oder die Leute mit Glutbrocken bewerfen.
+- setup:
+    characters:
+      - name: stachel
+        caption: Stachel
+      - name: zwerg
+        caption: Ohrelaus
+- character: zwerg
+  text: >-
+    Während sich Stachels Gedanken noch im Kreis drehten, rief der Zwerg: "Zieht
+    euch ein Stück Stoff über den Mund runter, denn jetzt wirds munter.".
+    Reflexartig befolgte Stachel die Anweisung und band sich ihren Schal um. Der
+    Zwerg holte ein Fläschchen aus seiner Tasche und warf es ins Feuer. Sofort
+    qualmte die Glut und Rauch umfing sie alle. Er nahm Stachel die Sicht, doch
+    verbesserte erstaunlicher Weise ihr Gehör.
+- description: >-
+    "Hexer!", riefen die Bauern. "Faucher, helft mir!", und "Nimm deine
+    Mistgabel aus meinem Gesicht!". "Stachel nimm meine Hand" umfing sie die
+    Geräusch.
+- description: >-
+    Das letzte kam von Rost und als sie seine Hand fand, klammerte sie sich an
+    ihn. Sie hasste es, schutzlos zu sein. Natürlich waren ihre anderen Sinne
+    gut genug, damit sie sich orientieren konnte. Doch ohne ihre Augen reagierte
+    sie nur noch, statt angreifen zu können. Rost führte sie aus der Rauchwolke
+    und auch die anderen hatten es aus dem Nebel geschafft. Sofort nahmen sie
+    ihre Beine in die Hand und rannten los.
+- passage: Teilnahme-Stachel_Der-Gläubige
+
 
 :: Teilnahme-Stachel_Der-Gläubige [akt1_30]
-- setup: 
-    background: weg_zwischen_huegel_und_feldern_sonnenaufgang
-- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
-- setup: 
-    characters: 
-        - name: flavius
-          caption: Flavius
-- description: ""
+- setup:
+    background: huegel_sonnenaufgang
+- setup:
+    characters:
+      - name: stachel
+        caption: Stachel
+- description: >-
+    Außer Atem blieben sie auf dem nächsten Hügel stehen. Stachel hatte immer
+    noch das Gefühl, dass sie gleich eingeholt werden würden. Doch weit und
+    breit waren keine Verfolger zu sehen.
+- character: stachel
+  text: >-
+    "Habt ihr wirklich Monster aufgeweckt, die nun hier ihr Unwesen treiben?",
+    wollte Stachel wissen.
+- description: >-
+    Ihr behagte es gar nicht, dass sie sich in so einer friedlichen Landschaft
+    vor mehr als grummeligen Bauern und zicken Waschweibern fürchten musste. Ein
+    riesengroßes Monster, dass geifernd durch die Gegend stampfte, hätte sie
+    bestimmt schon bemerkt. Aber was sagte ihr eigentlich, dass ein Monster groß
+    sein musste? Sie hatte noch nie eins gesehen und vielleicht sahen sie aus
+    wie der Busch neben ihr.
+- setup:
+    characters:
+      - name: stachel
+        caption: Stachel
+      - name: glaeubige
+        caption: Der Gläubige
+- character: glaeubige
+  text: >-
+    "Ein Monster ist wirklich mal aus dem Clannthin gekommen durch unsere
+    Schuld. Es war aber eigentlich sehr friedfertig und wir hatten es schnell
+    eingefangen. Die Bauern suchen nur einen Sündenbock für ihre Missernten",
+    erklärte der Gläubige und unterbrach damit Stachels Schreckensvorstellungen.
+- setup:
+    characters:
+      - name: glaeubige
+        caption: Der Gläubige
+      - name: schlinge
+        caption: Schlinge
+- character: schlinge
+  text: >-
+    "Genau. Das passiert uns jetzt schon zum dritten Mal. Langsam wird es echt
+    nervig.", fügte Schlinge an.
+- description: >-
+    Stachel hofft, dass dies ihr erste und auch letzte Begegnung mit
+    aufgescheuchten Bauern bleiben würde. So eine Menschenmenge ist einfach zu
+    emotional aufgeladen und schlecht abschätzbar.
+- setup:
+    characters:
+      - name: rost
+        caption: Rost
+      - name: stachel
+        caption: Stachel
+- character: rost
+  text: >-
+    "Wohin gehst du jetzt?", fragt Rost Stachel. Er schien sie schon jetzt zu
+    vermissen. Kein Wunder, dachte Stachel, ich bin hier wohl noch der normalste
+    Mensch.
+- character: stachel
+  text: >-
+    "Ich gehe ins nächste Dorf und versuche mich dann bis nach Herothien
+    durchzuschlagen. Dort ist die Auftragslage für Kopfgeldjäger immer am
+    besten.", meinte Stachel, "Und ihr?".
+- description: >-
+    Stachel fragte sich, wieso sie Trennung soweit hinaus zögerte. Vielleicht
+    wollte sie nicht schon wieder allein umherziehen.
+- setup:
+    characters:
+      - name: glaeubige
+        caption: Der Gläubige
+      - name: stachel
+        caption: Stachel
+- character: glaeubige
+  text: >-
+    "Wir gehen jetzt in den Clannthin.", antwortete ihr der Gläubige, "Wenn du
+    willst darfst du mitkommen. Natürlich ist mir unwohl dabei, dich solchen
+    Gefahren auszusetzen. Aber allein möchte ich dich auch nicht ziehen lassen.
+    Nicht, wenn ich dir noch so viel über die Faucher beibringen muss."
+- description: >-
+    Das klang in Stachels Ohren fast schon wie eine Drohung. Über die Faucher
+    hatte sie schon mehr als genug gelernt. Doch anstatt an Wissen über den
+    Fauchern, fehlt es ihr an Glauben und Vertrauen in sie. Durch Gefahren und
+    Abenteuer könnte sie ihnen näher kommen als in irgendeiner Kirche. Sie
+    sollte annehmen (32) Eine solche Chance würde sie wohl nie wieder bekommen.
+    Aber bestimmt auch nicht überleben. Deshalb müsste sie ablehnen.
+- choice:
+    - option: Annehmen
+      passage: Auftrag_Der-Gläubige
+    - option: Ablehnen
+      passage: Mob_abhauen
 
 :: Mob_abhauen [akt1_31]
-- setup: 
+- setup:
     background: kneipe
-- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
-- setup: 
-    characters: 
-        - name: flavius
-          caption: Flavius
-- description: ""
+    characters:
+      - name: stachel
+        caption: stachel
+- description: >-
+    Stachel rückte ihren Hocker am hintersten Tisch der Taverne zurecht und nahm
+    noch einen großen Schluck von ihrem Bier. Es schmeckte zwar nicht so gut,
+    war aber immer noch besser als Wasser vom Rand des Clannthins zu trinken.
+- description: >-
+    Ob die Jäger den Wald schon erreicht hatten? Stachel versuchte ihre Gedanken
+    an sie mit einem weiteren Schluck fort zu spülen.
+- description: >-
+    Am meisten vermisste sie Rost. Sie hatte sich irgendwie verantwortlich für
+    ihn gefühlt. Er würde den Clannthin bestimmt nicht überleben. Mit einem
+    weiteren Schluck gedachte Stachel an sie. Mögen die Faucher sie beschützten.
+- description: >-
+    Der nächste war für sie. Sie lebte noch und das musste sie feiern. Bestimmt
+    würde sie bald neue Menschen kennenlernen und die Begegnung vergessen.
+- description: >-
+    Wenn sie sich in Herothien einen großen Namen als Kopfgeldjägerin gemacht
+    hatte, konnte sie das Gerücht in die Welt streuen, dass sie mit den Jägern
+    in den Clannthin gezogen sei. Stachel starrte auf den Boden ihres Krugs. Es
+    wurde Zeit, ins echte Leben zu gehen und nicht mehr Vergangenem
+    nachzutrauern.
+- passage: Ende
 
 :: Auftrag_Der-Gläubige [akt1_32]
-- setup: 
+- setup:
+    background: huegel_sonnenaufgang
+- setup:
+    characters:
+      - name: stachel
+        caption: stachel
+      - name: rost
+        caption: rost
+- character: stachel
+  text: '"Ich mach mit", verkündete Stachel.'
+- character: rost
+  text: >-
+    Freudig drückte Rost sie an sich und sagte: "Wusste ich's doch. Ich bin
+    froh, dass du dabei bist. Wir werden viel Spaß haben."
+- setup:
+    characters:
+      - name: glaeubige
+        caption: glaeubige
+- character: glaeubige
+  text: >-
+    "Ich muss dich noch über unseren Auftrag aufklären", stellte der Gläubige
+    fest und begann zu erzählen:
+- setup:
     background: jagschloss_saal
-- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
-- setup: 
-    characters: 
-        - name: flavius
-          caption: Flavius
-- description: ""
+- character: glaeubige
+  text: >-
+    Wir hatten es geschafft einen Nolgorin, einen übergroßen Wolf, zu fangen.
+    Wieder war es uns gelungen ein faucherwidriges Wesen und eine Bedrohung für
+    brave Gläubige zu überwältigen. Wir brachten es zum Jagdschloss unserer
+    Auftraggeberin Zita Balisandres von Tannenbrecht.
+- character: glaeubige
+  text: >-
+    Sie ist die gütige Dame, die unsere Monsterjagd finanziert. Ganz selbstlos
+    opfert sie sich für das Wohl von uns allen auf. Ich würde natürlich auch
+    ohne Geld Monster jagen, aber von irgendetwas muss selbst ich leben.
+- character: glaeubige
+  text: >-
+    Aus den Monstern versucht Zita dann Kraft zu gewinnen. Du hast bestimmt
+    schon von den Ewigen oder Zwielichtwanderern gehört. Um uns gegen solche
+    mächtige Gestalten zu schützen, darf der Glauben auch durch zusätzliche
+    Energie unterstützt werden.
+- character: glaeubige
+  text: >-
+    Bei ihren Experimenten ist es leider passiert, dass Zita eine Kralle
+    gewachsen ist. Die Arme. Ich bete jeden Abend für sie. Sie hat sich so viel
+    Verantwortung auf ihre schönen Schultern geladen, dass sie jede
+    Unterstützung braucht.
+- character: glaeubige
+  text: >-
+    Wir waren also im Jagdschloss, um unsere Belohnung entgegen zu nehmen. Die
+    anderen schlossen vorher immer Wetten ab, welches Monster als nächstes dran
+    kommt. Ich habe nie mitgemacht. Die Faucher entscheiden alles und es wäre
+    falsch, ihr weisen Entscheidungen durch Wetten zu beschmutzten. Diesmal
+    griffen sie zum Glück auch ein, denn Zita nannte uns nicht den Namen des
+    Wesens.
+- setup:
+    characters:
+      - name: zita
+        caption: zita
+- character: zita
+  text: >-
+    Sie sagte nur zu uns: "Meinen lieben Jäger. Ihr habt nun schon so viele
+    Monster für mich gefangen. Dafür bin ich euch sehr dankbar. Nun werde ich
+    euch ein letztes Mal ausschicken, damit ihr euch den Gefahren des Clannthins
+    stellt und mir ein Wesen bringt."
+- description: >-
+    Mich nahm es mit, dass das schon das letzte Mal sein sollte. Mit der
+    Monsterjagd hatte ich der Welt so viel Gutes geben können und ich wusste
+    nicht, was ich ohne sie machen sollte. Doch vielleicht wollte Zita danach
+    selbst anfangen zu kämpfen. Ich schwor mir, was immer auch kommen möge, an
+    ihrer Seite zu stehen.
+- character: zita
+  text: >-
+    Zita redete gleich weiter: "Ich weiß, dass kommt für euch jetzt etwas
+    überraschend. Doch diese letzte Aufgabe ist die Gefährlichste von allen.
+    Wenn ihr sie erfüllt, werde ich euch so reich entlohnen, dass ihr euch ume
+    ure Zukunft nicht mehr sorgen braucht. Viele würden es trotz des vielen
+    Goldes nicht wagen das Wesen zu fangen. Doch ich glaube an euch und eure
+    Fähigkeiten."
+- description: >-
+    Ihr Glaube an uns rührte mich zu tiefst und ich dankte den Fauchern, dass
+    sie der Welt solch eine tapfere Frau geschenkt hatten.
+- character: zita
+  text: >-
+    "Das Wesen was ich meine, ist der Beschützer der anderen Monster. Es ist
+    stärker als jedes der Monster. Man könnte es auch als Jäger betrachten, es
+    ist brutal und rücksichtslos. Wenn ihr Orte von größter Zerstörung findet,
+    ist es nicht weit. Doch wird es euch wahrscheinlich eher finden als ihr es.
+    Alle Monster, die ihr mir gebracht habt, stehen nämlich unter seinem Schutz.
+    Es wird also versuchen, euch los zu werden.", informierte Zita uns, "Seid
+    also immer wachsam. Noch eins: das Wesen ähnelt einem jungen Mädchen. Ob das
+    ihre wahre Gestalt ist, weiß ich nicht, doch lasst euch nicht von ihrem
+    Äußeren täuschen."
+- setup:
+    characters:
+      - name: glaeubige
+        caption: glaeubige
+- character: glaeubige
+  text: >-
+    Ich war froh, dass Zita uns so ehrlich gewarnt hatte. Ich werde ihre
+    Ratschläge jeden Abend wiederholen, um sie nie zu vergessen.
+- setup:
+    background: huegel_sonnenaufgang
+- description: >-
+    Nach seiner Erzählung schickte der Gläubige alle schlafen. Stachel legte
+    sich beunruhigt hin, weil sie Angst hatte, worauf sie sich gerade
+    eingelassen hatte. Der Gläubige schien in Zita verschossen zu sein und seine
+    Sicht auf sie war bestimmt unrealistisch. Stachel war sich jedenfalls
+    sicher, dass Zita nicht so selbstlos mit den gewonnen Kräften der Monster
+    umging wie Der Gläubige dachte. (33).
+- passage: Ankunft_Clannthin
 
-:: Ankunft_RandDesClannthin [akt1_33]
-- setup: 
-    background: wald
-- description: "Am Rand des Clannthin..."

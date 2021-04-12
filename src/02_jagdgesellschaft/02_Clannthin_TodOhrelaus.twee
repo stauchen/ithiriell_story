@@ -1,0 +1,382 @@
+:: Ankunft_Clannthin [akt1_33]
+- setup:
+    background: clannthin_rand
+- description: Der Clannthin ragte vor ihnen auf wie eine Mauer.
+- description: >-
+    Normale Wälder lösen langsam ihre Umgebung ab: aus den Wiesen wachsen
+    einzelne Sträucher, dann sind sie durchsetzt mit Bäumchen bis die
+    ausgewachsenen Exemplare alles überragen. Doch der Clannthin schien durch
+    eine unsichtbare Grenze von seiner Umgebung getrennt. Jeder, der diese
+    Grenze übertrat, war sich dessen bewusst. Man konnte nicht einfach in den
+    Clannthin "hineinstolpern". Man trat in ihn ein.
+- setup:
+    characters:
+      - name: stachel
+        caption: Stachel
+- character: stachel
+  text: >-
+    Stachel unterdrückte ihre Instinkte, die ihre Beine in die entgegengesetzte
+    Richtung bewegen wollten, holte tief Luft, schloss die Augen und trat einen
+    Schritt nach vorne. Einen Moment lang wagte sie nicht zu atmen, verblieb in
+    einer angespannten Haltung und rechnete nervös mit allem. Nichts. Keine
+    verführerische Elfenstimme, keine fleischfressenden Pflanzen, nicht einmal
+    ein Schrei.
+- setup:
+    characters:
+      - name: stachel
+        caption: Stachel
+      - name: rost
+        caption: Rost
+- character: stachel
+  text: >-
+    Erleichtert atmete Stachel aus. Mit dem nächsten Atemzug sog sie den
+    vielfältigen Geruch des Clannthins ein: frisch, feucht, erdig und modrig.
+    Langsam senkten sich ihre verkrampften Schultern. Blätterrascheln,
+    Vogelgezwitscher und Geplätscher drangen in ihre Ohren. Und ein schallendes
+    Lachen. Stachel riss verärgert ihre Augen auf. Rost kringelt sich.
+    Pathetisch machte er einen Schritt nach vorne und fing dann wieder an zu
+    giggern.
+- setup:
+    characters:
+      - name: stachel
+        caption: Stachel
+- description: >-
+    Schlinge und der Gläubige dagegen liefen unbeirrt an ihnen vorbei in den
+    Wald hinein. Schnell hatten sie einen Weg durch das Gestrüpp gefunden und
+    führten die Gruppe zwischen den Stämmen hindurch. Eigentlich war der
+    Clannthin auch nicht viel anders als andere Wälder: Bäume, Gestrüpp und
+    Tiere. Stachel stellte fest, dass er einfach mehr von allem hatte: viel mehr
+    und höhere Bäume, wucherndere Sträucher, vielfältigere Moose und die
+    ausgefallensten Insekten. Das alles war nicht so schreckenserregend, wie die
+    Schauermärchen über den Clannthin einen glauben ließen.
+- description: >-
+    Doch Stachel wurde ein ungutes Gefühl nicht los. Das Gefühl der Fremde. Das
+    Gefühl hier nicht hin zu gehören.
+- setup:
+    characters:
+      - name: schlinge
+        caption: Schlinge
+      - name: stachel
+        caption: Stachel
+- character: schlinge
+  text: >-
+    "Hallo, Stachel", unterbrach Schlinge ihre Gedanken und winkte dabei noch
+    vor ihrem Gesicht hin und her. "Wir haben das Ritual, dass jeder Frischling
+    die erste Wegentscheidung übernehmen muss. Also links oder rechts lang?"
+- description: >-
+    Sie waren schon an einer Wegkreuzung angelangt und alle sahen sie gespannt
+    an. Für Stachel sahen beide Wege gleich aus: grün. Also schloss sie die
+    Augen und ging ein Stück den einen Weg entlang und dann den anderen. Auf dem
+    linken Weg wehte ein kühler Wind und es roch klar. Steinchen knirschten
+    unter ihren Füßen und eine Eule rief. Jedenfalls glaubte sie, dass es eine
+    Eule war. Der rechte Weg hingegen war etwas feuchter und roch nach
+    Salbei. Zu hören war jedoch nur eine ruhige und sanfte Stille.
+- choice:
+    - option: Links
+      passage: Mondstiege_Tag
+    - option: Rechts
+      passage: Klo_Stachel
+
+:: Mondstiege_Tag [akt1_34]
+- setup:
+    background: mondstiege
+    characters:
+      - name: stachel
+        caption: Stachel
+- character: stachel
+  text: '"Wohin führt dieser Weg?", wollte Stachel wissen.'
+- setup:
+    characters:
+      - name: stachel
+        caption: Stachel
+      - name: glaeubige
+        caption: Der Gläubige
+- character: glaeubige
+  text: >-
+    "Zu der Mondstieg, wenn ich mich nicht täusche", murmelte der Gläubige, der
+    mit verschiedenen Pergamenten und Gerätschaften herumfuhrwerkte.
+- character: stachel
+  text: '"Was ist das?", wollte Stachel neugierig wissen.'
+- setup:
+    characters:
+      - name: stachel
+        caption: Stachel
+      - name: rost
+        caption: Rost
+- character: rost
+  text: >-
+    Doch der Gläubige war schon wieder in seine Arbeit vertieft, sodass ihr
+    stattdessen Rost begeistert antwortete:" Die Mondstiege ist ein Steinkreis.
+    Aber es sind nicht einfach nur ein paar alte Kiesel. Er ist etwas ganz
+    besonderes. Bei Mondlicht erheben sich die Steine in die Luft und bilden
+    ganz einmalige und bedeutungsvolle Formen. Wunderschön. Es gibt Geschichten,
+    dass wenn die Sterne günstig stehen, sie eine Treppe in den Himmel bilden.
+    Diejenigen, die unserer Welt überdrüssig sind, steigen auf ihr zum Mond
+    empor und blicken fortan lächelnd und ohne Wehmut von dort oben auf uns
+    zurück."
+- description: In Rosts Augen stahl sich ein verträumter Ausdruck und er seufzte.
+- character: stachel
+  text: >-
+    "Also eigentlich wollte ich nicht nach diesem Steindingsbums fragen. Ich
+    will wissen, was bei den Fauchern der Gläubige da macht."
+- setup:
+    characters:
+      - name: stachel
+        caption: Stachel
+      - name: schlinge
+        caption: Schlinge
+- character: schlinge
+  text: >-
+    Schlinge übernahm das Sprechen für Rost, der immer noch in seinen Fantasien
+    schwelgte:  "Der Gläubige versucht sich zu orientieren. Keine Ahnung wie
+    genau er das macht. Jedenfalls sind seine Angaben nur halb so zu verlässig
+    wie mein Bauchgefühl. Aber diesmal hat er recht. Das hier ist die
+    Mondstiege."
+- description: >-
+    Bei diesen Worten traten sie auf eine Lichtung. Auf einem kleinen Hügel,
+    lagen wahllos ein paar Steine verteilt. Alles war mit Moos und Ranken
+    überwachsen. Für Stachel war der Anblick so unspektakulär wie eine Scheune.
+    Selbst die kleinste Kirche war mit mehr Geschick und Hingabe errichtet
+    wurden, als diese Handvoll Kiesel.
+- description: >-
+    Der Gläubige und Schlinge schienen sich auch nicht für den Anblick
+    begeistern können. Der Gläubige fuchtelte immer noch mit seinen Geräten
+    herum und Stachel wusste nicht einmal was er suchte. Schlinge wollte das
+    anscheinend herausfinden und redete eindringlich auf ihn ein. Bald
+    entwickelte sich ihr Gespräch zu einem ernsthaften Streit. Da Stachel nicht
+    zwischen die Fronten geraten wollte und auch nicht schnell mit einem
+    Ergebnis rechnete, wand sie sich zu Rost um.
+- description: >-
+    Doch der war ebenfalls nicht ansprechbar, denn er lief verträumt über die
+    Wiese und umtanzte die Steine. Nur als eine Eule rief, horchte er kurz auf.
+- description: >-
+    Der Zwerg dagegen hatte es sich im Gras gemütlich gemacht. Stachel näherte
+    sich ihm zögerlich. Er zupfte gerade einige schiefe Töne auf seiner Harfe
+    und summte noch schiefer dazu. Obwohl er Minnefroh hieß, konnte Stachel sich
+    nicht vorstellen, dass er auch harmonische Lieder spielen konnte. Und vor
+    allem schien er seine Harfe nie zu stimmen.
+- setup:
+    characters:
+      - name: stachel
+        caption: Stachel
+      - name: zwerg
+        caption: Ohrelaus
+- character: stachel
+  text: >-
+    „Darf ich mich zu euch setzen?“, sprach sie ihn an. Stachel hatte diese
+    Worte kaum geäußert, als sich der Zwerg ruckartig zu ihr umdrehte.
+- character: zwerg
+  text: >-
+    „Oh, Ihr seid es, welche Freude. Setzt euch, (setzt euch,) bevor ich Zeit
+    vergeude, ich bin ständig am Dichten, soll ich davon berichten?“
+- description: >-
+    Stachel brauchte einen Moment, um sich wieder auf die ungewöhnliche Sprache
+    und hohe Stimme einzulassen. Ihr Kopf konnte seine Sprechweise mit dem
+    ernsthaften und grobem Aussehen immer noch nicht zu einem Bild
+    zusammenführen.
+- character: stachel
+  text: '„Warum sprecht ihr eigentlich so hoch?“, fragte sie ihn neugierig.'
+- character: zwerg
+  text: >-
+    „Wer weiß? Mein Vater, ein alter Greis, spottete d‘rüber, genau wie meine
+    Brüder.", antwortete Ohrelaus, "Doch mir wars schnuppe, Ich sparte meine
+    Spucke, sang stehts meine Lieder, über Zwerge und tapf‘re Krieger, doch
+    unterm Berg wars nicht willkommen.“
+- description: >-
+    Stachel verzog das Gesicht. Sie konnte die Zwerge verstehen. Irgendwie war
+    Ohrelaus anstrengend. Er bemitleidete sein Schicksal die ganze Zeit und wenn
+    Stachel Pech hatte würde er gleich wieder ein Lied anstimmen. Entweder sie
+    nahm ihn als Geduldsprobe hin oder sie haute lieber gleich ab.
+- choice:
+    - option: Zuhören
+      passage: Arbeit_Zwerg
+    - option: Abhauen
+      passage: Klo_Stachel
+
+:: Klo_Stachel [akt1_35]
+- setup:
+    background: dichter_wald
+- setup:
+    characters:
+      - name: stachel
+        caption: Stachel
+- character: stachel
+  text: >-
+    Stachel machte sich wenig Hoffnung dem Zwerg noch etwas brauchbares zu
+    entlocken und entschuldigte sich deshalb:
+- character: stachel
+  text: >-
+    "Ich muss ganz dringend mal ein stilles Örtchen aufsuchen. Aber danach bin
+    ich gleich wieder da und lausche gerne weiter euren Erzählungen."
+- description: >-
+    Das war zwar eine sehr billige Ausrede, aber Ohrelaus schluckte sie. Ihr
+    kurzes Gespräch hatte ihn anscheinend schon zu einem neuen Lied inspiriert
+    und er probiert gerade passende Reime aus.
+- description: >-
+    Stachel schlich sich schnell weg und ging ein paar Schritte in den Wald, um
+    ihre Lüge wenigstens halbwegs glaubwürdig erscheinen zu lassen. Das Grün
+    umschlang sie und sie genoss kurz die Ruhe.
+- description: >-
+    Die Jäger waren schon ein sehr seltsamer Haufen und ihr Leben würde sie
+    ihnen niemals anvertrauten. Rost war zu laubgläubig, Schlinge zu emotional,
+    der Gläubige zu stur und der Zwerg zu poetisch. Sie musste wohl eher auf
+    diesen Haufen aufpassen. Stachel atmete tief durch und genoss noch kurz die
+    Pause.
+- description: >-
+    Aber sie sollte jetzt doch zu den anderen zurückkehren, bevor diese noch
+    begannen, sich Sorgen zu machen. Sie lief den Weg zurück, begleitet von
+    hohen Eulenrufen. Sie schienen von überall zu kommen und nervten Stachel.
+    Die Schreie bohrten sich in ihre Ohren und dröhnten in ihrem Kopf. Stachel
+    begann zu rennen.
+- description: >-
+    Dann lichteten sich vor ihr endlich die Bäume und sie erreichte wieder die
+    Lichtung. Sie atmete durch und verfluchte sich für ihre Schreckhaftigkeit.
+- character: stachel
+  text: >-
+    Als sie aus dem Wald heraustrat, fluchte sie laut: "Bei den Hörnern der
+    Fauchern!"
+- description: Sie stand auf einem Weg und nicht wie sie geglaubt hatte auf der Lichtung.
+- character: stachel
+  text: >-
+    "Erstaunlich, wirklich erstaunlich. So leicht kann man sich hier verlaufen.
+    Na dann los.", sagte Stachel zu sich selbst und begann den Weg hinab zu
+    laufen. Er war immer noch besser als durch den Wald zu stolpern. (A)
+- passage: Allein_Stachel
+
+:: Arbeit_Zwerg [akt1_36]
+- setup:
+    background: mondstiege_wiesenfleck
+- description: >-
+    Andererseits schien er sympathischer als manch anderer aus der Gruppe und er
+    erzählte ihr bereitwillig mehr über sich selbst.
+- setup:
+    characters:
+      - name: stachel
+        caption: Stachel
+      - name: zwerg
+        caption: Ohrelaus
+- character: stachel
+  text: 'Deshalb bohrte sie weiter nach: „Und wie kommt Ihr ausgerechnet hierher?“'
+- description: >-
+    Die Augen des Zwerges strahlten freudig, weil sich jemand so sehr für ihn
+    interessiert.
+- character: zwerg
+  text: >-
+    Bereitwillig antwortete er ihr: „Ich lief früh weg, hatte nur wenig Gepäck,
+    war mal hier, mal dort, nie lang an einem Ort. Manch Adligen traf ich, sang
+    für sie fröhlich und fand daran Gefallen.“
+- description: >-
+    Stachel nickte, damit er nicht in seinem Redefluss unterbrochen wurde.
+    Solang er nicht anfing zu singen, war seine Gesellschaft sicher keine
+    schlechte.
+- character: zwerg
+  text: >-
+    „Meine Stimme füllte ganze Hallen, doch wollte ich mehr sein als ein Sänger,
+    im Jagen bin ich zwar Anfänger, doch klingt es leicht und wenn das Ziel
+    erreicht, muss wer drüber berichten. Das werden meine Pflichten.“
+- description: >-
+    Der Zwerg zeigte auf seinen Pfeil und Bogen. Stachel versuchte sich auf
+    seine Wort einen Reim zu machen: Er hatte anscheinend den Adligen bei der
+    Jagd unter die Arme gegriffen und heimlich für sie das Wild erlegt. Oder
+    hatte sie ihm einfach eine andere Aufgabe zu geteilt, um ihn bloß nicht
+    singen hören zu müssen?
+- description: >-
+    Stachels Gedanken wurden von einem weiteren Eulenschrei unterbrochen. Dieser
+    klang schon viel näher und aggressiver. Sie sollte den Zwerg darauf
+    ansprechen, aber vielleicht dachte er dann, dass sie ein Angsthase sei
+    und lachte sie aus. Sie könnte das Gespräch auch fortsetzen.
+- choice:
+    - option: Den Zwerg auf den Eulenschrei ansprechen
+      passage: Eulenruf
+    - option: Das Gespräch fortsetzen
+      passage: Lied_Zwerg
+
+:: Eulenruf [akt1_37]
+- setup:
+    background: mondstiege_wiesenfleck
+    characters:
+      - name: stachel
+        caption: Stachel
+      - name: zwerg
+        caption: Ohrelaus
+- description: >-
+    Ohrelaus schaute zu Stachel. Er sah ihr wohl die Anspannung an und zog
+    fragend eine Augenbraue nach oben.
+- character: stachel
+  text: >-
+    "Weißt du was das für einen Eulenschrei war? Er klang nicht normal.
+    Vielleicht sollten wir uns umschauen, bevor uns das Tier überrascht.", klärt
+    sie ihn auf.
+- character: zwerg
+  text: >-
+    "Stimmt das ist schon ein komisches Geheule. Aber normalerweise lebt im
+    Clannthin keine Eule", erwiderte Ohrelaus nachdenklich.
+- description: >-
+    Sie konnte vorschlagen, sich erstmal mit den anderen abzusprechen (40) oder
+    sich lieber aufzuteilen und den Waldrand abzusuchen (38).
+- choice:
+    - option: Sich mit den anderen Absprechen
+      passage: Gemeinschaft
+    - option: Sich aufteilen und den Waldrand absuchen
+      passage: Aufteilen
+
+:: Aufteilen [akt1_38]
+- setup:
+    background: mondstiege_waldrand
+- setup:
+    characters:
+      - name: stachel
+        caption: stachel
+- description: >-
+    Stachel wollte die andern nicht auch noch beunruhigen und schickte den Zwerg
+    auf die andere Seite der Lichtung, um sie abzusichern.
+- description: >-
+    Sie selbst lauschte angestrengt. Die Blätter rauschten, Äste knackten und
+    irgendwo hämmerte ein Specht wie wild. Konzentriert ging sie einen der Wege,
+    die von der Lichtung führten, ein paar Schritte hinein. Da war es doch schon
+    wieder. Ein hohes, heulendes, lang gezogenes Geräusch.
+- description: >-
+    Stachel wollte Ohrelaus signalisieren, dass es aus ihrer Lichtung kann, doch
+    er war weg. Also nicht wirklich weg, sondern sie konnte die Lichtung einfach
+    nicht sehen. Sie ging ein paar Schritte den Pfad zurück, doch die Wiese
+    tauchte vor ihr nicht wieder auf. Stachel probierte es mit der anderen
+    Richtung, aber auch ohne Erfolg.
+- description: >-
+    Langsam fing sie an zu glauben, dass die Wege im Clannthin wandern konnte.
+    Schnell rief sie sich zu Vernunft. Hier herumzustehen würde ihr auch nicht
+    weiterhelfen. Also warf Stachel eine Münze und folgte dem ausgelostem Weg.
+- passage: Allein_Stachel
+
+
+:: Lied_Zwerg [akt1_39]
+- setup:
+    background: mondstiege_wiesenfleck
+- setup:
+    characters:
+      - name: stachel
+        caption: Stachel
+      - name: zwerg
+        caption: Ohrelaus
+- description: >-
+    Stachel hatte kurz nicht aufgepasst und jetzt hatte der Zwerg doch noch ein
+    Lied angestimmt. Sie musste wohl oder übel zuhören, um es sich nicht mit ihm
+    zu verscherzen.
+- character: zwerg
+  text: <audio src="assets/ohrelaus2.mp3" controls>
+- description: >-
+    Laute kreischende Schreie hielten Ohrelaus von einer weiteren Strophe ab.
+    Verärgert schaute er in den Himmel und wetterte gegen diesen barbarischen
+    Vogel, der keinen Sinn für Kunst hatte. Doch dann runzelte er sie Stirn.
+- character: stachel
+  text: >-
+    "Irgendwie scheint sich da was grundtief Böses anzubahnen. Wie sollten
+    lieber die anderen warnen.", erklärte er Stachel ernst.
+- description: >-
+    Die ganze Fröhlichkeit und dichterische Feinheit war aus seinem Gesicht
+    gewichen und Ohrelaus rappelte sich auf. Er eilte rasch und ernst zu den
+    anderen. Stachel folgte ihm, um nicht allein zurückgelassen zu werden.
+- passage: Gemeinschaft
+
+
+:: Allein_Stachel [akt1_A]
+... (Schöner Waldweg)
