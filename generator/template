@@ -1,7 +1,49 @@
-bg: mondstiege_wiesenfleck
-c: stachel,zwerg
-d: Stachel hatte kurz nicht aufgepasst und jetzt hatte der Zwerg doch noch ein Lied angestimmt. Sie musste wohl oder übel zuhören, um es sich nicht mit ihm zu verscherzen. 
-zwerg: LIED2
-d: Laute kreischende Schreie hielten Ohrelaus von einer weiteren Strophe ab. Verärgert schaute er in den Himmel und wetterte gegen diesen barbarischen Vogel, der keinen Sinn für Kunst hatte. Doch dann runzelte er sie Stirn. 
-stachel: "Irgendwie scheint sich da was grundtief Böses anzubahnen. Wie sollten lieber die anderen warnen.", erklärte er Stachel ernst.
-d: Die ganze Fröhlichkeit und dichterische Feinheit war aus seinem Gesicht gewichen und Ohrelaus rappelte sich auf. Er eilte rasch und ernst zu den anderen. Stachel folgte ihm, um nicht allein zurückgelassen zu werden. (40)
+bg: waldweg_umgefallener_baum
+c: stachel
+stachel: "Ich bin dafür zusammen zu bleiben.", meinte Stachel. Der Gläubige sah sie anerkennend an, wie einen Schüler, der endlich vernünftig geworden ist. Also packten sie ihr Zeug zusammen und ließen die Lichtung hinter sich. 
+d: Stachel wollte die Episode so schnell wie möglich vergessen. Am liebsten hätte sie den Moment gelöscht wie beim Abschaben eines Pergamentes. Natürlich ging das nicht. Man kann nicht nur die schönen Seiten des Lebens haben. Dieses Erlebnis gehört nun unwiederbringlich zu Stachel. Sie hoffte nur, dass die anderen sie immer noch ernst nahmen.
+c: glaeubige
+glaeubige: "Ohrelaus, ich würde dir raten, den Fauchern nun öfters ein Gebet zu schenken.", sprach der Gläubige den Zwerg besorgt an. Dieser sah von seinem Bogen auf, den er gerade gegen die Laute tauschen wollte. Beides trug er auf dem Rücken und Schlinge hatte immer wieder angemerkt, dass er die Laute verfeuern sollte und lieber mehr Nützliches transportieren sollte.
+c: ohrelaus
+ohrelaus: "Mir sind die Faucher immer nah. Witterst du etwa eine Gefahr?", fragte er. Er blieb dabei so gelassen, als spräche er über ein paar unstimmige Akkorde. Das machte Stachel seine lange Kampferfahrung bewusst. Wie oft waren die Jäger gerade so noch mit dem Leben davon gekommen? Wie oft mussten sie gegen den Clannthin und seine Bewohner kämpfen? Und wie viele Tote hatten sie schon begraben?
+c: glaeubige
+glaeubige: "Zita Balisandres von Tannenbrecht meinte "Das Wesen ist der Beschützer der anderen Monster.  Alle Monster, die ihr mir gebracht habt, stehen unter seinem Schutz. Es wird also versuchen, euch los zu werden. Also passt auf, denn es wird euch wahrscheinlich eher finden als ihr es. ". Nun hast du gerade wieder eines der Monster erlegt. Der Beschützer wird also bald kommen und sich an dir rächen.", erklärte ihnen der Gläubige. 
+d: Er fing an zu beten. Rost war aufgeregt und begann besorgt auf den Zwerg einzureden. Dieser sah nicht beunruhigt aus. Das erste Mal erinnerte er Stachel wirklich an festes, ruhiges, sicheres Gestein. 
+c: schlinge
+schlinge: "Bisher ist doch auch nichts passiert.", riss Schlinge sie aus der düsteren Stimmung, "Wenn es diesen Beschützer wirklich gäbe, wieso hat er sich bisher nicht gezeigt? Er soll ja so stark sein. Wir haben schon so vielen Monstern den Garaus gemacht und nie sind wir ihm begegnet. Entweder er existiert nicht oder er lässt die anderen für selbst kämpfen. Ich denke nämlich nicht, dass wir diesen Viechern menschliche Gefühle unterstellen können. Erst recht nicht Familiensinn." 
+d: Rost war jetzt ganz verwirrt, weil er nicht mehr wusste, was er glauben sollte. Hilfesuchend wandte er sich dem Gläubigen zu.
+c: glaeubige
+glaeubige: Dieser sah Schlinge missbilligend an und macht sie auf ihren Fehler aufmerksam: "Bisher sind aber auch viele Jäger gestorben. Manche auf sehr mysteriöse Weise. Wer sagt uns, dass es nicht der Beschützer war? Zita meinte, dass er stark ist und Hinterlist zählt für mich unter Stärke. Die Welt geht auf verschlungenen Wegen, Schlinge." 
+c: schlinge
+schlinge: "Da interpretierst du jetzt aber zu viel rein. Der Clannthin ist gefährlich, aber nicht undurchschaubar. Die anderen Jäger sind auf ganz normale Weisen zu Tode gekommen. Sie waren einfach Trottel. Wenn du damit nicht klar kommst und die Menschen in deinen Gedanken glorifizieren willst, dann bist du noch beschränkter als ich gedacht habe. Und jetzt hör auf Rost Schauermärchen zu erzählen.", keifte Schlinge zurück. 
+d: Stachel war überrascht, so einen Ausbruch von Zuneigung für Rost bei Schlinge zu erleben. Sie führte sich fast wie ihre Mutter auf. Zum Beschützer hatte Stachel jedoch keine klare Meinung. Sie würde alle Möglichkeiten im Hinterkopf behalten, bis sie wiederlegt wurden. Nur so würde sie nichts übersehen. 
+d: Plötzlich rauschte eine Windböe durch den Wald, die für Stachel fast wie ein Pferdewiehern klang. Die Bäume schwankten und knarrten. Erschrocken kauerte sich Stachel hin und zog Rost mit sich. Blätter wirbelten um sie herum und kleine Äste prasselten auf sie nieder. Ein lautes Knacken und Zerbersten ertönte und schon wurden sie unter einer Blätterkrone begraben. Äste, Blätter und Holz umschloss sie wie ein Gefängnis.
+d: # mehr Details
+d: Rost klammerte sich an Stachel und wimmerte. Sie versucht ruhig zu atmen und sich nur auf den Weg der Luft zu konzentrieren. Gerade konnten sie eh nichts machen, als zu warten und dafür brauchte sie die Klarheit und Gelassenheit Reginsfars. 
+d: Genauso schnell und unerwartet wie der Sturm gekommen war, zog er sich auch wieder zurück. Erleichtert dankte Stachel den Fauchern, dass sie nur ein paar blaue Flecke abbekommen hatte. Zusammen mit Rost kämpfte sie sich durchs Blätterdickicht zurück ans Tageslicht. 
+d: Sie schoben Blätter beiseite und kletterten über Äste. Stachel war sehr darauf bedacht, in keinen schleimigen Pilz, Insekt oder Harzklumpen zu fassen. Immer wieder blieb der lange Rost stecken oder musste sein Schwert zu Hilfe nehmen. Das war einer der vielen Momente, in denen Stachel dankbar für ihren geringen Wuchs war. 
+d: Als sie endlich aus der Baumkrone gekrochen kamen, sah der Wald um sie herum aus wie ein Schlachtfeld. Eigentlich war nur ein sehr alter und morscher Baum umgefallen. Doch die Bäume des Clannthins waren keine Striche in der Landschaft. Sie waren mächtig und gewaltig. 
+d: Am Ende des Baumes trafen sie dann auf den Gläubigen und Schlinge, die beide recht unbeschadet aussahen. Außer vielleicht, dass Schlinge eine Überdosis Fauchergebete abbekommen hatte. Sie begrüßten einander und Rost verpasste allen eine dicke Umarmung. 
+c: stachel
+stachel: "Wo ist Ohrelaus?", wollte Stachel wissen, als ihr sein Fehlen bewusst wurde. 
+c: schlinge
+schlinge: "Ähm, dort.", meinte Schlinge und zeigt auf den Baumstamm, vor dem sie standen. Wenn man genau hinsah, konnte man einen zerquetschten Lautenhals erkennen, der unter dem Stamm hervorschaute. 
+c: stachel
+stachel: "Scheiße.", fluchte Stachel. Sie sah die Lautenreste an. 
+c: rost
+rost: "Ist Ohrelaus tot?", fragte Rost bestürzt. 
+c: glaeubige
+glaeubige: "Ja, er ist nun auf dem Weg über das Ringgebirge. Die Faucher beschützen ihn.", versuchte der Gläubige Rost zu trösten. 
+glaebige: An Schlinge gewandt fügte er hinzu:  "Das ist doch der Beweis, dass es den Beschützer gibt." 
+c: schlinge
+schlinge: "Es kann aber auch nur ein morscher Baum und einer von den Riesenvögeln sein, die wir mal von weitem gesehen haben.", argumentierte Schlinge dagegen. Beide beharrten auf ihre Meinung und ließen Einwände des anderen nicht gelten. 
+d: Rost war derweil in tiefe Trauer versunken und kauerte vor dem Baumstamm. Wie von einem Mühlrad befördert, überkamen ihn die Tränen ein ums andere Mal. Stachels Augen dagegen blieben trocken. Ums sie herum rauschte es und sie stellte eine  Schockstarre bei sich fest. Als sie wieder zu Rost blickte, riss sie sich für ihn zusammen.      
+d: Stachel nahm sanft und behutsam Rosts Hand. Eigentlich sprach sie keine Gebet. Die Faucher waren für sie da wie Regen und Sonnenlicht. Um sich an sie zu wenden, brauchte sie keinen hübschen Wörter, sondern nur ihre Gedanken. Doch um Rost Willen und weil es ihr notwendig und passend erschien, sprach Abschiedsgebet für Ohrelaus Minnefroh:
+c: glaeubige
+glaeubige: "Ihr Faucher, wir rufen euch an. Nehmt Ohrelaus Minnefroh in eure Arme.
+d: Die letzten Worte verklangen in der Luft. Still und andächtig standen sie um den Baumstamm. Schlinges Gesicht hatte sich zusammengezogen und ihr Blick ging ins Leere. Der Gläubige seufzte tief ergriffen auf. Rost rannen immer noch die Tränen über die Wangen und er schniefte. 
+d: Nachdem die Worte Stachel verlassend hatten, wurde die Leere in ihr noch drückender und weiter. Sie dämpfte alle ihre Gefühle und Wahrnehmungen, sodass Ohrelaus Tod nicht bis in ihr Bewusstsein vordrang. Die ganze Situation schien ihr so unwirklich.
+glaeubige: "Und was haltet ihr von einer deftigen Suppe? Ich übernehme heute das Kochen.", verkündete der Gläubige. Er fasste Rost bei den Schultern, den der Gedanke an Essen schon wieder etwas aufheiterte. 
+c: schlinge, stachel
+schlinge: Als die beiden außer Höherweite waren, nahm Schlinge Stachel zur Seite und redete auf sie ein: "Alle Gedanken und Worte über den Tod des Zwerges musst du bei diesem Baum lassen, bis wir den Clannthin verlassen haben. Das ist unsere Regel. Der Kummer würde uns nur ablenken und unsere Willenskraft schwächen, sodass keiner mehr hier lebend herauskommt.". Schlinge sah sie eindringlich an. 
+stachel: "Gut. Ich verstehe.", sagte Stachel, obwohl sie das Bild der zerschmetterten Laute nicht aus ihren Gedanken verbannen konnte. Sie verließen den gefallenen Baumriesen und Ohrelaus Minnefroh.

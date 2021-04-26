@@ -6,6 +6,7 @@ instructions = []
 ARGF.readlines.each do |line|
     line = line.gsub("\n", '').strip
     colonPosition = line.index(':')
+    next if colonPosition.nil?
     instruction = line[0...colonPosition]
     arguments = line[colonPosition+1..-1]
     instructions.push({instruction: instruction, arguments: arguments})
