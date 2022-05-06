@@ -10,16 +10,14 @@
     eine unsichtbare Grenze von seiner Umgebung getrennt. Jeder, der diese
     Grenze übertrat, war sich dessen bewusst. Man konnte nicht einfach in den
     Clannthin "hineinstolpern". Man trat in ihn ein.
-- character: stachel
-  text: >-
+- description: >-
     Stachel unterdrückte ihre Instinkte, die ihre Beine in die entgegengesetzte
     Richtung bewegen wollten, holte tief Luft, schloss die Augen und trat einen
     Schritt nach vorne. Einen Moment lang wagte sie nicht zu atmen, verblieb in
     einer angespannten Haltung und rechnete nervös mit allem. Nichts. Keine
     verführerische Elfenstimme, keine fleischfressenden Pflanzen, nicht einmal
     ein Schrei.
-- character: stachel
-  text: >-
+- description: >-
     Erleichtert atmete Stachel aus. Mit dem nächsten Atemzug sog sie den
     vielfältigen Geruch des Clannthins ein: frisch, feucht, erdig und modrig.
     Langsam senkten sich ihre verkrampften Schultern. Blätterrascheln,
@@ -39,8 +37,7 @@
 - description: >-
     Doch Stachel wurde ein ungutes Gefühl nicht los. Das Gefühl der Fremde. Das
     Gefühl hier nicht hin zu gehören.
-- character: schlinge
-  text: >-
+- description: >-
     "Hallo, Stachel", unterbrach Schlinge ihre Gedanken und winkte dabei noch
     vor ihrem Gesicht hin und her. "Wir haben das Ritual, dass jeder Frischling
     die erste Wegentscheidung übernehmen muss. Also links oder rechts lang?"
@@ -61,16 +58,12 @@
 :: Mondstiege_Tag [akt1_34]
     background: mondstiege
 - pause: true
-- character: stachel
-  text: '"Wohin führt dieser Weg?", wollte Stachel wissen.'
-- character: glaeubige
-  text: >-
+- description: '"Wohin führt dieser Weg?", wollte Stachel wissen.'
+- description: >-
     "Zu der Mondstieg, wenn ich mich nicht täusche", murmelte der Gläubige, der
     mit verschiedenen Pergamenten und Gerätschaften herumfuhrwerkte.
-- character: stachel
-  text: '"Was ist das?", wollte Stachel neugierig wissen.'
-- character: rost
-  text: >-
+- description: '"Was ist das?", wollte Stachel neugierig wissen.'
+- description: >-
     Doch der Gläubige war schon wieder in seine Arbeit vertieft, sodass ihr
     stattdessen Rost begeistert antwortete:" Die Mondstiege ist ein Steinkreis.
     Aber es sind nicht einfach nur ein paar alte Kiesel. Er ist etwas ganz
@@ -81,12 +74,10 @@
     empor und blicken fortan lächelnd und ohne Wehmut von dort oben auf uns
     zurück."
 - description: In Rosts Augen stahl sich ein verträumter Ausdruck und er seufzte.
-- character: stachel
-  text: >-
+- description: >-
     "Also eigentlich wollte ich nicht nach diesem Steindingsbums fragen. Ich
     will wissen, was bei den Fauchern der Gläubige da macht."
-- character: schlinge
-  text: >-
+- description: >-
     Schlinge übernahm das Sprechen für Rost, der immer noch in seinen Fantasien
     schwelgte:  "Der Gläubige versucht sich zu orientieren. Keine Ahnung wie
     genau er das macht. Jedenfalls sind seine Angaben nur halb so zu verlässig
@@ -115,12 +106,10 @@
     und summte noch schiefer dazu. Obwohl er Minnefroh hieß, konnte Stachel sich
     nicht vorstellen, dass er auch harmonische Lieder spielen konnte. Und vor
     allem schien er seine Harfe nie zu stimmen.
-- character: stachel
-  text: >-
+- description: >-
     „Darf ich mich zu euch setzen?“, sprach sie ihn an. Stachel hatte diese
     Worte kaum geäußert, als sich der Zwerg ruckartig zu ihr umdrehte.
-- character: zwerg
-  text: >-
+- description: >-
     „Oh, Ihr seid es, welche Freude. Setzt euch, (setzt euch,) bevor ich Zeit
     vergeude, ich bin ständig am Dichten, soll ich davon berichten?“
 - description: >-
@@ -128,10 +117,8 @@
     und hohe Stimme einzulassen. Ihr Kopf konnte seine Sprechweise mit dem
     ernsthaften und grobem Aussehen immer noch nicht zu einem Bild
     zusammenführen.
-- character: stachel
-  text: '„Warum sprecht ihr eigentlich so hoch?“, fragte sie ihn neugierig.'
-- character: zwerg
-  text: >-
+- description: '„Warum sprecht ihr eigentlich so hoch?“, fragte sie ihn neugierig.'
+- description: >-
     „Wer weiß? Mein Vater, ein alter Greis, spottete d‘rüber, genau wie meine
     Brüder.", antwortete Ohrelaus, "Doch mir wars schnuppe, Ich sparte meine
     Spucke, sang stehts meine Lieder, über Zwerge und tapf‘re Krieger, doch
@@ -151,12 +138,10 @@
 - setup:
     background: dichter_wald
 - pause: true
-- character: stachel
-  text: >-
+- description: >-
     Stachel machte sich wenig Hoffnung dem Zwerg noch etwas brauchbares zu
     entlocken und entschuldigte sich deshalb:
-- character: stachel
-  text: >-
+- description: >-
     "Ich muss ganz dringend mal ein stilles Örtchen aufsuchen. Aber danach bin
     ich gleich wieder da und lausche gerne weiter euren Erzählungen."
 - description: >-
@@ -182,13 +167,11 @@
 - description: >-
     Dann lichteten sich vor ihr endlich die Bäume und sie erreichte wieder die
     Lichtung. Sie atmete durch und verfluchte sich für ihre Schreckhaftigkeit.
-- character: stachel
-  text: >-
+- description: >-
     Als sie aus dem Wald heraustrat, fluchte sie laut: "Bei den Hörnern der
     Fauchern!"
 - description: Sie stand auf einem Weg und nicht wie sie geglaubt hatte auf der Lichtung.
-- character: stachel
-  text: >-
+- description: >-
     "Erstaunlich, wirklich erstaunlich. So leicht kann man sich hier verlaufen.
     Na dann los.", sagte Stachel zu sich selbst und begann den Weg hinab zu
     laufen. Er war immer noch besser als durch den Wald zu stolpern. (A)
@@ -201,13 +184,11 @@
 - description: >-
     Andererseits schien er sympathischer als manch anderer aus der Gruppe und er
     erzählte ihr bereitwillig mehr über sich selbst.
-- character: stachel
-  text: 'Deshalb bohrte sie weiter nach: „Und wie kommt Ihr ausgerechnet hierher?“'
+- description: 'Deshalb bohrte sie weiter nach: „Und wie kommt Ihr ausgerechnet hierher?“'
 - description: >-
     Die Augen des Zwerges strahlten freudig, weil sich jemand so sehr für ihn
     interessiert.
-- character: zwerg
-  text: >-
+- description: >-
     Bereitwillig antwortete er ihr: „Ich lief früh weg, hatte nur wenig Gepäck,
     war mal hier, mal dort, nie lang an einem Ort. Manch Adligen traf ich, sang
     für sie fröhlich und fand daran Gefallen.“
@@ -215,8 +196,7 @@
     Stachel nickte, damit er nicht in seinem Redefluss unterbrochen wurde.
     Solang er nicht anfing zu singen, war seine Gesellschaft sicher keine
     schlechte.
-- character: zwerg
-  text: >-
+- description: >-
     „Meine Stimme füllte ganze Hallen, doch wollte ich mehr sein als ein Sänger,
     im Jagen bin ich zwar Anfänger, doch klingt es leicht und wenn das Ziel
     erreicht, muss wer drüber berichten. Das werden meine Pflichten.“
@@ -244,13 +224,11 @@
 - description: >-
     Ohrelaus schaute zu Stachel. Er sah ihr wohl die Anspannung an und zog
     fragend eine Augenbraue nach oben.
-- character: stachel
-  text: >-
+- description: >-
     "Weißt du was das für einen Eulenschrei war? Er klang nicht normal.
     Vielleicht sollten wir uns umschauen, bevor uns das Tier überrascht.", klärt
     sie ihn auf.
-- character: zwerg
-  text: >-
+- description: >-
     "Stimmt das ist schon ein komisches Geheule. Aber normalerweise lebt im
     Clannthin keine Eule", erwiderte Ohrelaus nachdenklich.
 - description: >-
@@ -293,14 +271,12 @@
     Stachel hatte kurz nicht aufgepasst und jetzt hatte der Zwerg doch noch ein
     Lied angestimmt. Sie musste wohl oder übel zuhören, um es sich nicht mit ihm
     zu verscherzen.
-- character: zwerg
-  text: <audio src="assets/ohrelaus2.mp3" controls>
+- description: <audio src="assets/ohrelaus2.mp3" controls>
 - description: >-
     Laute kreischende Schreie hielten Ohrelaus von einer weiteren Strophe ab.
     Verärgert schaute er in den Himmel und wetterte gegen diesen barbarischen
     Vogel, der keinen Sinn für Kunst hatte. Doch dann runzelte er sie Stirn.
-- character: stachel
-  text: >-
+- description: >-
     "Irgendwie scheint sich da was grundtief Böses anzubahnen. Wie sollten
     lieber die anderen warnen.", erklärte er Stachel ernst.
 - description: >-
@@ -320,8 +296,7 @@
     Rost dagegen hatte sich ihnen schon mit schreckensgeweihten Augen genähert
     und sein Schwert sicherheitshalber gezückt. Alle waren still und bildeten
     instinktiv einen Kreis. Sie verharrten regungslos und angespannt.
-- character: stachel
-  text: >-
+- description: >-
     "Seid ihr sicher, dass ihr euch die Eulenrufe nicht nur eingebildet habt?",
     fragte Stachel, die das Warten leid war. Da umtoste sie ein Windsturm und
     sie hörten Flügelrauschen über sich. Mit einem Kreischen, das Stachels Ohren
@@ -332,13 +307,10 @@
 - setup:
     background: waldweg
 - pause: true
-- character: stachel
-  text: '"War das die richtige Entscheidung?", fragt Stachel Rost.'
-- character: schlinge
-  text: '"Wir sind noch nicht tot, also war sie nicht falsch.", warf Schlinge ein,
+- description: '"War das die richtige Entscheidung?", fragt Stachel Rost.'
+- description: '"Wir sind noch nicht tot, also war sie nicht falsch.", warf Schlinge ein,
     die trotz ihres zu schaugestellten Desinteresses gelauscht hatte.'
-- character: rost
-  text: '"Um ehrlich zu sein, haben wir keine Ahnung", erklärte Rost ihr, "Die Wege
+- description: '"Um ehrlich zu sein, haben wir keine Ahnung", erklärte Rost ihr, "Die Wege
     im Clannthin verändern sich zu schnell, als das wir sie als Orientierung nutzen
     könnten. Alles wächst, blüht, gedeiht und stirbt hier rasant, außer den Elfen
     natürlich.  Manchmal bekomme ich das Gefühl, dass sich nicht einfach die Umgebung
@@ -350,8 +322,7 @@
 - description: Sie sah sich immer wieder beunruhigt um und ihre Nerven waren angespannt.
     Instinktiv lief sie etwas schneller und ihre Hand krampfte sich um den Dolch.
     Auch die anderen blieben dicht zusammen und beobachteten den Wald genau.
-- character: ohrelaus
-  text: '"Haltet ein", rief der Zwerg und packte Stachel an den Schultern, sodass
+- description: '"Haltet ein", rief der Zwerg und packte Stachel an den Schultern, sodass
     sie nach hinten taumelte. Der Zwerg ging vor ihr in die Knie und redete beunruhigt
     vor sich hin. Alle anderen hatten sich um sie gedrängt und Rost hatte sogar sein
     Schwert gezückt.'
@@ -362,13 +333,11 @@
     kleiner Mund schmatzte.
 - description: Stachel schaute verständnislos auf das kleine Tier. Deswegen hatte
     Ohrelaus sie fast zu Tode erschreckt?
-- character: schlinge
-  text: '"Nicht schon wieder eine Trötoline.", seufzte Schlinge auf, "Wegen diesen
+- description: '"Nicht schon wieder eine Trötoline.", seufzte Schlinge auf, "Wegen diesen
     blöden Viechern hat unsere letzte Mission fast doppelt so lange gedauert. Nicht
     schlimm genug, dass sie alle Wege bedecken und man fast auf ihnen ausrutschst.
     Du musst auch noch jedes einzeln streicheln!"'
-- character: ohrelaus
-  text: 'Der Zwerg starrte sie finster an und verteidigte das Tier: "Es sind feine
+- description: 'Der Zwerg starrte sie finster an und verteidigte das Tier: "Es sind feine
     Wesen und ich kann in ihren Gesichtszügen lesen. Außerdem hätte Stachel fast einen
     Mord begangen oder kann dieser Gedanke nicht in dein Hirn gelangen?" Behutsam
     strich Ohrelaus über die glatte Rinde des Tiers, fütterte es mit irgendwas schleimigen
@@ -408,8 +377,7 @@
 - setup:
     background: waldweg
 - pause: true
-- character: glaeubige
-  text: Der Gläubige kam Stachel erstaunlicher Weise zuvor. "Auch das Leben von Trötolines
+- description: Der Gläubige kam Stachel erstaunlicher Weise zuvor. "Auch das Leben von Trötolines
     steht unter dem Schutz der Faucher und somit auch unter unserem. Tiamat möge ihnen
     einen langen Lebensatem schenken.", sagte er zu Schlinge. Diese verdrehte nur
     die Augen und ließ von diesem Streitthema ab.  Es schien wohl schon häufiger ergebnislos
@@ -431,23 +399,18 @@
 - setup:
     background: waldweg_salbei
 - pause: true
-- character: stachel
-  text: '"Bist du schon immer so fürsorglich zu Tieren?", wollte sie von Ohrelaus
+- description: '"Bist du schon immer so fürsorglich zu Tieren?", wollte sie von Ohrelaus
     wissen. Er nickte zustimmend.'
-- character: ohrelaus
-  text: '"Lass mich dir dazu eine lehrreiche Geschichte erzählen, dann kann dich diese
+- description: '"Lass mich dir dazu eine lehrreiche Geschichte erzählen, dann kann dich diese
     Frage nicht mehr quälen.", antwortet er,'
-- character: ohrelaus
-  text: '"Ich bin unter dem Berg groß geworden mit vielen Sorgen. Dort bewohnten wir
+- description: '"Ich bin unter dem Berg groß geworden mit vielen Sorgen. Dort bewohnten wir
     einzelne Höhlen in Gruppen. Unsere war gehauen aus guten Granitschuppen, die fest
     wie meine Klinge waren. Die Luft in ihr musste in Feuchtigkeit und Schwere garen."'
-- character: ohrelaus
-  text: Zu seinen Worten zupft der Zwerg ein paar bedrohlich Akkorde. "Eines Winters
+- description: Zu seinen Worten zupft der Zwerg ein paar bedrohlich Akkorde. "Eines Winters
     begab es sich, dass mein Freund erkrankte. Er schwitzte sehr stark, wodurch Trockenheit
     nach innen gelangte. Nach ein paar Tagen kamen weiter Kranke dazu, bis bald die
     gesamte Gemeinschaft erkrankt war. Bald wollte es kein Gast mehr zu uns wagen.
-- character: ohrelaus
-  text: Alle waren geschwächt und wälzten sich in ihren Betten. Es war wohl nichts
+- description: Alle waren geschwächt und wälzten sich in ihren Betten. Es war wohl nichts
     mehr zu retten. Keiner hatte mehr die Kraft aufzustehen, zu essen oder gar zu
     trinken. Und die Stollen begannen nach Moder und Kompost zu stinken. Alle siechten
     dahin bis auf die Zwerge meines Höhlenraums. Wir pflegten die Kranken, flößten
@@ -457,25 +420,19 @@
     hatten ihren Groll verdrängt und hingen an den Ohrelaus Lippen. "Doch was war
     dafür der Grund? Was war so besonders an meinem Höhlenbund?", fragte der Zwerg
     seine gespannten Zuhörer.
-- character: rost
-  text: '"Der Granit", meinte Rost, der aufgeregt mit den Fingern trommelte.'
-- character: glaeubige
-  text: '"Einem heiliges Artefakt?", riet der Gläubige.'
-- character: schlinge
-  text: '"Deine Balladen.", scherzte Schlinge sarkastisch.'
-- character: ohrelaus
-  text: '"Nein! Das kann alles nicht sein.", rief Ohrelaus und freute sich offenbar,
+- description: '"Der Granit", meinte Rost, der aufgeregt mit den Fingern trommelte.'
+- description: '"Einem heiliges Artefakt?", riet der Gläubige.'
+- description: '"Deine Balladen.", scherzte Schlinge sarkastisch.'
+- description: '"Nein! Das kann alles nicht sein.", rief Ohrelaus und freute sich offenbar,
     das keiner richtig lag. "In dem Erbrochenen der Kranken haben wir kleine Haken
     gefunden. Alle dachten, es wären Metallsplitter und haben sich bei diesem Gedanken
     gewunden.'
-- character: ohrelaus
-  text: Doch mein Dichterauge erkannte die Krümmung eines Reißzahnes und den Glanz
+- description: Doch mein Dichterauge erkannte die Krümmung eines Reißzahnes und den Glanz
     einer feuchten Wand wieder. Ich schrieb so etwas schon mal nieder. Sie stammten
     von Schnecken ähnlichen Wesen, die an den Decken leben. Wie alle Details hatte
     ich auch ihre Beine eingehend studiert und konnte nun die korrekte Ursache angeben.",
     verkündete er,
-- character: ohrelaus
-  text: '"Die anderen Zwerge haben also alle schlechte Weichtiere gegessen, die sie
+- description: '"Die anderen Zwerge haben also alle schlechte Weichtiere gegessen, die sie
     zu Gesöff pressen. Nur in meiner Höhle habe ich mich durchgesetzt und das verboten.
     Ihre Haut glänzt nämlich wie ein Wassertropfen und spiegelt vielfältige Farbnoten.
     Wer so etwas Schönes vernichtet wird von den Fauchern bestraft sofort und noch
@@ -484,8 +441,7 @@
     die Augen. Da die Geschichte sie nun wieder entlassen hat, nahm Stachel ihre Umgebung
     genauer wahr. Sie waren ein ganzes Stück vorangekommen. Um sie herum hatten sich
     Salbeisträucher ausgebreitet und dahinten stieg Rauch auf.
-- character: rost
-  text: '"Das ist doch die Hütte von Gerbert Hollereder", rief Rost aus. Es schien
+- description: '"Das ist doch die Hütte von Gerbert Hollereder", rief Rost aus. Es schien
     wohl ein sicherer Ort zu sein und eine Pause zu versprechen. Jedenfalls liefen
     die Jäger beschwingt auf die Rauchfahne zu.'
 - passage: Lichtung_Zwerg
@@ -494,14 +450,11 @@
 - setup:
     background: waldweg_salbei
 - pause: true
-- character: stachel
-  text: '"Wohin führt uns der Weg?", wollte Stachel von Ohrelaus wissen. Ohrelaus
+- description: '"Wohin führt uns der Weg?", wollte Stachel von Ohrelaus wissen. Ohrelaus
     sah sich aufmerksam um und lief dann fröhlich zu einer Pflanze, pflückte ein Blatt
     und zerrieb es unter Stachels Nase.'
-- character: stachel
-  text: '"Salbei?", versuchte Stachel den bitteren, runden Geruch einzuordnen.'
-- character: ohrelaus
-  text: '"Salbei zeigt dir die Richtung und die Wichtung. Wir  kommen der Hütte von
+- description: '"Salbei?", versuchte Stachel den bitteren, runden Geruch einzuordnen.'
+- description: '"Salbei zeigt dir die Richtung und die Wichtung. Wir  kommen der Hütte von
     Gerbert Hollereder nah, da wird mein Wunsch auf eine Pause wahr", meinte Ohrelaus.'
 - description: Rost hatte sich zu ihnen gesellt und fing nun an die Salbeisträucher
     zu zählen. Stachel viel bald mit ein und passte auf, das Rost keinen übersah.
@@ -556,16 +509,13 @@
 :: Über_Der-Gläubige [akt1_47]
 - setup:
     background: gerberts_lichtung
-- character: stachel
-  text: '"Kennt sich der Gläubige denn überhaupt mit Schutzmechanismen aus?", fragte
+- description: '"Kennt sich der Gläubige denn überhaupt mit Schutzmechanismen aus?", fragte
     Stachel Ohrelaus. Dabei sah sie mit gefurchter Stirn dem Gläubigen bei seiner
     Arbeit zu.'
-- character: ohrelaus
-  text: '"Als Frater sollte man das doch können, um seinen Schützlingen Sicherheit
+- description: '"Als Frater sollte man das doch können, um seinen Schützlingen Sicherheit
     zu gönnen? Was stört dich denn an seiner Art? Dann gibt ihm einen Rat.", antwortete
     Ohrelaus. Stachel freute sich, dass er sie nicht gleich als unwissend abstempelte.'
-- character: stachel
-  text: '"Ich lebte mal eine Zeit lang in Darkothien und bin vertraut mit dem Thema.
+- description: '"Ich lebte mal eine Zeit lang in Darkothien und bin vertraut mit dem Thema.
     Seine Grundkomponenten sind einwandfrei, doch er könnte mehr auf die Anordnung
     achten. Die einzelnen Gegenstände beeinflussen sich gegenseitig und müssen zusammen
     ein Netz bilden.", erklärte Stachel.'
@@ -578,20 +528,16 @@
 :: Über_Schlinge [akt1_48]
 - setup:
     background: gerberts_lichtung
-- character: stachel
-  text: '"Geht es Schlinge gut?", erkundete sich Stachel. Mit lauten Krachen zerhackte
+- description: '"Geht es Schlinge gut?", erkundete sich Stachel. Mit lauten Krachen zerhackte
     Schlinge einen Holzscheit nach dem anderen und Stachel war froh, dass sie nicht
     Schlinges Feind war.'
-- character: ohrelaus
-  text: Der Zwerg strich nachdenklich über seinen Bart. "Naja, Schlinge kann nicht
+- description: Der Zwerg strich nachdenklich über seinen Bart. "Naja, Schlinge kann nicht
     so gut mit ihren Gefühlen umgeben. Außerdem kann sie nicht so schnell vergeben.
     Du musst wissen, dass Gerbert früher zu den Jägern zählte und dann freiwillig
     das Leben hier wählte.", erklärte Ohrelaus nachdenklich.
-- character: stachel
-  text: '"Und was ist das Problem dabei? Er hat sich hier eben ein eigenes Leben aufgebaut
+- description: '"Und was ist das Problem dabei? Er hat sich hier eben ein eigenes Leben aufgebaut
     und ist doch immer noch euer Freund.", meinte Stachel verständnislos.'
-- character: ohrelaus
-  text: 'Der Zwerg senkte etwas die Stimme und flüsterte Stachel zu: "Ich glaube sie
+- description: 'Der Zwerg senkte etwas die Stimme und flüsterte Stachel zu: "Ich glaube sie
     war ein bisschen verguckt in ihn und kann ihn einfach nicht loslassen. Jetzt wird
     sie ihn wohl lieber hassen. Denn wer sich nicht dem Kampf hingab, mit dem gibt
     sich Schlinge nicht ab." Ohrelaus seufzte und seine Augen wurden leicht feucht
@@ -605,11 +551,9 @@
 :: Über_Rost [akt1_49]
 - setup:
     background: gerberts_lichtung
-- character: stachel
-  text: '"Kann Rost wirklich lesen oder schaut er sich nur Bilder von Monstern an?",
+- description: '"Kann Rost wirklich lesen oder schaut er sich nur Bilder von Monstern an?",
     wollte Stachel von Ohrelaus wissen.'
-- character: ohrelaus
-  text: Verblüfft sah der Zwerg sie an. "Natürlich kann Rost lesen. Gibt es etwa gegenteilige
+- description: Verblüfft sah der Zwerg sie an. "Natürlich kann Rost lesen. Gibt es etwa gegenteilige
     Thesen?", fragte er sie.
 - description: Stachel zuckte nur beschämt die Schultern. Als sie Rost so beglückt
     in einem Buch versunken sah, konnte sie sich auch nicht erklären, woher ihre Vorurteile
@@ -741,8 +685,7 @@
     so überflutete von der Freude und Erleichterung ihn zu sehen, dass sie ihn ganz
     fest an sich drückte. Beide stöhnten gleichzeitig auf, weil der Sturz einige Schürfwunden
     bei ihnen hinterlassen hatte.
-- character: stachel
-  text: 'Vorsichtig half Stachel Ohrelaus wieder auf die Beine und entschuldigte sich
+- description: 'Vorsichtig half Stachel Ohrelaus wieder auf die Beine und entschuldigte sich
     unaufhörlich bei ihm: "Tut mir leid, ich wollte dir nicht weh tun. Was machst
     du eigentlich hier? Ich bin ja so froh dich zu sehen. Ich hoffe du hast dir nicht
     sehr weh getan. Ich habe mir nämlich den Arm aufgeschürft. Verdammt, tut das weh.
@@ -750,56 +693,46 @@
     habe. Ich glaube es ja selbst kaum. Geht es dir auch wirklich gut?"'
 - description: Ihr Redesturm wurde unterbrochen, als Schlinge, Rost und der Gläubige
     auftauchten. Rost kam auf Stachel zugerannt und drückte sie ganz fest.
-- character: rost
-  text: '"Ich hatte so eine Angst um dich. Ich will dich nicht auch verlieren wie
+- description: '"Ich hatte so eine Angst um dich. Ich will dich nicht auch verlieren wie
     Flavius.", gestand ihr Rost. Sogar ein paar Tränen kullerten über seine vor Freude
     strahlenden Wangen.'
-- character: schlinge
-  text: 'Schlinge unterbrach das rührende Widersehen und fragte Stachel: "Was hast
+- description: 'Schlinge unterbrach das rührende Widersehen und fragte Stachel: "Was hast
     du denn gesehen?".'
 - description: Stachel schob alle ihre aufgeregten Gefühle beiseite und versuchte
     möglichst zusammenhängend von den Erlebnissen auf der Lichtung zu erzählen. Alle
     lauschten ihr aufmerksam und der Gläubige sah sie am ungläubigsten an.
-- character: rost
-  text: '"Ich wusste doch schon immer, dass die Mondstiege nicht nur ein paar Steine
+- description: '"Ich wusste doch schon immer, dass die Mondstiege nicht nur ein paar Steine
     sind.", sagte Rost triumphierend, nachdem Stachel ihren Bericht abgeschlossen
     hatte.'
-- character: schlinge
-  text: '"Wer weiß, welche Dämpfe Stachel eingeatmet hat und was sich dadurch in ihrem
+- description: '"Wer weiß, welche Dämpfe Stachel eingeatmet hat und was sich dadurch in ihrem
     Kopf zusammen gesponnen hat. Oder sie hat sich irgendwo den Kopf gestoßen.", meinte
     Schlinge nur abschätzig dazu.'
-- character: glaeubige
-  text: '"Aber was ist mit dem Mädchen? Könnte es nicht das gesuchte Monster sein?",
+- description: '"Aber was ist mit dem Mädchen? Könnte es nicht das gesuchte Monster sein?",
     warf der Gläubige ein, der bis dahin recht still gewesen war. "Stimmt", gab Schlinge
     zu, "Also Stachel, führ uns zu diesem Ort und dann werden wir ja sehen wer Recht
     hat." Ohne Stachel Zeit für eine Antwort zu geben stapfte Schlinge schon los.
     Auch mit den Jägern zusammen fühlte sich Stachel nicht so sicher, um dahin zurückkehren
     zu wollen, wovon sie geflüchtet war.'
-- character: glaeubige
-  text: '"Geht es dir wirklich gut?", erkundigte der Gläubige sich bei ihr. Sie nickte
+- description: '"Geht es dir wirklich gut?", erkundigte der Gläubige sich bei ihr. Sie nickte
     nur und ging dann nach vorne, um die Gruppe anzuführen. Beim Gehen drehten sich
     ihre Gedanken noch immer wild im Kreis und so fand sie erstaunlich gut zurück
     zur Lichtung. Diese war aber wieder unscheinbar. Kein Mondlicht, keine tanzenden
     Steine und kein Mädchen. Schlinge schaute selbstgefällig in der Runde. Rost dagegen
     war tief betrübt.'
-- character: ohrelaus
-  text: 'Ohrelaus klopfte ihm aufmunternd auf die Schulter und wand sich dann an Stachel:
+- description: 'Ohrelaus klopfte ihm aufmunternd auf die Schulter und wand sich dann an Stachel:
     "Wie überlappten sich denn genau die Steine, um zu bilden der Treppen Gebeine?".
     Stachel brauchte kurz, um die komische Ausdrucksweise des Zwerges für sich zu
     übersetzten. Doch dann zeigte sie nacheinander auf die verschiedenen Steine auf
     der Lichtung und beschrieb wie sie übereinander gestapelt waren. Der Zwerg ging
     auf die nun wieder mit Moos überwucherten Stein zu.'
-- character: ohrelaus
-  text: '"Mal sehen, ob ich sie anheben kann oder ob das Steineschichten nicht gang.",
+- description: '"Mal sehen, ob ich sie anheben kann oder ob das Steineschichten nicht gang.",
     erklärte er und versuchte einen Stein hoch zu stemmen. Er strengte sich wirklich
     an und wurde dabei immer blasser. Aber er schaffte es nicht einmal den Stein um
     ein paar Fußbreit zu verrücken. Der Gläubige wollte ihm zu Hilfe kommen, doch
     als er den Zwerg erreichte, schrie er auf.'
-- character: glaeubige
-  text: '"Ohrelaus ist versteinert.", stieß er erschrocken aus. Rost machte ein bestürztes
+- description: '"Ohrelaus ist versteinert.", stieß er erschrocken aus. Rost machte ein bestürztes
     Gesicht und wollte zu dem Zwerg rennen. Stachel hielt ihn reflexartig fest.'
-- character: stachel
-  text: '"Du darfst ihn nicht anfassen, sonst wirst du auch zu Stein.", redete sie
+- description: '"Du darfst ihn nicht anfassen, sonst wirst du auch zu Stein.", redete sie
     auf ihn ein. Es dauerte eine Weile bis die Wort zu Rost durchdrangen, doch dann
     wehrte er sich nicht mehr gegen Stachels Klammergriff. Wie Sturzbäche flossen
     Tränen aus seinen Augen und Stachel streichelte ihm beruhigend über den Rücken.'
@@ -811,8 +744,7 @@
 - description: 'Der Gläubige nahm sanft und behutsam Stachels Hand. Auch Rost und
     Schlinge verbanden sich mit der Kette und so geerdet sprach der Gläubige das Abschiedsgebet
     für Ohrelaus Minnefroh:'
-- character: glaeubige
-  text: |-
+- description: |-
     "Ihr Faucher, wir rufen euch an. Nehmt Ohrelaus Minnefroh in eure Arme...<br />
     Hiordis stärke den Gestorbenen für seinen letzten Weg,<br />
       denn seine Willenskraft ließ ihn sich selbst finden.<br />
@@ -832,18 +764,15 @@
     so versteinert wie der Zwerg es nun war. Eine drückende Leere dämpfte alle ihre
     Gefühle und Wahrnehmungen, sodass Ohrelaus' Tod nicht bis in ihr Bewusstsein vordrang.
     Die ganze Situation schien ihr so unwirklich.
-- character: glaeubige
-  text: '"Und was haltet ihr von einer deftigen Suppe? Ich übernehme heute das Kochen.",
+- description: '"Und was haltet ihr von einer deftigen Suppe? Ich übernehme heute das Kochen.",
     verkündete der Gläubige. Er nahm Rost bei den Schultern, den der Gedanke an Essen
     schon wieder etwas aufheiterte.'
-- character: schlinge
-  text: 'Als die beiden außer Höherweite waren, nahm Schlinge Stachel zur Seite und
+- description: 'Als die beiden außer Höherweite waren, nahm Schlinge Stachel zur Seite und
     redete auf sie ein: "Alle Gedanken und Worte über den Tod des Zwerges musst du
     auf dieser Lichtung lassen, bis wir den Clannthin verlassen haben. Das ist unsere
     Regel. Der Kummer würde uns nur ablenken und unsere Willenskraft schwächen, sodass
     keiner mehr hier lebend herauskommt.". Schlinge sah sie eindringlich an.'
-- character: stachel
-  text: '"Gut. Ich verstehe.", sagte Stachel, obwohl sie das Bild des versteinerten
+- description: '"Gut. Ich verstehe.", sagte Stachel, obwohl sie das Bild des versteinerten
     Zwerges nicht aus ihren Gedanken verbannen konnte. Sie verließen die Lichtung
     und Ohrelaus Minnefroh.'
 
@@ -890,48 +819,39 @@
 - pause: true
 - description: Sie öffnete die Augen. Ihr Kopf dröhnte. Vorsichtig erhob sie sich
     und schaute sich um. Ein Mann stützte sie und gab ihr vorsichtig etwas zu trinken.
-- character: schlinge
-  text: '"Stachel, kannst du mich hören?", schrie eine Frau sie an, die wild vor ihrer
+- description: '"Stachel, kannst du mich hören?", schrie eine Frau sie an, die wild vor ihrer
     Nase rumfuchtelte. Stachel nickte vorsichtig und lächelte Schlinge an. Auf einmal
     wurde sie sich eines fürchterlichen Gestankes gewahr. Er kam von dem grünbraunen
     Haufen da drüben. Ein Misthaufen lag dort, aus dem einige Pfeile heraus schauten.
     Bei genauerem Hinsehen erinnerte er sie eher an eine überdimensionale Motte.'
-- character: rost
-  text: 'Rost streichelte sie beruhigend über den Rücken und begann sie aufzuklären:
+- description: 'Rost streichelte sie beruhigend über den Rücken und begann sie aufzuklären:
     "Das ist ein Morthron, auch die Geisteraugen genannt.  Ihre schillernde Flügelmuster
     beeinflussen Menschen, sodass die Opfer dem Wesen danach sehr freundlich gesinnt
     sind. Sehr gefährlich. "'
-- character: schlinge
-  text: '"Wie ist es denn so, wenn man sich herumkommandieren lässt von einem lästigen
+- description: '"Wie ist es denn so, wenn man sich herumkommandieren lässt von einem lästigen
     Insekt?", fragte Schlinge hämisch grinsend. Dabei deutete sie auf die Dornenranken
     auf dem Kopf der Motte, die Stachel für Blumen gehalten hatte. Stachel schaute
     auf ihre zerkratzen Hände und versuchte ihre Gedanken zu ordnen.'
-- character: stachel
-  text: '"Eigentlich erschien mir die Welt ganz normal und logisch.", flüsterte sie
+- description: '"Eigentlich erschien mir die Welt ganz normal und logisch.", flüsterte sie
     beschämt. Der Zwerg klopfte ihr freundlich auf die Schulter.'
-- character: ohrelaus
-  text: '"Ist doch alles wieder gut und ich habe auf dich auch keine Wut. Außerdem
+- description: '"Ist doch alles wieder gut und ich habe auf dich auch keine Wut. Außerdem
     hätte uns das doch allen passieren können. Du solltest dir jetzt lieber eine Pause
     gönnen. Wir hatten nur Glück, dass wir hinter dir waren, ein kleines Stück. So
     haben wir noch klar gedacht und uns gefragt, was du dort hast gemacht.", sagte
     er.'
-- character: glaeubige
-  text: '"Besser gesagt, ich habe es gesehen. Mein Glaube öffnet meine Augen und schenkt
+- description: '"Besser gesagt, ich habe es gesehen. Mein Glaube öffnet meine Augen und schenkt
     mir Klarheit. Gesegnet sei Reginsfar.", warf der Gläubige dazwischen und plusterte
     sich auf. "Genau wie dein Glaube dir flinke Füße zum Wegrennen verleiht?", spottete
     Schlinge, "Schließlich war es Ohrelaus, der das Monster erschossen hat." Rost
     schien von dem Gezanke nichts mitbekommen zu haben, weil er so tief in Gedanken
     versunken in den Himmel starrte.'
-- character: rost
-  text: '"Wir haben ein Morthron noch nie erlegt, geschweige denn gefangen. Unsere
+- description: '"Wir haben ein Morthron noch nie erlegt, geschweige denn gefangen. Unsere
     Auftragsgeberin Zita Balisandres von Tannenbrecht würde uns sicher gut für ein
     Exemplar entlohnen", dachte Rost laut nach.'
-- character: ohrelaus
-  text: '"Ich könnte das machen. Ich würde auch sehr gut über den Leichnam wachen.
+- description: '"Ich könnte das machen. Ich würde auch sehr gut über den Leichnam wachen.
     Ich möchte eh nicht länger in diesem Wald sein, da meine Reime hier nicht gedeihen.",
     rief der Zwerg schnell.'
-- character: glaeubige
-  text: '"Nein, wir müssen zusammenbleiben. Nur so sind wir stark.", redete der Gläubige
+- description: '"Nein, wir müssen zusammenbleiben. Nur so sind wir stark.", redete der Gläubige
     dazwischen und sah sie alle nacheinander mit beschwörendem Blick an.'
 - description: '"Abstimmung", verkündete Schlinge pragmatisch. Rost und der Zwerg
     meldeten sich dafür, Schlinge und der Gläubige dagegen. Stachels Stimme war entscheidend.
@@ -957,8 +877,7 @@
 - setup:
     background: waldweg_umgefallener_baum
 - pause: true
-- character: stachel
-  text: '"Ich bin dafür zusammen zu bleiben.", meinte Stachel. Der Gläubige sah sie
+- description: '"Ich bin dafür zusammen zu bleiben.", meinte Stachel. Der Gläubige sah sie
     anerkennend an, wie einen Schüler, der endlich vernünftig geworden ist. Also packten
     sie ihr Zeug zusammen und ließen die Lichtung hinter sich.'
 - description: Stachel wollte die Episode so schnell wie möglich vergessen. Am liebsten
@@ -966,20 +885,17 @@
     ging das nicht. Man kann nicht nur die schönen Seiten des Lebens haben. Dieses
     Erlebnis gehört nun unwiederbringlich zu Stachel. Sie hoffte nur, dass die anderen
     sie immer noch ernst nahmen.
-- character: glaeubige
-  text: '"Ohrelaus, ich würde dir raten, den Fauchern nun öfters ein Gebet zu schenken.",
+- description: '"Ohrelaus, ich würde dir raten, den Fauchern nun öfters ein Gebet zu schenken.",
     sprach der Gläubige den Zwerg besorgt an. Dieser sah von seinem Bogen auf, den
     er gerade gegen die Laute tauschen wollte. Beides trug er auf dem Rücken und Schlinge
     hatte immer wieder angemerkt, dass er die Laute verfeuern sollte und lieber mehr
     Nützliches transportieren sollte.'
-- character: ohrelaus
-  text: '"Mir sind die Faucher immer nah. Witterst du etwa eine Gefahr?", fragte er.
+- description: '"Mir sind die Faucher immer nah. Witterst du etwa eine Gefahr?", fragte er.
     Er blieb dabei so gelassen, als spräche er über ein paar unstimmige Akkorde. Das
     machte Stachel seine lange Kampferfahrung bewusst. Wie oft waren die Jäger gerade
     so noch mit dem Leben davon gekommen? Wie oft mussten sie gegen den Clannthin
     und seine Bewohner kämpfen? Und wie viele Tote hatten sie schon begraben?'
-- character: glaeubige
-  text: '"Zita Balisandres von Tannenbrecht meinte "Das Wesen ist der Beschützer der
+- description: '"Zita Balisandres von Tannenbrecht meinte "Das Wesen ist der Beschützer der
     anderen Monster.  Alle Monster, die ihr mir gebracht habt, stehen unter seinem
     Schutz. Es wird also versuchen, euch los zu werden. Also passt auf, denn es wird
     euch wahrscheinlich eher finden als ihr es. ". Nun hast du gerade wieder eines
@@ -988,8 +904,7 @@
 - description: Er fing an zu beten. Rost war aufgeregt und begann besorgt auf den
     Zwerg einzureden. Dieser sah nicht beunruhigt aus. Das erste Mal erinnerte er
     Stachel wirklich an festes, ruhiges, sicheres Gestein.
-- character: schlinge
-  text: '"Bisher ist doch auch nichts passiert.", riss Schlinge sie aus der düsteren
+- description: '"Bisher ist doch auch nichts passiert.", riss Schlinge sie aus der düsteren
     Stimmung, "Wenn es diesen Beschützer wirklich gäbe, wieso hat er sich bisher nicht
     gezeigt? Er soll ja so stark sein. Wir haben schon so vielen Monstern den Garaus
     gemacht und nie sind wir ihm begegnet. Entweder er existiert nicht oder er lässt
@@ -997,14 +912,12 @@
     menschliche Gefühle unterstellen können. Erst recht nicht Familiensinn."'
 - description: Rost war jetzt ganz verwirrt, weil er nicht mehr wusste, was er glauben
     sollte. Hilfesuchend wandte er sich dem Gläubigen zu.
-- character: glaeubige
-  text: 'Dieser sah Schlinge missbilligend an und macht sie auf ihren Fehler aufmerksam:
+- description: 'Dieser sah Schlinge missbilligend an und macht sie auf ihren Fehler aufmerksam:
     "Bisher sind aber auch viele Jäger gestorben. Manche auf sehr mysteriöse Weise.
     Wer sagt uns, dass es nicht der Beschützer war? Zita meinte, dass er stark ist
     und Hinterlist zählt für mich unter Stärke. Die Welt geht auf verschlungenen Wegen,
     Schlinge."'
-- character: schlinge
-  text: '"Da interpretierst du jetzt aber zu viel rein. Der Clannthin ist gefährlich,
+- description: '"Da interpretierst du jetzt aber zu viel rein. Der Clannthin ist gefährlich,
     aber nicht undurchschaubar. Die anderen Jäger sind auf ganz normale Weisen zu
     Tode gekommen. Sie waren einfach Trottel. Wenn du damit nicht klar kommst und
     die Menschen in deinen Gedanken glorifizieren willst, dann bist du noch beschränkter
@@ -1042,24 +955,17 @@
     die beide recht unbeschadet aussahen. Außer vielleicht, dass Schlinge eine Überdosis
     Fauchergebete abbekommen hatte. Sie begrüßten einander und Rost verpasste allen
     eine dicke Umarmung.
-- character: stachel
-  text: '"Wo ist Ohrelaus?", wollte Stachel wissen, als ihr sein Fehlen bewusst wurde.'
-- character: schlinge
-  text: '"Ähm, dort.", meinte Schlinge und zeigt auf den Baumstamm, vor dem sie standen.
+- description: '"Wo ist Ohrelaus?", wollte Stachel wissen, als ihr sein Fehlen bewusst wurde.'
+- description: '"Ähm, dort.", meinte Schlinge und zeigt auf den Baumstamm, vor dem sie standen.
     Wenn man genau hinsah, konnte man einen zerquetschten Lautenhals erkennen, der
     unter dem Stamm hervorschaute.'
-- character: stachel
-  text: '"Scheiße.", fluchte Stachel. Sie sah die Lautenreste an.'
-- character: rost
-  text: '"Ist Ohrelaus tot?", fragte Rost bestürzt.'
-- character: glaeubige
-  text: '"Ja, er ist nun auf dem Weg über das Ringgebirge. Die Faucher beschützen
+- description: '"Scheiße.", fluchte Stachel. Sie sah die Lautenreste an.'
+- description: '"Ist Ohrelaus tot?", fragte Rost bestürzt.'
+- description: '"Ja, er ist nun auf dem Weg über das Ringgebirge. Die Faucher beschützen
     ihn.", versuchte der Gläubige Rost zu trösten.'
-- character: glaeubige
-  text: 'An Schlinge gewandt fügte er hinzu:  "Das ist doch der Beweis, dass es den
+- description: 'An Schlinge gewandt fügte er hinzu:  "Das ist doch der Beweis, dass es den
     Beschützer gibt."'
-- character: schlinge
-  text: '"Es kann aber auch nur ein morscher Baum und einer von den Riesenvögeln sein,
+- description: '"Es kann aber auch nur ein morscher Baum und einer von den Riesenvögeln sein,
     die wir mal von weitem gesehen haben.", argumentierte Schlinge dagegen. Beide
     beharrten auf ihre Meinung und ließen Einwände des anderen nicht gelten.'
 - description: Rost war derweil in tiefe Trauer versunken und kauerte vor dem Baumstamm.
@@ -1072,8 +978,7 @@
     sie zu wenden, brauchte sie keinen hübschen Wörter, sondern nur ihre Gedanken.
     Doch um Rost Willen und weil es ihr notwendig und passend erschien, sprach Abschiedsgebet
     für Ohrelaus Minnefroh:'
-- character: glaeubige
-  text: |- 
+- description: |- 
     "Ihr Faucher, wir rufen euch an. Nehmt Ohrelaus Minnefroh in eure Arme. <br />
     Hiordis stärke den Gestorbenen für seinen letzten Weg,<br />
       denn seine Willenskraft ließ ihn sich selbst finden.<br />
@@ -1095,18 +1000,15 @@
     noch drückender und weiter. Sie dämpfte alle ihre Gefühle und Wahrnehmungen, sodass
     Ohrelaus Tod nicht bis in ihr Bewusstsein vordrang. Die ganze Situation schien
     ihr so unwirklich.
-- character: glaeubige
-  text: '"Und was haltet ihr von einer deftigen Suppe? Ich übernehme heute das Kochen.",
+- description: '"Und was haltet ihr von einer deftigen Suppe? Ich übernehme heute das Kochen.",
     verkündete der Gläubige. Er fasste Rost bei den Schultern, den der Gedanke an
     Essen schon wieder etwas aufheiterte.'
-- character: schlinge
-  text: 'Als die beiden außer Höherweite waren, nahm Schlinge Stachel zur Seite und
+- description: 'Als die beiden außer Höherweite waren, nahm Schlinge Stachel zur Seite und
     redete auf sie ein: "Alle Gedanken und Worte über den Tod des Zwerges musst du
     bei diesem Baum lassen, bis wir den Clannthin verlassen haben. Das ist unsere
     Regel. Der Kummer würde uns nur ablenken und unsere Willenskraft schwächen, sodass
     keiner mehr hier lebend herauskommt.". Schlinge sah sie eindringlich an.'
-- character: stachel
-  text: '"Gut. Ich verstehe.", sagte Stachel, obwohl sie das Bild der zerschmetterten
+- description: '"Gut. Ich verstehe.", sagte Stachel, obwohl sie das Bild der zerschmetterten
     Laute nicht aus ihren Gedanken verbannen konnte. Sie verließen den gefallenen
     Baumriesen und Ohrelaus Minnefroh.'
 
@@ -1126,8 +1028,7 @@
 - description: Jedenfalls konnte Stachel es dem Zwerg nicht verübeln, diese Gelegenheit
     beim Schopf zu packen und das Weite zu suchen. Er hatte sie gerettet und als Dank
     dafür hatte er ihre Stimme verdient.
-- character: stachel
-  text: '"Vielen Dank für alles", verabschiedete Stachel sich von Ohrelaus und drückte
+- description: '"Vielen Dank für alles", verabschiedete Stachel sich von Ohrelaus und drückte
     ihn fest. Auch die anderen sprachen herzliche Abschiedswort. Rost schluchzte Sturzbäche
     und durchnässte Ohrelaus Bart. Der Gläubige überdeckte seine Rührung unter einem
     Haufen salbungsvoller Wörter aus Gebeten, Lebensweisheiten und Aufmunterungen.'

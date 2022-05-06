@@ -21,8 +21,7 @@
     Völlig erschöpft trat Stachel in den Lichtschein und starrte die anderen an. Sie sah sich einer wohlbewaffneten Meute gegenüber. Alle waren sofort aufgesprungen und hatten ihre Waffen gezogen. Eine Frau sah sie aggressiv an und hatte ihre Fäuste erhoben. Neben ihr schwang ein riesengroßer Mann sein bluttriefendes Schwert. Und dort - war das wirklich ein Zwerg? Er war zwar klein, doch schien es, als ob er mit seinen Händen Knochen brechen könnte. Stachel wich angstvoll zurück. Gegen so eine Übermacht konnte sie sich nicht behaupten, erst recht nicht in ihrem Zustand. 
 - description: |-
     Da schob sich zwischen den Fremden noch ein breitschultriger Mann hervor. Stachel erschreckte sich zu Tode. Einen Moment lang hielt sie ihn für - aber nein. Erleichtert atmete sie tief durch. Der Mann hatte zwar eine weiße Kutte unter seinem Mantel an. Um seinen Hals hingen dutzende eiserner Ketten, die mächtige Drachen darstellten. Das Motiv bedeckte auch sein großes Holzschild. Er sah sie jedoch nur mitleidig an und winkte den anderen zu. Diese legten daraufhin ihre Waffen nieder und betrachteten sie nun gelangweilt, neugierig oder sehr mitleidig. Stachel schaute an sich herunter: braune verfilzte Haare, brauner Mantel und Dreck. Was kann man nach tagelanger Wanderschaft schon anderes erwarten? Es kann ja nicht jeder in weißen Klamotten rumlaufen, die auf zauberische Weise nie schmutzig werden.
-- character: glaeubige
-  text: Mein Kind, den Fauchern zum Gruße! Ich bin der Gläubige. Möchtest du dich an unserem Feuer etwas wärmen?
+- description: Mein Kind, den Fauchern zum Gruße! Ich bin der Gläubige. Möchtest du dich an unserem Feuer etwas wärmen?
 - description: |-
     Stachel verbeugte sich nervös vor dem Frater und murmelte ein Begrüßungsgebet, bevor ihr sie sich ihrer automatischen Handlung bewusst wurde. So stark hatte sich diese Gewohnheit also in ihren Geist eingebrannt. Die anderen hatten es aber nicht bemerkt, weil sie sich schon wieder um das Feuer gedrängt hatten. Stachel setzte sich zu ihnen und genoss die wohlige Wärme der Flammen. Die Fremden strahlten nun keine Gefahr mehr aus und Stachel schaute sie neugierig an. 
 - description: |-
@@ -61,11 +60,9 @@
     name: 'treffen_glaeubiger'
     value: true
 - description: Stachel wandte sich dem Gläubigen zu, weil er noch am ehesten an ihr und ihrem Schicksal interessiert schien. Im Schein des Lichtes wirkte er nicht mehr ganz so einschüchternd auf sie. Sein Gesichtszüge waren schon etwas eingefallen und einige Falten zeugten von seinem ernsten Character."
-- character: stachel
-  text: |-
+- description: |-
     "Darf ich Euch etwas fragen?", sprach Stachel ihn an
-- character: glaeubige
-  text: |-
+- description: |-
     "Natürlich mein Kind. Was möchtest du denn wissen?", gab er höflich zurück
 - description: |-
     Er ging bestimmt davon aus, dass sie sich für irgendwelche theologische Fragen interessierte. Doch  Stachel wollte wissen, was es mit seinem lustigen Spitznamen "Der Gläubige" auf sich hatte oder welche Umstände ihn an dieses Lagerfeuer führten.
@@ -78,13 +75,11 @@
 :: Namenshintergrund_Der-Gläubige [akt1_4]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |- 
+- description: |- 
     "Habt Ihr einen richtigen Namen? Oder nennt man Euch wirklich immer nur den Gläubigen?"
 - description: |-
     Der Angesprochene schnappte nach Luft und rümpfte gleichzeitig die Nase. Stachel war deutlich beeindruckt von seiner Gesichtsgymnastik.
-- character: glaeubige
-  text: |- 
+- description: |- 
     "Ich hoffe du weißt, dass diese Frage äußerst unhöflich und unpassend ist? Natürlich habe ich einen richtigen Namen, aber wieso sollte ich dir den verraten? Das geht dich gar nichts an."
 - description: |-
     Damit drehte sich der Gläubige von ihr weg und das Gespräch war beendet.
@@ -97,11 +92,9 @@
 :: Hintergrundgeschichte_Stachel_Der-Gläubige [akt1_5]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     "Wie kommt es, dass sich ein Frater wie ihr in so, ähm, zwielichtiger Gesellschaft bewegt?", fragte Stachel ihn neugierig. "
-- character: glaeubige
-  text: |-
+- description: |-
     "Und wie kommt es, dass dir niemand die Tugend des Schweigens, aber dafür anscheinend Fauchergebete beigebracht hat?", gab er bissig zurück.
 - description: |-
     Der Gläubige hatte ihr Begrüßungsgebet also gehört. Seine wachen Augen schienen mehr mitzubekommen, als seine ernste und versteinerte Miene vermuten ließ. Stachel ermahnte sich, ihn nie wieder zu unterschätzen. Seine Neugier und Hartnäckigkeit konnten es fast schon mit ihrer aufnehmen.
@@ -118,23 +111,19 @@
 :: Hintergrundgeschichte_Der-Gläubige [akt1_6]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     "Ich wollte doch nur sagen, dass ich es bewundere, wenn die Brüder der Kirche sich für jeden verantwortlich fühlen.", versuchte Stachel ihn aus seiner Deckung zu locken. 
 - description: |-
     Der Gläubige plusterte sich stolz auf. Eitelkeit war also sein Schwachpunkt, vermerkte Stachel bei sich. 
-- character: glaeubige
-  text: |-
+- description: |-
     Du hast das ganz richtig erkannt. Selbst diese Personen hier um uns brauchen nur ein paar Wörter von einem Gläubigen wie mir, um auf den richtigen Weg zurück zu finden. Früher arbeitete ich in einem Kloster als Miniaturmaler. Das ist jemand, der an die Ränder von Büchern gestaltet. Mit Drachen, Menschen, Zwergen, Blumen und Monstern. Ich war wirklich ein Meister meines Faches.", erzählte der Gläubige und starrte dabei verträumt in die Flammen.
-- character: glaeubige
-  text: |-
+- description: |-
     "Doch man versinkt dabei immer mehr zwischen staubigen Bücherseiten und kann seiner eigentlichen Bestimmung nicht mehr nachkommen. Als Frater will ich dieses Land und die Menschen darin positiv beeinflussen. Ich bin für sie verantwortlich. Darum kämpfe ich gegen die Übel in dieser Welt. Egal ob sie die Form von wirklichen Monstern haben oder in Form von falsch geleiteten Gedanken in den Köpfen der Menschen.", sagte er mit leidenschaftlicher Inbrunst. 
 - description: |-
     Stachel konnte so selbstsichere Menschen nicht ausstehen und hoffte immer, dass diese mal ordentlich auf die Nase flögen. 
 - description: |-
     Der Gläubige deutete ihren genervten Gesichtsausdruck jedoch falsch.  
-- character: glaeubige
-  text: |-
+- description: |-
     "Ich sehe, du verstehst, wovon ich spreche. Doch überlasse es lieber uns Erwachsenen, uns um solche Probleme zu kümmern." 
 - description: |-
     Stachel nickte einfach zustimmend und wandte sich murmelnd ab. Sie wollte auf keinen Fall Fragen zu ihren Eltern oder zu ihrer Zukunft hören. Erst recht brauchte sie keine Belehrungen zu den Vorteilen, eine Fratise zu werden, ein ordentliches Handwerk zu erlernen oder zu heiraten. Solche Vorträge hat sie sich schon zu oft anhören müssen. 
@@ -144,21 +133,17 @@
 :: Hintergrundgeschichte_Stachel-ausgedacht [akt1_7]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     "Ähh, die Fauchergebete von vorhin sind die einzigen die ich kenne. In meinem Dorf gibt es einen Verrückten, der immer nur diese Verse rezitiert hat. War vielleicht mal ein Frater. Jetzt tickt er jedenfalls nicht mehr richtig im Kopf. Wieso weiß keiner aus dem Dorf. ..mmh.. Er kann aber ganz gut schnitzen. Mir hat er mal ein Pferd gemacht. … Ich bin übrigens nur auf dem Weg zum nächsten Dorf. Dort etwas tauschen.", erzählte Stachel. 
 - description: |-
     Sie war stolz, wie gut sie lügen konnte. Eine Fähigkeit, die darauf beruhte, die Erwartungen des anderen bestmöglich zu erfüllen. Außerdem musste sie ständig geübt werden, sonst rostete sie schnell ein.
-- character: glaeubige
-  text: |-
+- description: |-
     "So, so, ganz alleine nachts unterwegs. Was genau willst du den eintauschen?", bohrte der Gläubige nach.
 - description: |-
     Er war wirklich gewitzt. Vielleicht war ihr böser Ausrutscher mit dem verrückten Frater doch zu dick aufgetragen gewesen. Jetzt durfte sie sich nur nicht von ihm in Widersprüche verwickeln lassen, sondern musste zum Gegenangriff übergehen. 
-- character: stachel
-  text: |-
+- description: |-
     "Was ratet Ihr mir, Frater, wie soll ich eine Zweitagesreise von einem Dorf zum nächsten schaffen, ohne dass es Nacht wird?", fragst du ihn so unschuldig wie möglich
-- character: glaeubige
-  text: |-
+- description: |-
     Der Gläubige starrte sie daraufhin nur noch strenger an. "Deine Aussprache ist sehr elegant und dein Satzbau vortrefflich. Wenn du von hier kämst, hätte dich ein Fuhrwerk mitgenommen. Möchtest du mir noch mehr Lügen erzählen oder jetzt endlich die Wahrheit sagen?", beendetet der Gläubige das Schauspiel. 
 - description: |-
     Er war wirklich gewitzt. Vielleicht war ihr böser Ausrutscher mit dem verrückten Frater doch zu dick aufgetragen gewesen. Jetzt durfte sie sich nur nicht von ihm in Widersprüche verwickeln lassen, sondern musste zum Gegenangriff übergehen. 
@@ -175,23 +160,19 @@
 :: Hintergrundgeschichte_Stachel-real [akt1_8]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     "Ich kann diese Fauchergebete, weil ich sie auswendig lernen musste. Ich war nämlich bisher in einem Waisenhaus, das von der Kirche geführt wurde.", sagte Stachel knapp.
 - description: |-
     Über die Zeit im Kloster redete sie nicht gerne. Es war ihr dort eigentlich sehr gut ergangen. Sie hatte lesen, schreiben, nähen und andere Fähigkeiten gelernt. Ihr wurde Stauchen bis in das kleinste Fürstentum mit den jeweiligen kulturellen Besonderheiten erklärt. Neben Geschichte, Algebra und Kirchenlehre wurde sie in noch vielen weiteren Themenbereichen mit Wissen vollgestopft. Doch so friedvoll dieser Lebensabschnitt auch gewesen sein mochte, sie fühlte sich immer eingesperrt und abhängig.
-- character: glaeubige
-  text: |-
+- description: |-
     "Wie kommst du denn aber hier her?", unterbrach der Gläubige ihre Gedanken. Stachel fing an, an ihren Ärmeln zu zupfen. Der Gläubige machte sie nervös, weil er sie so gut durchschaute. 
-- character: stachel
-  text: |-
+- description: |-
     "Ich bin weggelaufen. Ich bin schließlich alt genug, um in die Welt hinaus zu gehen. Außerdem muss ich der Tradition der Familie folgen. Das verstehst du doch bestimmt?", antwortete sie ihm.
 - description: |-
     Zu lügen hatte sie sich nicht getraut, aber sie hatte auch die Hälfte der Wahrheit weggelassen.
 - description: |-
     Stachel musste in die Welt hinaus gehen, um zu lernen, was ihr das Kloster nicht beibringen konnte. Kämpfen, Lügen, Betrügen, Schauspielerei und Überleben kann man nur im wahren Leben lernen. Und nur mit diesen Fähigkeiten konnte sie eine gute Kopfgeldjägerin werden. Dieses Handwerk lag seit Ewigkeiten in ihrer Familie, die dadurch aber immer stärker schrumpfte. Auch wenn diese Tradition mit Stachel vielleicht aussterben würde, erfüllt sie nichts sehnlicher als der Wunsch, in die Fußstapfen ihrer Eltern zu treten.
-- character: glaeubige
-  text: |-
+- description: |-
     "Traditionen sind sehr ehrenwert. Bei mir in der Familie tritt immer der dritte Sohn der Kirche bei und verschreibt sich der Anbetung der Faucher. Den Fauchern sei Dank wurde ich für dieses Amt bestimmt.", sagte der Gläubige verträumt.
 - description: |-
     Er versank langsam in seine Gebete an die Faucher und Stachel wollte ihn dabei nicht stören.
@@ -206,21 +187,17 @@
     value: true
 - description: |-
     Vorsichtig setzte Stachel sich neben Schlinge. Von nahem wirkten ihre Arme noch muskulöser und ihr Blick noch bohrender. Zögerlich versucht Stachel sie anzulächeln, doch das hatte keinerlei Wirkung auf die Frau. Ihre Geschichtsmuskeln schienen versteinert, nur ihr Mund bewegte sich mechanisch, als ob sie auf irgendetwas herum kaute. Das verunsicherte Stachel noch mehr. 
-- character: stachel
-  text: |-
+- description: |-
     "Äh, ganz schön kalt heute, oder?" versuchte sie das Gespräch anzufangen. 
-- character: schlinge
-  text: |-
+- description: |-
     "Ja", antwortete Schlinge gleichgültig. Sie schien nicht an einer Unterhaltung interessiert zu sein. Den ganzen Abend wirkte sie schon gelangweilt und genervt. 
-- character: schlinge
-  text: |-
+- description: |-
     "Was ist das?", blafft Schlinge plötzlich, ohne ihr Kauen einzustellen. Sie zeigt auf die schwarzen Muster an Stachels Arm, die unter ihrem Hemd hervorguckten. 
 - description: |-
     Stachel erkannte, dass Schlinge trotz ihrer scheinbaren Abwesenheit ihre Umgebung genau beobachtete. Sonst wäre ihr die Farbe kaum aufgefallen. 
 - description: |-
     Stachel schob ihren Ärmel beiseite und zeigte Schlinge ihr Familienwappen. Es stellte eine Maske dar, die von einem Dolch durchbohrt wurde. Alles war mit feinsten Linien in Stachels Haut gearbeitet und die Maske grinste unheimlich im flackernden Licht des Feuers. Schlinge spuckte erstaunt auf den Boden und fixierte Stachel. 
-- character: schlinge
-  text: |-
+- description: |-
     "Ich habe von solchen Symbolen gehört. Hatte schon längst die Hoffnung aufgegeben, einen von euch zu treffen.", meinte sie, "und jetzt läufst du mir einfach so über den Weg. Eine echte Kopfgeldjägerin. Hinter wem bist du denn her? Wie viele gibt es denn von euch überhaupt noch? Da zerschelle doch mein Krug, das ich das noch erlebe!". 
 - description: |-
     Schlinges Neugier überraschte Stachel und war ihr unangenehm. Sie könnte natürlich die Fragen beantworten. Aber eigentlich wollte sie mehr über die Geschichte dieser komischen Truppe erfahren. Sie könnte Schlinges Stimmung ausnutzen, um sie auszuquetschen. 
@@ -235,8 +212,7 @@
 :: Hintergrund_Kopfgeldjäger [akt1_10]
 - setup: 
     background: lagerfeuer
-- character: schlinge
-  text: |-
+- description: |-
     "Ich habe keine Ahnung, wie viele Kopfgeldjäger es gibt und wo sie sich aufhalten. Wir sind keine fest Gilde oder so. Die meisten sind Einzelgänger und verschmelzen regelrecht mit den Schatten. Außerdem hatte ich seit ein paar Jahren keinen Kontakt mehr zu ihnen.", sagte Stachel, "Auch bin ich noch nicht hinter irgendwem her. Meine Ausbildung ist nämlich nicht komplett abgeschlossen." 
 - description: |-
     Enttäuscht verzog Schlinge ihr Gesicht und trat einen Stein ins Feuer. Stachel war neugierig, wieso dieser Frau so viel an den Kopfgeldjägern lag (12). Sie wollte ihr aber auch noch mehr über sich selbst erzählen (11). Das verunsicherte Stachel, weil sie das sonst nie tat. Wollte sie Schlinge damit aufmuntern oder beeindrucken? 
@@ -249,17 +225,13 @@
 :: Ausbildung_Stachel [akt1_11]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     "Ich kann dir zwar nicht wirklich weiterhelfen, aber vielleicht möchtest du etwas mehr über meine Ausbildung erfahren", bot Stachel an.
-- character: schlinge
-  text: |-
+- description: |-
      Schlinge richtete sich auf und nickt zustimmend. 
-- character: stachel
-  text: |-
+- description: |-
     "Also, Mitglieder meiner Familie sind schon seit unzähligen Generationen als Kopfjäger tätig. An meine Eltern erinnere ich mich kaum. Früh haben sie mich zu einem anderen Kopfgeldjäger geschickt. Mit noch ein paar Kindern ging ich bei ihm in die Lehre. Kinder sind nämlich sehr praktisch. Sie fallen kaum auf, sehen immer unschuldig aus, ihnen wird kaum etwas zugetraut und sie sind klein genug, um durch jedes Fenster oder jeden Kanal zu kriechen. Wir haben gelernt, uns selbst zu versorgen. Dazu zählte Kochen, Flicken, Klauen und so was. Weitere Grundlagen waren Kämpfen, Klettern und Rennen." 
-- character: stachel
-  text: |-
+- description: |-
     "Doch das Wichtigste war nicht unserer Körper sondern unserer Geist. Wir lernten andere zu durchschauen, uns zu verstellen, zu lügen, zu planen, an wichtige Informationen zu gelangen und immer ruhig zu bleiben. Leider starb mein Meister während meiner Ausbildung. Die Arbeit als Kopfgeldjäger birgt solche Gefahren, doch für mich war es sehr ärgerlich. Ich kam in ein Kinderheim und konnte erst jetzt daraus abhauen", erzählte Stachel. 
 - description: |-
     Schlinge nickt nur. Anscheinend war in Stachels Erzählung nichts wirklich Neues oder Relevantes für sie gewesen. Stachel sah ein, dass das Gespräch zu nichts mehr führen würde.
@@ -268,20 +240,15 @@
 :: Kopfgeldjäger_Schlinge [akt1_12]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     "Was interessiert dich eigentlich so an den Kopfgeldjägern?", wollte Stachel von Schlinge wissen. 
-- character: schlinge
-  text: |-
+- description: |-
     Diese schaute nachdenklich ins Feuer. "Ich bin in der Taverne einer großen Stadt aufgewachsen. Dort sollte eines Tages jemand bestraft werden, weil er irgendwen umgebracht hatte. Mir war damals oft langweilig und deshalb bin ich zum Markt gegangen, um mir die Hinrichtung anzusehen. Doch dazu kam es nicht."
-- character: schlinge
-  text: |-
+- description: |-
     "Der Verurteilte wurde gerade durch die Menge geführt, da löste er seine Fesseln. Mit ein paar schnellen und gezielten Schlägen befreite er sich von den Wachen und tauchte in der Menge unter. Ich stand nahe dran und hatte alles genau beobachtet. Als er an mir vorbeihuschte, schnappte ich nach ihm. Ich wollte natürlich nicht der Gerechtigkeit helfen oder so 'nen Quatsch, sondern hoffte auf eine saftige Belohnung." 
-- character: schlinge
-  text: |-
+- description: |-
     "Eigentlich war ich schon damals eine der Besten beim Faustkampf. Naja, in einer Taverne lernt man so einiges und ich hatte genug Möglichkeiten zu üben. Selbstverständlich braucht man dafür auch Talent, aber das habe ich. Ich wollte also diesen Halunken fassen. Doch er verdrehte mir rasch den Arm, stieß mir sein Knie in den Bauch und hatte dann noch die Frechheit mir zuzuzwinkern, bevor er mich auf den Boden schmiss."
-- character: schlinge
-  text: |-
+- description: |-
     "Bei dieser Gelegenheit habe ich zum ersten und einzigen Mal so ein Muster wie das auf deinem Arm gesehen. Seitdem habe ich noch härter trainiert und bald war mir im Kampf niemand mehr gewachsen. Ich suche immer noch nach einem Gegner, der mir ebenbürtig ist oder mich sogar besiegen kann. Ich bin schon lange umhergezogen und habe dabei nach den Kopfgeldjägern Ausschau gehalten. Mit ihnen könnte ich endlich einen Kampf auf Augenhöhe führen.", erzählte Schlinge, "Jetzt habe ich zwar dich gefunden, aber du bist ja noch ein halbes Kind." 
 - description: |-
     Schlinge tat Stachel fasst schon leid. Sie überließ die Frau ihren Gedanken und überlegte, was sie als nächstes machen sollte
@@ -290,24 +257,19 @@
 :: Hintergrund_Jäger [akt1_13]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     "Ich bin jedenfalls nicht hinter dir her. Ich habe nämlich noch keinen Auftrag", erklärte Stachel, "Zu allem was die anderen Kopfgeldjäger angeht, bin ich zu Verschwiegenheit verpflichtet." 
 - description: |-
     Schlinge machte ein enttäuschtes Gesicht und stopfte sich erneut etwas zum Kauen in den Mund.
-- character: stachel
-  text: |-
+- description: |-
     "Was macht ihr eigentlich hier? Ich meine, ihr seht aus wie eine schlagkräftige Truppe, die nicht gekommen ist, um bei der Ernte zu helfen. Wohin seit ihr unterwegs?", fragte Stachel.
 - description: |-
      Dass ihr jede einzelne Person, die mit ihr ums Feuer saß, überaus komisch vorkam, verschwieg sie lieber. Es war entweder Zufall oder eine große Aufgabe, die diese unterschiedlichen Menschen zusammen gebracht hatte. 
-- character: schlinge
-  text: |-
+- description: |-
     Erstaunlich bereitwillig antwortete Schlinge: "Wir sind zum Clannthin unterwegs." 
-- character: stachel
-  text: |-
+- description: |-
     "Ihr wollt doch nicht etwa den gefährlichen, unberechenbaren, heimtückischen Elfenwald betreten?", unterbrach Stachel sie entsetzt. Sie hatte schon so einige Schauermärchen gehört und die Bauern hier in der Nähe des Clannthin bestätigten diese auch noch. 
-- character: schlinge
-  text: |-
+- description: |-
     "Haste etwa Angst?", zog Schlinge Stachel auf, "Wir waren schon ein paar Mal im Wald und ich habe es immer überlebt. Die Hälfte unserer Gemeinschaft ist dort gestorben. Alles Schwächlinge. Nur um Flavius hat es mir leid getan. Er war 'nen echt guter Alchimist." 
 - description: |-
     Stachel empfand ehrlichen Respekt vor Schlinge. Sie klang so abgebrüht und selbstsicher. Eigentlich sollte sie auch so professionell wirken. Sie wollte Schlinge über ihre Erlebnisse im Clannthin aushorchen. Sie schienen sehr aufregend und könnten wertvolle Informationen enthalten. Aber auch der neue Auftrag interessierte sie. Was konnte diese Leute trotz der vielen Toten wieder in diesen Wald locken?
@@ -320,28 +282,21 @@
 :: Erfahrungen_Jäger [akt1_14]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     "Welchen Gefahren musstet ihr euch denn im Clannthin stellen?", wollte Stachel wissen. 
-- character: schlinge
-  text: |-
+- description: |-
     "Zum einen muss man genügend Vorräte mitnehmen.", erklärte Schlinge. "Man sollte nichts im Clannthin in den Mund nehmen, was man nicht selbst mitgebracht hat. Eine Spurenleserin ist mal gestorben, weil sie eine Erdbeere essen wollte. Natürlich waren es keine normalen Erdbeeren. Ihr ganzer Körper ist rot angeschwollen bis sie fast selbst aus sah wie eine Erdbeere."
-- character: schlinge
-  text: |-
+- description: |-
     "Oder Grunholt, der konnte mit seinen Pfeilen alles treffen, er hatte nur etwas Wasser aus einer Quelle geschöpft, um sich abzukühlen. Danach war er so blöd wie ein Kleinkind und stand nur teilnahmslos in der Gegend rum. Flavius hat ihn zwar mit seinen merkwürdigen Mixturen fast wieder hinbekommen, doch als Jäger taugte er natürlich nichts mehr.", erzählte Schlinge. 
 - description: |-
     Ihr schien es Spaß zu machen, Stachel zu ängstigen. Sie selbst musste schon so viel Schlimmes erlebt haben, dass sie diese wahren Gruselgeschichten so abgebrüht erzählen konnte. Stachel versuchte sich ihre Angst nicht anmerken zu lassen, sonst hätte Schlinge sie vermutlich noch mehr wie ein Kind behandelt. 
-- character: stachel
-  text: |-
+- description: |-
     "Was habt ihr denn im Wald gesucht, das diese Mühen lohnte? Gold gibt es meines Wissens nicht im Clannthin. Auch Heilkräuter sollte man nicht im Clannthin sammeln, weil sie sich dort viele heilsame und giftige Pflanzen sehr ähneln. Und den Elfen will man doch erst recht nicht begegnen?", meinte Stachel. 
-- character: schlinge
-  text: |-
+- description: |-
     "Das mag sein,", antwortete Schlinge. "Wir haben ein Nolgorin - 'die Dunkelheit die den Geist frisst' - gesucht und gefangen.  Das ist ein Wolf, der noch größer als Rost ist und in dessen skelettierten Schädel schwarze Augenhöhlen sitzen. Es gibt noch viel mehr solcher besonderen Monster im Clannthin und es gibt Leute, die viel Geld für sie bezahlen. Natürlich sind die Monster sehr gefährlich und es ist sehr schwer sie zu fangen, doch es lohnt sich.", erklärte Schlinge
-- character: schlinge
-  text: |-
+- description: |-
     "So, jetzt sollte ich lieber aufhören zu erzählen, du zitterst ja schon vor Furcht." Dabei war Schlinges Grinsen weder mitfühlend noch liebenswürdig, sondern nur hämisch. 
-- character: stachel
-  text: |-
+- description: |-
     Stachel rechtfertigte sich trotzig: "Mir ist nur kalt."
 - description: |-
     Sie wollte nicht mehr mit Schlinge reden, die sich auf ihre Kosten zu amüsieren schien.
@@ -350,26 +305,21 @@
 :: Teilnahme-Stachel_Schlinge [akt1_15]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     "Was macht ihr denn im Clannthin?", erkundigte sich Stachel. 
-- character: schlinge
-  text: |-
+- description: |-
     "Wir jagen Monster", antwortete Schlinge. "Davon gibt es dort schließlich mehr als genug. Ein paar haben wir schon tot oder lebendig gefangen. Nun sind wir hinter dem schrecklichsten von allen her.", erklärte Schlinge ihr. 
 - description: |-
     Jetzt machten die vielen Waffen und die viele Ausrüstung für Stachel auch Sinn. Sie hatte zwar noch nie von solchen Monsterjägern gehört, aber das vielleicht  nur daran, dass so wenige heil wieder aus dem Wald kamen. 
-- character: stachel
-  text: |-
+- description: |-
     "Und was ist das genau für ein Wesen, dass ihr jagt?", hakte Stachel nach. 
-- character: schlinge
-  text: |-
+- description: |-
     Schlinge lehnte sich zurück und schaute Stachel überheblich an. "Das wüsstest du gern, Kleine", sagte sie abschätzig, "Ich erzähle dir nichts mehr über unseren Auftrag. Nicht das du uns nach getaner Arbeit unseren Lohn noch abknöpfst." 
 - description: |-
     Schlinge fing an, im Feuer rumzustochern. Das hat sie bestimmt nur gemacht, weil ich ihr so wenig über die Kopfgeldjäger erzählt habe, dachte Stachel. 
 - description: |-
     Sie hatte sich schon von Schlinge abgewandt, als diese anfügte:
-- character: schlinge
-  text: |-
+- description: |-
     "Außer natürlich, du schließt dich uns an. Wir brauchen noch einen Ersatz für Flavius. Du kriegst auch deinen Anteil am Lohn." 
 - description: |-
     Alle Jäger schauten sie abwartend  an. Das war Stachels Gelegenheit sich zu beweisen. Wenn sie einen bekannte Kopfgeldjägerin werden wollte, sollte sie mitmachen (16). Doch ihr Vater hätte dazu gesagt: "Suche keinen Kampf, den du nicht gewinnen kannst.", und der Clannthin gehörte eindeutig dazu. Es wäre wirklich einfacher abzulehnen und sich schlafen zu legen (28).
@@ -382,46 +332,36 @@
 :: Auftrag_Schlinge [akt1_16]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     "Ich mach mit", verkündete Stachel. 
 - description:
     Freudig klatschte Rost mit ihr ab und Schlinge schenkte ihr ein Lächeln. Also eher ein Zucken um die Mundwinkel, aber das war schon viel für sie. 
-- character: schlinge
-  text: |-
+- description: |-
     "Na dann will ich dir von unserem Auftrag berichten. Am besten ich schildere dir den Moment, als wir ihn bekommen haben", meinte Schlinge und begann zu erzählen:
 - setup: 
     background: jagschloss_saal
 - pause: true
-- character: schlinge
-  text: |-
+- description: |-
     Wir hatten gerade ein Nolgorin, einen riesengroßen Wolf, gefangen. Diesen brachten wir ins Jagdschloss zu unserer Auftraggeberin Zita Balisandres von Tannenbrecht. 
-- character: schlinge
-  text: |-
+- description: |-
     Meiner Meinung nach ist sie nicht mehr richtig im Kopf. Sie ist aber auch sehr reich. Ich meine, es ist ja schön und gut Monster vernichten zu lassen, aber man muss nicht auch noch mit ihnen experimentieren. Im Laufe der Jahre sind ihr sogar Krallen aus der einen Hand gewachsen. Ich weiß wirklich nicht, was sie mit den Viechern macht, aber das will ich eigentlich auch nicht. 
-- character: schlinge
-  text: |-
+- description: |-
     Jedenfalls haben wir unser Geld bekommen. Pünktlich und wie abgesprochen hat sie bezahlt, da kann man nicht meckern. Wir warteten gespannt, welches Monster sie uns als nächstes jagen ließ. Natürlich hatten wir vorher Wetten abgeschlossen und ich lag bis dahin immer richtig. Doch diesmal nannte sie uns kein Wesen, das wir kannten. Sie nannte uns eigentlich gar keinen Namen. 
-- character: zita
-  text: |-
+- description: |-
     Sie sagte zu uns: "Meinen lieben Jäger. Ihr habt nun schon so viele Monster für mich gefangen. Dafür bin ich euch sehr dankbar. Nun werde ich euch ein letztes Mal ausschicken, damit ihr euch den Gefahren des Clannthins stellt und mir ein Wesen bringt." 
 - description: |-
     Diese Ansage hat mich natürlich runter gezogen. Das Jagen war für mich Jahre lang eine sichere Arbeit. Ich weiß nicht, was ich ohne sie anfangen sollte. 
-- character: zita
-  text: |-
+- description: |-
     Doch Zita redete gleich weiter und ihre nächsten Worte beruhigten mich sofort. "Ich weiß, das kommt für euch jetzt etwas überraschend. Doch diese letzte Aufgabe ist die Gefährlichste von allen. Wenn ihr sie erfüllt, werde ich euch so reich entlohnen, dass ihr euch um eure Zukunft nicht mehr sorgen braucht. Viele würden es trotz des vielen Goldes nicht wagen, jenes Wesen zu fangen. Doch ich glaube an euch und eure Fähigkeiten." 
 - description: |-
     Das alles erregte mich. Endlich sollten wir einen Gegner treffen, der mir vielleicht gewachsen war. Natürlich war auch das Gold sehr überzeugend.
-- character: zita
-  text: |-
+- description: |-
     "Das Wesen was ich meine, ist der Beschützer der anderen Monster. Es ist stärker als jedes der Monster, was ihr bisher besiegt habt. Man könnte es als auch Jäger betrachten, es ist brutal und rücksichtslos. Wenn ihr Orte von größter Zerstörung findet, ist es nicht weit. Doch wird es euch wahrscheinlich eher finden als ihr es. Alle Monster, die ihr mir gebracht habt, stehen nämlich unter seinem Schutz. Es wird also versuchen, euch los zu werden.", informierte Zita uns, "Seid also immer wachsam. Noch eins: das Wesen ähnelt einem jungen Mädchen. Ob das ihre wahre Gestalt ist, weiß ich nicht, doch lasst euch nicht von ihrem Äußeren täuschen." 
-- character: schlinge
-  text: |-
+- description: |-
     Mit diesen Worten entließ uns die Dame. Und schon wieder hatte ich das Gefühl, dass sie uns nur die Hälfte verraten hatte.
 - setup: 
     background: lagerfeuer
-- character: glaeubige
-  text: |-
+- description: |-
     Nach Schlinges Erzählung schickte der Gläubige alle schlafen. Stachel legte sich beunruhigt hin, weil sie Angst hatte. Worauf hatte sie sich da gerade eingelassen? Die Informationen, die Zita den Jägern verheimlicht hatte, malten bestimmt ein noch schrecklicheres Bild von dem Wesen.
 - passage: Ankunft_Clannthin
 
@@ -434,11 +374,9 @@
     value: true
 - description: |-
     Rost hatte sich am Feuer zusammenkauert und seine lange, dürre Gestalt in einen dicken Mantel gewickelt. Lustlos knabberte er an einer Möhre, die genauso rot war, wie sein Haar. Unter seinem Kopftuch schauten ein paar Strähnen hervor und leuchteten mit dem Feuer um die Wette. 
-- character: stachel
-  text: |-
+- description: |-
     "Trägst du eigentlich immer ein Kopftuch?", erkundigte sich Stachel.
-- character: rost
-  text: |-
+- description: |-
     Rost antwortete ihr mit vollem Mund, wobei er sich mit Möhrenstückchen vollsaute: "Immer. Ohne Kopftuch wäre ich ein Leuchtsignal, das jedes Monster anlocken würde." 
 - description: |-
     Das glaubte Stachel zwar nicht, aber er schien fest davon überzeugt zu sein. Rost schmiss den Stumpf seiner Möhre ins Feuer und holte eine weitere aus einer seiner Manteltaschen. Er wirkte auf Stachel, als ob ihn etwas sehr bedrückte.
@@ -453,14 +391,11 @@
 :: Mitleid_mit_Rost [akt1_18]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     "Wieso bist du den traurig?", erkundigte Stachel sich. 
-- character: rost
-  text: |-
+- description: |-
     "Flavius ist gestorben", sagte Rost und dabei kullerten ihm Tränen über die Wangen und vermischten sich mit den Möhrenstückchen auf seinen Klamotten. 
-- character: rost
-  text: |-
+- description: |-
     "Dabei habe ich doch so gut kämpfen gelernt.", meinte Rost und präsentierte Stachel sein rostiges Schwert, "Ich konnte ihn nicht retten." 
 - description: |-
     Stachel beobachtete die Funken, die in den Himmel hoch tanzten. Möglicherweise erzählte Rost ihr mehr über diesen Flavius, wenn sie ihn fragte. Aber sie könnte Rost auch um etwas Essen bitten, weil ihr Magen bei dem Anblick der Möhren zu rumoren begonnen hatte.
@@ -473,8 +408,7 @@
 :: Essen_Rost [akt1_19]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     "Darf ich auch eine?", fragte Stachel und deutete dabei auf die Karotte.
 - description: |-
     Rost nickte und zog eine weitere aus seiner Tasche. Stachel nahm sie und putzte sie mit ihrem Hemdsärmel. Die Möhre war noch voller Erdklumpen. Rost hatte sie wahrscheinlich vom letzten Feld mitgehen lassen. Das hätte Stachel nicht von ihm gedacht, weil er so gutmütig und sanft wirkte. Doch sie wollte sich nicht beschweren, denn sie hatte sich in den letzten Tagen auch durch Klauen ernährt.
@@ -490,28 +424,21 @@
 :: Hintergrundgeschichte_Flavius [akt1_20]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     "Wie war Flavius denn so und wie ist er gestorben?", wollte Stachel wissen. 
 - description: |-
     Sie versuchte ruhig und mitfühlend zu sprechen, doch Rost fing jetzt erst richtig an zu heulen. Stachel nahm seine Hand und drückte sie fest. Flavius muss Rost wirklich am Herzen gelegen haben. Jedenfalls war er erschütterter als seine Kameraden oder diese zeigten ihre Gefühle nicht so offen wie er. Rost schniefte noch einmal stark und wischte sich die tränennassen Wangen ab.
-- character: rost
-  text: |-
+- description: |-
      "Flavius hat mich in dieser Truppe schon immer begleitet. Er hat mich verteidigt und hat mir alles Wichtige beigebracht. Ich weiß, dass ich nicht der Hellste bin. Aber Flavius hat gesagt, dass das mein Vorteil ist. Dadurch könnt ich im Clannthin nicht verrückt werden."
-- character: rost
-  text: |-
+- description: |-
     "Er selbst war schon so komisch, dass ihn der Wald nicht mehr stärker verdrehen konnte. Oft hat er zusammenhangslose Wörter in seinem Mund hin und her gewendet als ob sie köstlichste Früchte wären. Er hat sich als einziger getraut, etwas aus dem Clannthin in den Mund zu nehmen. Irgendwie hat er nie etwas Giftiges geschluckt. Dauernd sammelte er Kiesel, Beeren oder Blätter auf."
-- character: rost
-  text: |-
+- description: |-
     "Ursprünglich war er ein Alchimist. Flavius hat früher an der Akademie gelehrt, weil er so viel wusste und selten, wenn er betrunken war, hat er davon erzählt. Dort hat er wohl auch einen Teil seines Verstandes gelassen, obwohl Flavius gesagt hätte, dass er nur in eine andere Sphäre eingetreten sei." 
-- character: rost
-  text: |-
+- description: |-
     "Am meisten in seinem Element war er jedoch als Heiler. Jeden der sich verletzte, und das passierte uns oft im Clannthin, nahm er in seine Obhut. Verhielt er sich normalerweise höflich und zurückhaltend, so war er gegenüber seinen Patienten eine befehlerische Mutter. Er flößte einem irgendwelche seiner Tränke ein, bedachte einen mit einem Schwall Flüche, weil man so dumm gewesen war, und sah einen so streng an, dass man sich sehr anstrengte, um wieder gesund zu werden. Mich hat er sehr oft vor dem Tode bewahrt", erzählte Rost.
-- character: rost
-  text: |-
+- description: |-
     Er zeigte Stachel ein Holzstück mit unzähligen Kerben. "Schau so oft war ich bei ihm in Behandlung. Ich kann zwar nicht zählen, doch es ist wohl eine ganze Menge. Und nun ist er tot."
-- character: rost
-  text: |-
+- description: |-
     "Wir waren im Clannthin unterwegs und auf einmal war er weg. Wir haben ihn lange gesucht, aber wir haben nur sein Messer gefunden."
 - description: |-
     Schweigend starrten Stachel und Rost in die Flammen. Diese tanzten hoch und verschlangen die Holzscheite. Irgendwann merkte Stachel, dass Rost neben ihr eingeschlafen war. Vorsichtig deckte sie ihn zu und stand leise auf.
@@ -520,23 +447,17 @@
 :: Ausfragen_von_Rost [akt1_21]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     "Rost, sag mal, was macht ihr eigentlich hier", platzte es auch Stachel heraus.
-- character: rost
-  text: |-
+- description: |-
     "Wir sitzen an einem Lagerfeuer, um uns zu wärmen.", antworte er und schaute Stachel verständnislos an.
-- character: stachel
-  text: |- 
+- description: |- 
     "Ja, ja, aber das meine ich nicht. Ich wollte eigentlich wissen, wohin ihr unterwegs seid.", meinte Stachel.
-- character: rost
-  text: |-
+- description: |-
     "Ach so", sagte Rost, "Wir wollen in den Clannthin und dort ein Monster jagen." Bei diesen Worten deutete er vielsagend auf sein rostiges Schwert
-- character: rost
-  text: |-
+- description: |-
     "Willst du auch in den Clannthin? Dann kannst du uns ja ein Stückchen begleiten.", quatschte Rost wieder fröhlich weiter
-- character: rost
-  text: |-
+- description: |-
     "Warst du denn schon einmal im Clannthin? Wenn nicht, musst du ein bisschen aufpassen. Vor allem musst du genug Essen und Trinken mitnehmen. Ich würde Nichts aus dem Clannthin zu mir nehmen. Am besten zum Einpacken eignet sich Brot, aber auch Äpfel, Lebkuchen, Käse..." Rost plapperte munter weiter über Essen.
 - description: |-
     Sollte Stachel ihn weiter reden lassen und hoffen, dass er noch Wichtiges über den Clannthin preisgibt oder sich nach dem Monster, das sie jagen wollten, erkundigen.
@@ -549,14 +470,11 @@
 :: Erfahrungen_Clannthin [akt1_22]
 - setup: 
     background: lagerfeuer
-- character: rost
-  text: |-
+- description: |-
     "Manchmal hat man Glück und findet einen vernünftigen Weg. Doch die meiste Zeit im Clannthin muss man sich durch wucherndes Pflanzengestrüpp kämpfen. Es ist sehr anstrengend, im Clannthin zu überleben. Doch er ist so schön! Dort gibt es Blumen und Schmetterlinge in den schillernsten Farben. Alles strahlt vor Energie und Leben. Selbst die Bäche plätschern anstatt ruhig zu fließen."
-- character: rost
-  text: |-
+- description: |-
     "Nur einmal habe ich eine Elfe gesehen. Das schönste Wesen von ganz Stauchen. Wallendes Haar und so eine Eleganz! Leider war sie auch sehr schnell verschwunden. Ach...Dann gibt es da noch die Waldgeister. Sie sind die einzigen ungefährlichen Wesen des Clannthins. Sie spielen mit einem, stecken einem Gras in die Ohren und sind schrecklich neugierig. Für mich sind sie schon echte Freunde geworden und häufig haben sie mir aus der Patsche geholfen.", erzählte Rost. 
-- character: stachel
-  text: |-
+- description: |-
     Stachel unterbrach ihn, "Ähh, danke. Aber ich reise nicht in den Clannthin. Ich bin eigentlich nach Herothien unterwegs."
 - description: |-
      Rosts Gerede war nicht wirklich hilfreich, weil es nicht realistisch war. Anscheinend hat ihn der Clannthin so den Kopf verdreht, dass er fast nur positiv über ihn redete.
@@ -565,14 +483,11 @@
 :: Teilnahme-Stachel_Rost [akt1_23]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     "Welches Monster jagt ihr?", sagte Stachel. 
-- character: rost
-  text: |-
+- description: |-
     "Du bist an unserem Auftrag interessiert? Du willst bestimmt mitkommen. Wir brauchen noch einen Ersatz für Flavius. Er war Heiler. Bestimmt kannst du das auch ein bisschen. Wir sind zwar schon ein paar Heilern seitdem begegnet, aber die anderen meinten, die seien alle Betrüger gewesen. Sie sind sehr misstrauisch, aber gegen dich haben sie bestimmt nichts.", meinte Rost freudestrahlend.
-- character: rost
-  text: |-
+- description: |-
     "Natürlich wartet am Ende eine große Belohnung. Ich möchte mir davon ein neues Schwert kaufen."
 - description: |-
     Rost war echt leichtgläubig und naiv. Doch das war Stachels Chance. Wenn sie annahm (24), konnte sie endlich was erleben. Andererseits würde sie den Clannthin vielleicht nicht überleben. Erst recht nicht mir diesen Gefährten. Sie sollte wohl vernünftig sein und sich jetzt schlafen legen.
@@ -585,48 +500,37 @@
 :: Auftrag_Rost [akt1_24]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     "Ich mach mit", verkündete Stachel.
-- character: rost
-  text: |-
+- description: |-
     Freudig klatschte Rost mit ihr ab und sagte: "Wusste ich's doch. Du bist eine ganz schön tapferes Fräulein. Das geht doch in Ordnung?" Die anderen nickten nur.
-- character: rost
-  text: |-
+- description: |-
     "ich werde dir nun davon erzählen, wie wir den Auftrag bekommen haben, damit du Bescheid weißt.", verkündete Rost.
 - setup: 
     background: jagschloss_saal
 - pause: true
-- character: rost
-  text: |-
+- description: |-
     Obwohl Flavius gestorben war, ist es uns gelungen einen Nolgorin zu fangen. Das ist ein übergroßer Wolf. Diesen brachten wie in das Jagdschloss unserer Auftraggeberin Zita Balisandres von Tannenbrecht.
-- character: rost
-  text: |-
+- description: |-
     Sie ist wunderschön und redet immer so angenehm. Eine wirklich sympathische Dame. Sie ist sogar so großzügig, die Welt von den Monster des Clannthins zu befreien. Sie trägt uns auf, diese zu jagen. Außerdem experimentiert sie mit ihnen. Mit der Kraft der Monster wird sie bestimmt noch mehr Gutes tun können. Bisher hat sie es schon geschafft ein Kralle aus ihrer Hand wachsen zu lassen. 
-- character: rost
-  text: |-
+- description: |-
     Jedenfalls haben wir wie immer unsere Belohnung bekommen. Danach verrät sie eigentlich immer den Namen des nächsten Monsters. Wir haben immer Wetten vorher abgeschlossen, doch ich habe jedesmal verloren. Doch diesmal kannte sie wohl selbst nicht den Namen des Wesens.
-- character: zita
-  text: |-
+- description: |-
    Sie sagte zu uns: "Meinen lieben Jäger. Ihr habt nun schon so viele Monster für mich gefangen. Dafür bin ich euch sehr dankbar. Nun werde ich euch ein letztes Mal ausschicken, damit ihr euch den Gefahren des Clannthins stellt und mir ein Wesen bringt."
 - description: |-
     Ich war erleichtert, dass es das letzte Mal wäre. Ohne Flavius ist es halt nicht dasselbe. 
-- character: zita
-  text: |-
+- description: |-
     Zita redete gleich weiter: "Ich weiß, dass kommt für euch jetzt etwas überraschend. Doch diese letzte Aufgabe ist die Gefährlichste von allen. Wenn ihr sie erfüllt, werde ich euch so reich entlohnen, dass ihr euch um eure Zukunft nicht mehr sorgen braucht. Viele würden es trotz des vielen Goldes nicht wagen, das Wesen zu fangen. Doch ich glaube an euch und eure Fähigkeiten."
 - description: |-
     Ich freute mich über ihre Großzügigkeit und bekam neue Hoffnung für die Zukunft. Mit dem Geld kann ich machen, was ich will. Ich könnte verschiedene Sachen ausprobieren. Ich wollte z.B. schon immer einmal ein Badehaus besuchen oder einen ordentlichen Hut haben. Die sind im Clannthin zu unpraktisch.
-- character: zita
-  text: |-
+- description: |-
     "Das Wesen was ich meine, ist der Beschützer der anderen Monster. Es ist stärker als jedes der Monster. Man könnte es auch als Jäger betrachten, es ist brutal und rücksichtslos. Wenn ihr Orte von größter Zerstörung findet, ist es nicht weit. Doch wird es euch wahrscheinlich eher finden als ihr es. Alle Monster, die ihr mir gebracht habt, stehen nämlich unter seinem Schutz. Es wird also versuchen, euch los zu werden.", informierte Zita uns, "Seid also immer wachsam. Noch eins: das Wesen ähnelt einem jungen Mädchen. Ob das ihre wahre Gestalt ist, weiß ich nicht, doch lasst euch nicht von ihrem Äußeren täuschen." 
 - setup: 
-- character: rost
-  text: |-
+- description: |-
     Ich fand es nett von Zita, dass sie sich so um uns sorgte. Doch sie scheint etwas übertrieben haben und wahrscheinlich ist das Monster nicht gefährlicher als die anderen.
 - setup: 
     background: lagerfeuer
-- character: glaeubige
-  text: |-
+- description: |-
     Nach Rosts Erzählung schickte der Gläubige alle schlafen. Stachel legte sich beunruhigt hin, weil sie Angst hatte. Worauf hatte sie sich gerade eingelassen? Rost schien Zita sehr zu mögen und die Situation auf die leichte Schulter nehmen. Stachel glaubte jedenfalls, dass Zita noch merkwürdiger war als die Jäger um sie herum.
 - passage: Ankunft_Clannthin
 
@@ -641,11 +545,9 @@
     Stachel setzte sich neben den Zwerg, der Ohrelaus Minnfroh hieß. Sie überragte ihn um einen ganzen Kopf. Er sah so aus, wie sie sich Zwerge schon immer vorgestellt hatte: ein langer geflochtener grauer Bart, eine gute Rüstung, ein Helm und dicke Stiefel. Nur der Bogen und die Harfe passten nicht so recht ins Bild. Aber da Stachel vorher noch keinem Zwerg begegnet war, merkte sie sich diese Ausrüstung als normal und typisch zwergisch. 
 - description: |-
     Ohrelaus klimperte auf der Harfe, brummte dabei und schaute versonnen in den Himmel. Stachel räusperte sich, um den Zwerg aus seiner dichterischen Blase zu wecken und auf sich aufmerksam zu machen. 
-- character: zwerg
-  text: |-
+- description: |-
     "Oh, holde Maid", brummte er mit klarer Stimme, "es tut mir leid. Ich war in meinen Gedanken versunken. In diesem Zustand bin ich noch unumgänglicher als wenn ich betrunken bin."
-- character: zwerg
-  text: |-
+- description: |-
     "Sie möchten sich bestimmt eine Ballade vorspielen lassen, weil Sie anders als meine Gefährten die große Kunst nicht hassen. Nun denn, welcher Melodie möchten Sie lauschen statt dem Blätter-Rauschen?".
 - description: |-
     Stachel war immer noch so begeistert, endlich einen echten Zwerg zu begegnen, dass sie ihn eine Weile einfach nur stumm anstarrte. Für Schönheit und Kunst hatte sie nie viel übrig gehabt. Vor allem die ganzen Kirchenlieder hingen ihr zum Hals raus. Mit ihnen wurde immer nur eine heile Welt vorgespielt und übertriebene Schönmalerei verachtete Stachel. 
@@ -660,8 +562,7 @@
 :: Ballade_Ablehnung [akt1_26]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     "Sehr geehrter Ohrelaus Minnfroh. Es wäre mir eine Ehre, ein Lied von Euch zu hören. Doch mit größtem Bedauern muss ich für heute ablehnen. Ich bin sehr weit gewandert und mein Körper ist recht empfindlich. Deshalb möchte ich mich bald ausruhen und einen heilenden Schlaf genießen. Doch will ich auch nicht unhöflich sein und jedem von euch einen Augenblick meiner Aufmerksamkeit schenken, weil ihr so freundliche Gastgeber seid.", lehnte Stachel höflich ab.
 - description: |-
     Der Zwerg lächelte sie an und vertiefte sich dann wieder in sein Geklimper.
@@ -670,16 +571,13 @@
 :: Ballade_Zwerg [akt1_27]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     Stachel riss sich aus ihren Gedanken und antwortete: "Sicher wäre eine klassische Ballade eine Freude für meine Ohren, die solche Kunst schon lange entbehrt haben. Aber sagt, habt Ihr nicht ein Lied, was Ihr selbst geschrieben habt, etwas über Eure eigenen  Abenteuer?" 
 - description: |-
     Vielleicht konnte sie so dem Zwerg noch ein paar nützliche Informationen entlocken. Ohrelaus setzte sich entzückt zurecht. 
-- character: zwerg
-  text: |-
+- description: |-
     "Bei solch holden Worten kommen mir spontan ein paar Verse in den Sinn. Ein paar Strophen sind da schon drin."
-- character: zwerg
-  text: |-
+- description: |-
     <audio src="assets/ohrelaus1.mp3" controls>
 - description: |-
     Erwartungsvoll sah der Zwerg Stachel an. 
@@ -690,8 +588,7 @@
 :: Lagerfeuer_schlafen [akt1_28]
 - setup: 
     background: lagerfeuer
-- character: stachel
-  text: |-
+- description: |-
     Stachel legte sich ans Feuer. Sie wollte eigentlich noch die anderen heimlich belauschen. Doch schon fielen ihr die Augen zu und sie schlief......
 - description: |-
     Die große Glocke schellte. Stachel sprang sofort auf und wollte nach ihrem Kittel greifen. Wenn sie nicht vor dem letzten Glockenschlag unten zum Morgengebet angetreten wäre, würden die Fratisen sie wieder vorsingen lassen. Doch wo war ihr Kittel und die Schlafbetten? 
@@ -720,8 +617,7 @@
     Die anderen dagegen waren befeuert von ihrer Wut. Die Fackel beleuchten ihre
     zusammengekniffenen Münder und blitzenden Augen. Schlinge schien das jedoch
     nicht zu beeindrucken.
-- character: schlinge
-  text: >-
+- description: >-
     Sie baute sich vor ihnen auf, knackte angriffslustig mit ihren
     Fingerknöcheln und fuhr sie an: "Was wollt ihr hier? Schert euch weg, wenn
     euch euer Leben lieb ist."
@@ -738,8 +634,7 @@
     nur riefen, waren sie nicht gefährlich. Aber wenn der erste zustach, würde
     sich ihr geballter Hass und ihre Verzweiflung entladen. Vielleicht sollten
     sie auf die Bäume klettern oder die Leute mit Glutbrocken bewerfen.
-- character: zwerg
-  text: >-
+- description: >-
     Während sich Stachels Gedanken noch im Kreis drehten, rief der Zwerg: "Zieht
     euch ein Stück Stoff über den Mund runter, denn jetzt wirds munter.".
     Reflexartig befolgte Stachel die Anweisung und band sich ihren Schal um. Der
@@ -768,8 +663,7 @@
     Außer Atem blieben sie auf dem nächsten Hügel stehen. Stachel hatte immer
     noch das Gefühl, dass sie gleich eingeholt werden würden. Doch weit und
     breit waren keine Verfolger zu sehen.
-- character: stachel
-  text: >-
+- description: >-
     "Habt ihr wirklich Monster aufgeweckt, die nun hier ihr Unwesen treiben?",
     wollte Stachel wissen.
 - description: >-
@@ -779,35 +673,30 @@
     bestimmt schon bemerkt. Aber was sagte ihr eigentlich, dass ein Monster groß
     sein musste? Sie hatte noch nie eins gesehen und vielleicht sahen sie aus
     wie der Busch neben ihr.
-- character: glaeubige
-  text: >-
+- description: >-
     "Ein Monster ist wirklich mal aus dem Clannthin gekommen durch unsere
     Schuld. Es war aber eigentlich sehr friedfertig und wir hatten es schnell
     eingefangen. Die Bauern suchen nur einen Sündenbock für ihre Missernten",
     erklärte der Gläubige und unterbrach damit Stachels Schreckensvorstellungen.
-- character: schlinge
-  text: >-
+- description: >-
     "Genau. Das passiert uns jetzt schon zum dritten Mal. Langsam wird es echt
     nervig.", fügte Schlinge an.
 - description: >-
     Stachel hofft, dass dies ihr erste und auch letzte Begegnung mit
     aufgescheuchten Bauern bleiben würde. So eine Menschenmenge ist einfach zu
     emotional aufgeladen und schlecht abschätzbar.
-- character: rost
-  text: >-
+- description: >-
     "Wohin gehst du jetzt?", fragt Rost Stachel. Er schien sie schon jetzt zu
     vermissen. Kein Wunder, dachte Stachel, ich bin hier wohl noch der normalste
     Mensch.
-- character: stachel
-  text: >-
+- description: >-
     "Ich gehe ins nächste Dorf und versuche mich dann bis nach Herothien
     durchzuschlagen. Dort ist die Auftragslage für Kopfgeldjäger immer am
     besten.", meinte Stachel, "Und ihr?".
 - description: >-
     Stachel fragte sich, wieso sie Trennung soweit hinaus zögerte. Vielleicht
     wollte sie nicht schon wieder allein umherziehen.
-- character: glaeubige
-  text: >-
+- description: >-
     "Wir gehen jetzt in den Clannthin.", antwortete ihr der Gläubige, "Wenn du
     willst darfst du mitkommen. Natürlich ist mir unwohl dabei, dich solchen
     Gefahren auszusetzen. Aber allein möchte ich dich auch nicht ziehen lassen.
@@ -853,52 +742,43 @@
 :: Auftrag_Der-Gläubige [akt1_32]
 - setup:
     background: huegel_sonnenaufgang
-- character: stachel
-  text: '"Ich mach mit", verkündete Stachel.'
-- character: rost
-  text: >-
+- description: '"Ich mach mit", verkündete Stachel.'
+- description: >-
     Freudig drückte Rost sie an sich und sagte: "Wusste ich's doch. Ich bin
     froh, dass du dabei bist. Wir werden viel Spaß haben."
-- character: glaeubige
-  text: >-
+- description: >-
     "Ich muss dich noch über unseren Auftrag aufklären", stellte der Gläubige
     fest und begann zu erzählen:
 - setup:
     background: jagschloss_saal
 - pause: true
-- character: glaeubige
-  text: >-
+- description: >-
     Wir hatten es geschafft einen Nolgorin, einen übergroßen Wolf, zu fangen.
     Wieder war es uns gelungen ein faucherwidriges Wesen und eine Bedrohung für
     brave Gläubige zu überwältigen. Wir brachten es zum Jagdschloss unserer
     Auftraggeberin Zita Balisandres von Tannenbrecht.
-- character: glaeubige
-  text: >-
+- description: >-
     Sie ist die gütige Dame, die unsere Monsterjagd finanziert. Ganz selbstlos
     opfert sie sich für das Wohl von uns allen auf. Ich würde natürlich auch
     ohne Geld Monster jagen, aber von irgendetwas muss selbst ich leben.
-- character: glaeubige
-  text: >-
+- description: >-
     Aus den Monstern versucht Zita dann Kraft zu gewinnen. Du hast bestimmt
     schon von den Ewigen oder Zwielichtwanderern gehört. Um uns gegen solche
     mächtige Gestalten zu schützen, darf der Glauben auch durch zusätzliche
     Energie unterstützt werden.
-- character: glaeubige
-  text: >-
+- description: >-
     Bei ihren Experimenten ist es leider passiert, dass Zita eine Kralle
     gewachsen ist. Die Arme. Ich bete jeden Abend für sie. Sie hat sich so viel
     Verantwortung auf ihre schönen Schultern geladen, dass sie jede
     Unterstützung braucht.
-- character: glaeubige
-  text: >-
+- description: >-
     Wir waren also im Jagdschloss, um unsere Belohnung entgegen zu nehmen. Die
     anderen schlossen vorher immer Wetten ab, welches Monster als nächstes dran
     kommt. Ich habe nie mitgemacht. Die Faucher entscheiden alles und es wäre
     falsch, ihr weisen Entscheidungen durch Wetten zu beschmutzten. Diesmal
     griffen sie zum Glück auch ein, denn Zita nannte uns nicht den Namen des
     Wesens.
-- character: zita
-  text: >-
+- description: >-
     Sie sagte nur zu uns: "Meinen lieben Jäger. Ihr habt nun schon so viele
     Monster für mich gefangen. Dafür bin ich euch sehr dankbar. Nun werde ich
     euch ein letztes Mal ausschicken, damit ihr euch den Gefahren des Clannthins
@@ -909,8 +789,7 @@
     nicht, was ich ohne sie machen sollte. Doch vielleicht wollte Zita danach
     selbst anfangen zu kämpfen. Ich schwor mir, was immer auch kommen möge, an
     ihrer Seite zu stehen.
-- character: zita
-  text: >-
+- description: >-
     Zita redete gleich weiter: "Ich weiß, dass kommt für euch jetzt etwas
     überraschend. Doch diese letzte Aufgabe ist die Gefährlichste von allen.
     Wenn ihr sie erfüllt, werde ich euch so reich entlohnen, dass ihr euch ume
@@ -920,8 +799,7 @@
 - description: >-
     Ihr Glaube an uns rührte mich zu tiefst und ich dankte den Fauchern, dass
     sie der Welt solch eine tapfere Frau geschenkt hatten.
-- character: zita
-  text: >-
+- description: >-
     "Das Wesen was ich meine, ist der Beschützer der anderen Monster. Es ist
     stärker als jedes der Monster. Man könnte es auch als Jäger betrachten, es
     ist brutal und rücksichtslos. Wenn ihr Orte von größter Zerstörung findet,
@@ -931,8 +809,7 @@
     also immer wachsam. Noch eins: das Wesen ähnelt einem jungen Mädchen. Ob das
     ihre wahre Gestalt ist, weiß ich nicht, doch lasst euch nicht von ihrem
     Äußeren täuschen."
-- character: glaeubige
-  text: >-
+- description: >-
     Ich war froh, dass Zita uns so ehrlich gewarnt hatte. Ich werde ihre
     Ratschläge jeden Abend wiederholen, um sie nie zu vergessen.
 - setup:

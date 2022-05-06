@@ -6,11 +6,9 @@
           caption: Mücke
           color: red
 - description: "Mücke hört ein lautes Geräusch. Da ist noch jemand anderes im Wald ... "
-- character: muecke
-  text: Hallo, ist da wer?
+- description: Hallo, ist da wer?
 - description: "Keine Antwort."
-- character: muecke
-  text: "**Halooohooooooo!**"
+- description: "**Halooohooooooo!**"
 - description: "*raschel*"
   caption: ???
 - setup:
@@ -21,12 +19,9 @@
         - name: wolf
           caption: Wolf
           color: blue
-- character: wolf
-  text: "Du solltest nicht hier sein."
+- description: "Du solltest nicht hier sein."
 - description: "Mücke schaut Wolf herausfordernd an."
-- character: muecke
-  text: "Ich habe versprochen, nach ihm zu suchen."
-- character: wolf
+- description: "Ich habe versprochen, nach ihm zu suchen."descriptionacter: wolf
   text: "Dann bleib in meiner Nähe ..."
 - passage: Verzweigung
 
@@ -77,8 +72,7 @@
         - name: wolf
           caption: Wolf
           color: blue
-- character: wolf
-  text: "Gut. Ich bin bereit einzuräumen, dass ich mich **vielleicht** verlaufen habe ..."
+- description: "Gut. Ich bin bereit einzuräumen, dass ich mich **vielleicht** verlaufen habe ..."
 - setup:
     background: wueste
 - jumpTo: richtungsauswahl
