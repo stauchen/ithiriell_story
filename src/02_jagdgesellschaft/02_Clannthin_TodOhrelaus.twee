@@ -836,7 +836,7 @@
 :: Augen_zu [akt1_H]
 - setup:
     background: huebsche_waldlichtung
-- description " ... "
+- description: " ... "
 - choice:
   - option: Die Augen öffnen
     passage: Augen_öffnen
