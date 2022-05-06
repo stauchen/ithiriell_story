@@ -23,7 +23,7 @@
     Lachen. Stachel riss verärgert ihre Augen auf. Rost kringelt sich.
     Pathetisch machte er einen Schritt nach vorne und fing dann wieder an zu
     giggern.
-    Schlinge und der Gläubige dagegen liefen unbeirrt an ihnen vorbei in den
+    Carmina und der Gläubige dagegen liefen unbeirrt an ihnen vorbei in den
     Wald hinein. Schnell hatten sie einen Weg durch das Gestrüpp gefunden und
     führten die Gruppe zwischen den Stämmen hindurch. Eigentlich war der
     Clannthin auch nicht viel anders als andere Wälder: Bäume, Gestrüpp und
@@ -33,7 +33,7 @@
     Schauermärchen über den Clannthin einen glauben ließen.
     Doch Stachel wurde ein ungutes Gefühl nicht los. Das Gefühl der Fremde. Das
     Gefühl hier nicht hin zu gehören.
-    "Hallo, Stachel", unterbrach Schlinge ihre Gedanken und winkte dabei noch
+    "Hallo, Stachel", unterbrach Carmina ihre Gedanken und winkte dabei noch
     vor ihrem Gesicht hin und her. "Wir haben das Ritual, dass jeder Frischling
     die erste Wegentscheidung übernehmen muss. Also links oder rechts lang?"
     Sie waren schon an einer Wegkreuzung angelangt und alle sahen sie gespannt
@@ -69,7 +69,7 @@
     In Rosts Augen stahl sich ein verträumter Ausdruck und er seufzte.
     "Also eigentlich wollte ich nicht nach diesem Steindingsbums fragen. Ich
     will wissen, was bei den Fauchern der Gläubige da macht."
-    Schlinge übernahm das Sprechen für Rost, der immer noch in seinen Fantasien
+    Carmina übernahm das Sprechen für Rost, der immer noch in seinen Fantasien
     schwelgte:  "Der Gläubige versucht sich zu orientieren. Keine Ahnung wie
     genau er das macht. Jedenfalls sind seine Angaben nur halb so zu verlässig
     wie mein Bauchgefühl. Aber diesmal hat er recht. Das hier ist die
@@ -79,9 +79,9 @@
     überwachsen. Für Stachel war der Anblick so unspektakulär wie eine Scheune.
     Selbst die kleinste Kirche war mit mehr Geschick und Hingabe errichtet
     wurden, als diese Handvoll Kiesel.
-    Der Gläubige und Schlinge schienen sich auch nicht für den Anblick
+    Der Gläubige und Carmina schienen sich auch nicht für den Anblick
     begeistern können. Der Gläubige fuchtelte immer noch mit seinen Geräten
-    herum und Stachel wusste nicht einmal was er suchte. Schlinge wollte das
+    herum und Stachel wusste nicht einmal was er suchte. Carmina wollte das
     anscheinend herausfinden und redete eindringlich auf ihn ein. Bald
     entwickelte sich ihr Gespräch zu einem ernsthaften Streit. Da Stachel nicht
     zwischen die Fronten geraten wollte und auch nicht schnell mit einem
@@ -132,7 +132,7 @@
     ihre Lüge wenigstens halbwegs glaubwürdig erscheinen zu lassen. Das Grün
     umschlang sie und sie genoss kurz die Ruhe.
     Die Jäger waren schon ein sehr seltsamer Haufen und ihr Leben würde sie
-    ihnen niemals anvertrauten. Rost war zu laubgläubig, Schlinge zu emotional,
+    ihnen niemals anvertrauten. Rost war zu laubgläubig, Carmina zu emotional,
     der Gläubige zu stur und der Zwerg zu poetisch. Sie musste wohl eher auf
     diesen Haufen aufpassen. Stachel atmete tief durch und genoss noch kurz die
     Pause.
@@ -248,7 +248,7 @@
 - setup:
     background: mondstiege
 - description: >-
-    Stachel und der Zwerg gingen zu dem Gläubigen und Schlinge. Die hatten sich
+    Stachel und der Zwerg gingen zu dem Gläubigen und Carmina. Die hatten sich
     so sehr in ihre Auseinandersetzung hineingesteigert, dass sie die
     Vogelschreie nicht wahrgenommen hatten.
     Rost dagegen hatte sich ihnen schon mit schreckensgeweihten Augen genähert
@@ -266,7 +266,7 @@
 
 - description: >-
     "War das die richtige Entscheidung?", fragt Stachel Rost.
-    "Wir sind noch nicht tot, also war sie nicht falsch.", warf Schlinge ein,
+    "Wir sind noch nicht tot, also war sie nicht falsch.", warf Carmina ein,
     die trotz ihres zu schaugestellten Desinteresses gelauscht hatte.
     "Um ehrlich zu sein, haben wir keine Ahnung", erklärte Rost ihr, "Die Wege
     im Clannthin verändern sich zu schnell, als das wir sie als Orientierung nutzen
@@ -291,7 +291,7 @@
     kleiner Mund schmatzte.
     Stachel schaute verständnislos auf das kleine Tier. Deswegen hatte
     Ohrelaus sie fast zu Tode erschreckt?
-    "Nicht schon wieder eine Trötoline.", seufzte Schlinge auf, "Wegen diesen
+    "Nicht schon wieder eine Trötoline.", seufzte Carmina auf, "Wegen diesen
     blöden Viechern hat unsere letzte Mission fast doppelt so lange gedauert. Nicht
     schlimm genug, dass sie alle Wege bedecken und man fast auf ihnen ausrutschst.
     Du musst auch noch jedes einzeln streicheln!"
@@ -299,7 +299,7 @@
     Wesen und ich kann in ihren Gesichtszügen lesen. Außerdem hätte Stachel fast einen
     Mord begangen oder kann dieser Gedanke nicht in dein Hirn gelangen?" Behutsam
     strich Ohrelaus über die glatte Rinde des Tiers, fütterte es mit irgendwas schleimigen
-    und setzte es dann an dem Wegesrand ab. Schlinge hingegen schien noch nicht mit
+    und setzte es dann an dem Wegesrand ab. Carmina hingegen schien noch nicht mit
     dem Zwerg fertig zu sein. Sollte Stachel versuchen einer Auseinandersetzung zuvor
     zu kommen oder einfach vorlaufen?
 - choice:
@@ -313,7 +313,7 @@
     background: waldweg
 
 - description: >- 
-    Stachel überließ Schlinge den Zwerg und lief den Weg weiter entlang.
+    Stachel überließ Carmina den Zwerg und lief den Weg weiter entlang.
     Sie verstand echt nicht, woher der Zwerg die Nerven nahm, sich um das Wohl von
     kleinen Tierchen zu kümmern.
     Er sollte lieber auf sein Leben aufpassen. Am Ende waren die Trötolines
@@ -339,14 +339,14 @@
 - description: >- 
     Der Gläubige kam Stachel erstaunlicher Weise zuvor. "Auch das Leben von Trötolines
     steht unter dem Schutz der Faucher und somit auch unter unserem. Tiamat möge ihnen
-    einen langen Lebensatem schenken.", sagte er zu Schlinge. Diese verdrehte nur
+    einen langen Lebensatem schenken.", sagte er zu Carmina. Diese verdrehte nur
     die Augen und ließ von diesem Streitthema ab.  Es schien wohl schon häufiger ergebnislos
     ausdiskutiert worden zu sein. Alle fühlten sich im Recht und keiner wollte von
     seiner Meinung abweichen.
     Stachel hoffte einfach, keiner Trötoline mehr zu begegnen. Ein Problem
     zu verdrängen löste es zwar nicht, aber so störte es nicht mehr akut.
     Mit getrübter Stimmung liefen sie weiter. Rost lief mitfühlend neben
-    Schlinge her und quatschte auf sie ein. Der Gläubige war in irgendwelchen Gebeten
+    Carmina her und quatschte auf sie ein. Der Gläubige war in irgendwelchen Gebeten
     vertieft. Also wandte sich Stachel zu Ohrelaus. Sollte sie ihn fragen, wohin sie
     gingen oder was die Wurzeln seiner Tierliebe waren?
 - choice:
@@ -383,7 +383,7 @@
     seine gespannten Zuhörer.
     "Der Granit", meinte Rost, der aufgeregt mit den Fingern trommelte.
     "Einem heiliges Artefakt?", riet der Gläubige.
-    "Deine Balladen.", scherzte Schlinge sarkastisch.
+    "Deine Balladen.", scherzte Carmina sarkastisch.
     "Nein! Das kann alles nicht sein.", rief Ohrelaus und freute sich offenbar,
     das keiner richtig lag. "In dem Erbrochenen der Kranken haben wir kleine Haken
     gefunden. Alle dachten, es wären Metallsplitter und haben sich bei diesem Gedanken
@@ -398,7 +398,7 @@
     Ihre Haut glänzt nämlich wie ein Wassertropfen und spiegelt vielfältige Farbnoten.
     Wer so etwas Schönes vernichtet wird von den Fauchern bestraft sofort und noch
     am gleichen Ort."
-    Der Gläubige nickte zu stimmend, Rost strahlte und Schlinge verdrehte
+    Der Gläubige nickte zu stimmend, Rost strahlte und Carmina verdrehte
     die Augen. Da die Geschichte sie nun wieder entlassen hat, nahm Stachel ihre Umgebung
     genauer wahr. Sie waren ein ganzes Stück vorangekommen. Um sie herum hatten sich
     Salbeisträucher ausgebreitet und dahinten stieg Rauch auf.
@@ -424,7 +424,7 @@
     Bald bedeckten die Salbeisträucher den ganzen Boden und Rost zählte links des
     Weges und Stachel rechts.
     Bei 142 sahen sie dann Rauch vor sich in den Himmel steigen. "Na endlich,
-    eure Zählübung halte ich nicht mehr aus. Ihr seid so kindisch.", stieß Schlinge
+    eure Zählübung halte ich nicht mehr aus. Ihr seid so kindisch.", stieß Carmina
     seufzend aus.
 - passage: Lichtung_Zwerg
 
@@ -448,7 +448,7 @@
     Sie öffneten das Tor und verteilten sich auf der Lichtung. Die Jäger schienen
     schon öfters hier gewesen zu sein und feste Rituale entwickelt zu haben.
     Der Gläubige widmete sich dem Zaun, beäugte kritisch und geübt  die
-    Schutzmechanismen und erneuerte sie an manchen Stellen. Schlinge stampft an die
+    Schutzmechanismen und erneuerte sie an manchen Stellen. Carmina stampft an die
     Seite des Hauses und begann mit großer Wucht Holz zu haken. Irgendetwas an diesem
     Ort schien ihre Wut zu entfachen oder war sie immer erfüllt davon und ließ sie
     nun nur offen heraus?
@@ -460,12 +460,12 @@
     unwahren Geschichte mit gutem Ende sehnte. Das Leben war halt kein Lagerfeuermärchen.
     Der Zwerg hatte ruhig neben ihr ausgeharrt, bis sie alles in sich aufgesogen
     hatte. Zusammen machten sie sich auf zur Hütte. Stachel konnte Ohrelaus jetzt
-    noch schnell nach dem Gläubigen, nach Schlinge oder Rost befragen.
+    noch schnell nach dem Gläubigen, nach Carmina oder Rost befragen.
 - choice:
     - option: Etwas über Gläubigen fragen
       passage: Über_Der-Gläubige
-    - option: Etwas über Schlinge fragen
-      passage: Über_Schlinge
+    - option: Etwas über Carmina fragen
+      passage: Über_Carmina
     - option: Etwas über Rost fragen
       passage: Über_Rost
 
@@ -489,14 +489,14 @@
     dem Zwerg das Haus betreten und diesen Gerbert Hollereder kennen lernen (50).
 - passage: gerbert_hollereder
 
-:: Über_Schlinge [akt1_48]
+:: Über_Carmina [akt1_48]
 - setup:
     background: gerberts_lichtung
 - description: >-
-    "Geht es Schlinge gut?", erkundete sich Stachel. Mit lauten Krachen zerhackte
-    Schlinge einen Holzscheit nach dem anderen und Stachel war froh, dass sie nicht
-    Schlinges Feind war.
-    Der Zwerg strich nachdenklich über seinen Bart. "Naja, Schlinge kann nicht
+    "Geht es Carmina gut?", erkundete sich Stachel. Mit lauten Krachen zerhackte
+    Carmina einen Holzscheit nach dem anderen und Stachel war froh, dass sie nicht
+    Carminas Feind war.
+    Der Zwerg strich nachdenklich über seinen Bart. "Naja, Carmina kann nicht
     so gut mit ihren Gefühlen umgeben. Außerdem kann sie nicht so schnell vergeben.
     Du musst wissen, dass Gerbert früher zu den Jägern zählte und dann freiwillig
     das Leben hier wählte.", erklärte Ohrelaus nachdenklich.
@@ -505,9 +505,9 @@
     Der Zwerg senkte etwas die Stimme und flüsterte Stachel zu: "Ich glaube sie
     war ein bisschen verguckt in ihn und kann ihn einfach nicht loslassen. Jetzt wird
     sie ihn wohl lieber hassen. Denn wer sich nicht dem Kampf hingab, mit dem gibt
-    sich Schlinge nicht ab." Ohrelaus seufzte und seine Augen wurden leicht feucht
+    sich Carmina nicht ab." Ohrelaus seufzte und seine Augen wurden leicht feucht
     als wäre das eine dramatische Liebesgeschichte.
-    Stachel glaubt eher, dass Schlinge noch wütend auf Ohrelaus war, aber
+    Stachel glaubt eher, dass Carmina noch wütend auf Ohrelaus war, aber
     das behielt sie lieber für sich. Außerdem öffnete Ohrelaus gerade die verwitterte
     Tür zum Haus.  Stachel machte sich bereit Gerbert Hollereder zu begegnen, der
     bestimmt noch komischer war, als sich ihre Vorstellungskraft ausgemalt hatte.
@@ -660,12 +660,12 @@
     sehr weh getan. Ich habe mir nämlich den Arm aufgeschürft. Verdammt, tut das weh.
     Bei Furwin, bin ich schnell gelaufen. Du wirst mir nicht glauben, was ich gesehen
     habe. Ich glaube es ja selbst kaum. Geht es dir auch wirklich gut?"
-    Ihr Redesturm wurde unterbrochen, als Schlinge, Rost und der Gläubige
+    Ihr Redesturm wurde unterbrochen, als Carmina, Rost und der Gläubige
     auftauchten. Rost kam auf Stachel zugerannt und drückte sie ganz fest.
     "Ich hatte so eine Angst um dich. Ich will dich nicht auch verlieren wie
     Flavius.", gestand ihr Rost. Sogar ein paar Tränen kullerten über seine vor Freude
     strahlenden Wangen.
-    Schlinge unterbrach das rührende Widersehen und fragte Stachel: "Was hast
+    Carmina unterbrach das rührende Widersehen und fragte Stachel: "Was hast
     du denn gesehen?".
     Stachel schob alle ihre aufgeregten Gefühle beiseite und versuchte
     möglichst zusammenhängend von den Erlebnissen auf der Lichtung zu erzählen. Alle
@@ -675,18 +675,18 @@
     hatte.
     "Wer weiß, welche Dämpfe Stachel eingeatmet hat und was sich dadurch in ihrem
     Kopf zusammen gesponnen hat. Oder sie hat sich irgendwo den Kopf gestoßen.", meinte
-    Schlinge nur abschätzig dazu.
+    Carmina nur abschätzig dazu.
     "Aber was ist mit dem Mädchen? Könnte es nicht das gesuchte Monster sein?",
-    warf der Gläubige ein, der bis dahin recht still gewesen war. "Stimmt", gab Schlinge
+    warf der Gläubige ein, der bis dahin recht still gewesen war. "Stimmt", gab Carmina
     zu, "Also Stachel, führ uns zu diesem Ort und dann werden wir ja sehen wer Recht
-    hat." Ohne Stachel Zeit für eine Antwort zu geben stapfte Schlinge schon los.
+    hat." Ohne Stachel Zeit für eine Antwort zu geben stapfte Carmina schon los.
     Auch mit den Jägern zusammen fühlte sich Stachel nicht so sicher, um dahin zurückkehren
     zu wollen, wovon sie geflüchtet war.
     "Geht es dir wirklich gut?", erkundigte der Gläubige sich bei ihr. Sie nickte
     nur und ging dann nach vorne, um die Gruppe anzuführen. Beim Gehen drehten sich
     ihre Gedanken noch immer wild im Kreis und so fand sie erstaunlich gut zurück
     zur Lichtung. Diese war aber wieder unscheinbar. Kein Mondlicht, keine tanzenden
-    Steine und kein Mädchen. Schlinge schaute selbstgefällig in der Runde. Rost dagegen
+    Steine und kein Mädchen. Carmina schaute selbstgefällig in der Runde. Rost dagegen
     war tief betrübt.
     Ohrelaus klopfte ihm aufmunternd auf die Schulter und wand sich dann an Stachel:
     "Wie überlappten sich denn genau die Steine, um zu bilden der Treppen Gebeine?".
@@ -711,7 +711,7 @@
     Flechten sprossen aus dem Boden und umhüllten ihn, bis er nicht mehr von den anderen
     Steinen zu unterscheiden war.
     Der Gläubige nahm sanft und behutsam Stachels Hand. Auch Rost und
-    Schlinge verbanden sich mit der Kette und so geerdet sprach der Gläubige das Abschiedsgebet
+    Carmina verbanden sich mit der Kette und so geerdet sprach der Gläubige das Abschiedsgebet
     für Ohrelaus Minnefroh:<br /><br />
     "Ihr Faucher, wir rufen euch an. Nehmt Ohrelaus Minnefroh in eure Arme...<br />
     Hiordis stärke den Gestorbenen für seinen letzten Weg,<br />
@@ -726,7 +726,7 @@
       denn er trug immer aufrecht die Konsequenzen seines Handelns.<br />
     Tiamat gib für den Körper des Gestorbenen einen ruhigen Erdenplatz,<br />
       denn er hat die Natur geschätzt und keinem Lebewesen grundlos Leid zugefügt." <br /> <br />
-    Schlinges Gesicht hatte sich zusammengezogen und ihr Blick ging ins
+    Carminas Gesicht hatte sich zusammengezogen und ihr Blick ging ins
     Leere. Der Gläubige seufzte tief ergriffen auf. Rost rannen immer noch die Tränen
     über die Wangen und er schniefte. Stachel hingegen fühlte sich so regungslos,
     so versteinert wie der Zwerg es nun war. Eine drückende Leere dämpfte alle ihre
@@ -735,11 +735,11 @@
     "Und was haltet ihr von einer deftigen Suppe? Ich übernehme heute das Kochen.",
     verkündete der Gläubige. Er nahm Rost bei den Schultern, den der Gedanke an Essen
     schon wieder etwas aufheiterte.
-    Als die beiden außer Höherweite waren, nahm Schlinge Stachel zur Seite und
+    Als die beiden außer Höherweite waren, nahm Carmina Stachel zur Seite und
     redete auf sie ein: "Alle Gedanken und Worte über den Tod des Zwerges musst du
     auf dieser Lichtung lassen, bis wir den Clannthin verlassen haben. Das ist unsere
     Regel. Der Kummer würde uns nur ablenken und unsere Willenskraft schwächen, sodass
-    keiner mehr hier lebend herauskommt.". Schlinge sah sie eindringlich an.
+    keiner mehr hier lebend herauskommt.". Carmina sah sie eindringlich an.
     "Gut. Ich verstehe.", sagte Stachel, obwohl sie das Bild des versteinerten
     Zwerges nicht aus ihren Gedanken verbannen konnte. Sie verließen die Lichtung
     und Ohrelaus Minnefroh.
@@ -790,7 +790,7 @@
     Sie öffnete die Augen. Ihr Kopf dröhnte. Vorsichtig erhob sie sich
     und schaute sich um. Ein Mann stützte sie und gab ihr vorsichtig etwas zu trinken.
     "Stachel, kannst du mich hören?", schrie eine Frau sie an, die wild vor ihrer
-    Nase rumfuchtelte. Stachel nickte vorsichtig und lächelte Schlinge an. Auf einmal
+    Nase rumfuchtelte. Stachel nickte vorsichtig und lächelte Carmina an. Auf einmal
     wurde sie sich eines fürchterlichen Gestankes gewahr. Er kam von dem grünbraunen
     Haufen da drüben. Ein Misthaufen lag dort, aus dem einige Pfeile heraus schauten.
     Bei genauerem Hinsehen erinnerte er sie eher an eine überdimensionale Motte.
@@ -799,7 +799,7 @@
     beeinflussen Menschen, sodass die Opfer dem Wesen danach sehr freundlich gesinnt
     sind. Sehr gefährlich. "
     "Wie ist es denn so, wenn man sich herumkommandieren lässt von einem lästigen
-    Insekt?", fragte Schlinge hämisch grinsend. Dabei deutete sie auf die Dornenranken
+    Insekt?", fragte Carmina hämisch grinsend. Dabei deutete sie auf die Dornenranken
     auf dem Kopf der Motte, die Stachel für Blumen gehalten hatte. Stachel schaute
     auf ihre zerkratzen Hände und versuchte ihre Gedanken zu ordnen.
     "Eigentlich erschien mir die Welt ganz normal und logisch.", flüsterte sie
@@ -812,7 +812,7 @@
     "Besser gesagt, ich habe es gesehen. Mein Glaube öffnet meine Augen und schenkt
     mir Klarheit. Gesegnet sei Reginsfar.", warf der Gläubige dazwischen und plusterte
     sich auf. "Genau wie dein Glaube dir flinke Füße zum Wegrennen verleiht?", spottete
-    Schlinge, "Schließlich war es Ohrelaus, der das Monster erschossen hat." Rost
+    Carmina, "Schließlich war es Ohrelaus, der das Monster erschossen hat." Rost
     schien von dem Gezanke nichts mitbekommen zu haben, weil er so tief in Gedanken
     versunken in den Himmel starrte.
     "Wir haben ein Morthron noch nie erlegt, geschweige denn gefangen. Unsere
@@ -823,8 +823,8 @@
     rief der Zwerg schnell.
     "Nein, wir müssen zusammenbleiben. Nur so sind wir stark.", redete der Gläubige
     dazwischen und sah sie alle nacheinander mit beschwörendem Blick an.
-    "Abstimmung", verkündete Schlinge pragmatisch. Rost und der Zwerg
-    meldeten sich dafür, Schlinge und der Gläubige dagegen. Stachels Stimme war entscheidend.
+    "Abstimmung", verkündete Carmina pragmatisch. Rost und der Zwerg
+    meldeten sich dafür, Carmina und der Gläubige dagegen. Stachels Stimme war entscheidend.
     Sollte der Zwerg den Kadaver zu der Auftraggeberin bringen (J) oder sollten sie
     die Motte hier lassen, um gemeinsam weiter das viel schlimmere Vieh zu jagen (I)?
 - choice
@@ -858,7 +858,7 @@
     sie immer noch ernst nahmen.
      "Ohrelaus, ich würde dir raten, den Fauchern nun öfters ein Gebet zu schenken.",
     sprach der Gläubige den Zwerg besorgt an. Dieser sah von seinem Bogen auf, den
-    er gerade gegen die Laute tauschen wollte. Beides trug er auf dem Rücken und Schlinge
+    er gerade gegen die Laute tauschen wollte. Beides trug er auf dem Rücken und Carmina
     hatte immer wieder angemerkt, dass er die Laute verfeuern sollte und lieber mehr
     Nützliches transportieren sollte.
      "Mir sind die Faucher immer nah. Witterst du etwa eine Gefahr?", fragte er.
@@ -875,7 +875,7 @@
      Er fing an zu beten. Rost war aufgeregt und begann besorgt auf den
     Zwerg einzureden. Dieser sah nicht beunruhigt aus. Das erste Mal erinnerte er
     Stachel wirklich an festes, ruhiges, sicheres Gestein.
-     "Bisher ist doch auch nichts passiert.", riss Schlinge sie aus der düsteren
+     "Bisher ist doch auch nichts passiert.", riss Carmina sie aus der düsteren
     Stimmung, "Wenn es diesen Beschützer wirklich gäbe, wieso hat er sich bisher nicht
     gezeigt? Er soll ja so stark sein. Wir haben schon so vielen Monstern den Garaus
     gemacht und nie sind wir ihm begegnet. Entweder er existiert nicht oder er lässt
@@ -883,19 +883,19 @@
     menschliche Gefühle unterstellen können. Erst recht nicht Familiensinn."
      Rost war jetzt ganz verwirrt, weil er nicht mehr wusste, was er glauben
     sollte. Hilfesuchend wandte er sich dem Gläubigen zu.
-     Dieser sah Schlinge missbilligend an und macht sie auf ihren Fehler aufmerksam:
+     Dieser sah Carmina missbilligend an und macht sie auf ihren Fehler aufmerksam:
     "Bisher sind aber auch viele Jäger gestorben. Manche auf sehr mysteriöse Weise.
     Wer sagt uns, dass es nicht der Beschützer war? Zita meinte, dass er stark ist
     und Hinterlist zählt für mich unter Stärke. Die Welt geht auf verschlungenen Wegen,
-    Schlinge."
+    Carmina."
      "Da interpretierst du jetzt aber zu viel rein. Der Clannthin ist gefährlich,
     aber nicht undurchschaubar. Die anderen Jäger sind auf ganz normale Weisen zu
     Tode gekommen. Sie waren einfach Trottel. Wenn du damit nicht klar kommst und
     die Menschen in deinen Gedanken glorifizieren willst, dann bist du noch beschränkter
     als ich gedacht habe. Und jetzt hör auf Rost Schauermärchen zu erzählen.", keifte
-    Schlinge zurück.
+    Carmina zurück.
      Stachel war überrascht, so einen Ausbruch von Zuneigung für Rost bei
-    Schlinge zu erleben. Sie führte sich fast wie ihre Mutter auf. Zum Beschützer
+    Carmina zu erleben. Sie führte sich fast wie ihre Mutter auf. Zum Beschützer
     hatte Stachel jedoch keine klare Meinung. Sie würde alle Möglichkeiten im Hinterkopf
     behalten, bis sie wiederlegt wurden. Nur so würde sie nichts übersehen.
      Plötzlich rauschte eine Windböe durch den Wald, die für Stachel fast
@@ -922,22 +922,22 @@
     sie herum aus wie ein Schlachtfeld. Eigentlich war nur ein sehr alter und morscher
     Baum umgefallen. Doch die Bäume des Clannthins waren keine Striche in der Landschaft.
     Sie waren mächtig und gewaltig.
-     Am Ende des Baumes trafen sie dann auf den Gläubigen und Schlinge,
-    die beide recht unbeschadet aussahen. Außer vielleicht, dass Schlinge eine Überdosis
+     Am Ende des Baumes trafen sie dann auf den Gläubigen und Carmina,
+    die beide recht unbeschadet aussahen. Außer vielleicht, dass Carmina eine Überdosis
     Fauchergebete abbekommen hatte. Sie begrüßten einander und Rost verpasste allen
     eine dicke Umarmung.
      "Wo ist Ohrelaus?", wollte Stachel wissen, als ihr sein Fehlen bewusst wurde.
-     "Ähm, dort.", meinte Schlinge und zeigt auf den Baumstamm, vor dem sie standen.
+     "Ähm, dort.", meinte Carmina und zeigt auf den Baumstamm, vor dem sie standen.
     Wenn man genau hinsah, konnte man einen zerquetschten Lautenhals erkennen, der
     unter dem Stamm hervorschaute.
      "Scheiße.", fluchte Stachel. Sie sah die Lautenreste an.
      "Ist Ohrelaus tot?", fragte Rost bestürzt.
      "Ja, er ist nun auf dem Weg über das Ringgebirge. Die Faucher beschützen
     ihn.", versuchte der Gläubige Rost zu trösten.
-     An Schlinge gewandt fügte er hinzu:  "Das ist doch der Beweis, dass es den
+     An Carmina gewandt fügte er hinzu:  "Das ist doch der Beweis, dass es den
     Beschützer gibt."
      "Es kann aber auch nur ein morscher Baum und einer von den Riesenvögeln sein,
-    die wir mal von weitem gesehen haben.", argumentierte Schlinge dagegen. Beide
+    die wir mal von weitem gesehen haben.", argumentierte Carmina dagegen. Beide
     beharrten auf ihre Meinung und ließen Einwände des anderen nicht gelten.
      Rost war derweil in tiefe Trauer versunken und kauerte vor dem Baumstamm.
     Wie von einem Mühlrad befördert, überkamen ihn die Tränen ein ums andere Mal.
@@ -963,7 +963,7 @@
     Tiamat gib für den Körper des Gestorbenen eine ruhigen Erdenplatz,<br />
       denn er hat die Natur geschätzt und keinem Lebewesen grundlos Leid zugefügt." <br /> <br />
     Die letzten Worte verklangen in der Luft. Still und andächtig standen
-    sie um den Baumstamm. Schlinges Gesicht hatte sich zusammengezogen und ihr Blick
+    sie um den Baumstamm. Carminas Gesicht hatte sich zusammengezogen und ihr Blick
     ging ins Leere. Der Gläubige seufzte tief ergriffen auf. Rost rannen immer noch
     die Tränen über die Wangen und er schniefte.
     Nachdem die Worte Stachel verlassend hatten, wurde die Leere in ihr
@@ -973,11 +973,11 @@
     "Und was haltet ihr von einer deftigen Suppe? Ich übernehme heute das Kochen.",
     verkündete der Gläubige. Er fasste Rost bei den Schultern, den der Gedanke an
     Essen schon wieder etwas aufheiterte.
-    Als die beiden außer Höherweite waren, nahm Schlinge Stachel zur Seite und
+    Als die beiden außer Höherweite waren, nahm Carmina Stachel zur Seite und
     redete auf sie ein: "Alle Gedanken und Worte über den Tod des Zwerges musst du
     bei diesem Baum lassen, bis wir den Clannthin verlassen haben. Das ist unsere
     Regel. Der Kummer würde uns nur ablenken und unsere Willenskraft schwächen, sodass
-    keiner mehr hier lebend herauskommt.". Schlinge sah sie eindringlich an.
+    keiner mehr hier lebend herauskommt.". Carmina sah sie eindringlich an.
     "Gut. Ich verstehe.", sagte Stachel, obwohl sie das Bild der zerschmetterten
     Laute nicht aus ihren Gedanken verbannen konnte. Sie verließen den gefallenen
     Baumriesen und Ohrelaus Minnefroh.
@@ -1003,7 +1003,7 @@
     ihn fest. Auch die anderen sprachen herzliche Abschiedswort. Rost schluchzte Sturzbäche
     und durchnässte Ohrelaus Bart. Der Gläubige überdeckte seine Rührung unter einem
     Haufen salbungsvoller Wörter aus Gebeten, Lebensweisheiten und Aufmunterungen.
-    Schlinge war ebenfalls sehr ergriffen. Sie gab dem Zwerg Proviant mit,
+    Carmina war ebenfalls sehr ergriffen. Sie gab dem Zwerg Proviant mit,
     verpackte die Motte und half ihm sie hochzuheben. Nun sah Ohrelaus aus wie eine
     Ameise, die unter einem Käfer verschwindet.
     Sie winkten Ohrelaus Minnefroh nach, bis er zwischen den Bäume verschwand.

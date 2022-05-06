@@ -20,8 +20,8 @@
     Mein Kind, den Fauchern zum Gruße! Ich bin der Gläubige. Möchtest du dich an unserem Feuer etwas wärmen?
     Stachel verbeugte sich nervös vor dem Frater und murmelte ein Begrüßungsgebet, bevor ihr sie sich ihrer automatischen Handlung bewusst wurde. So stark hatte sich diese Gewohnheit also in ihren Geist eingebrannt. Die anderen hatten es aber nicht bemerkt, weil sie sich schon wieder um das Feuer gedrängt hatten. Stachel setzte sich zu ihnen und genoss die wohlige Wärme der Flammen. Die Fremden strahlten nun keine Gefahr mehr aus und Stachel schaute sie neugierig an. 
     Stachel verbeugte sich nervös vor dem Frater und murmelte ein Begrüßungsgebet, bevor ihr sie sich ihrer automatischen Handlung bewusst wurde. So stark hatte sich diese Gewohnheit also in ihren Geist eingebrannt. Die anderen hatten es aber nicht bemerkt, weil sie sich schon wieder um das Feuer gedrängt hatten. Stachel setzte sich zu ihnen und genoss die wohlige Wärme der Flammen. Die Fremden strahlten nun keine Gefahr mehr aus und Stachel schaute sie neugierig an. 
-    Der Gläubige bemerkte ihre Blicke und stellte die anderen vor. "Das ist Rost", sagte er und deutete auf den langen, schlanken Mann, der nun gar nicht mehr so riesig wirkte. Unter seinem Kopftuch kringelten sich rötliche Locken hervor. Er putzte an seinem Schwert herum. Das war nicht blutig, wie Stachel zuerst geglaubt hatte, sondern nur sehr rostig. Die kräftige Frau neben ihm wurde ihr als Schlinge vorgestellt. Sie stocherte genervt im Feuer herum und schien sich zu langweilen. Der Zwerg namens Ohrelaus Minnfroh zupfte dagegen fröhlich ein Lied auf seiner Harfe. Dies schien die Frau nur noch weiter zu reizen.
-    Stachel könnte sich jetzt gleich schlafen legen. Der Tag war echt lang gewesen. Oder sie konnte eine der Personen ansprechen: Der Gläubige, Rost, Schlinge oder den Zwerg. Selten hat man doch die Gelegenheit mit so außergewöhnlichen Leuten in Kontakt zu treten.
+    Der Gläubige bemerkte ihre Blicke und stellte die anderen vor. "Das ist Rost", sagte er und deutete auf den langen, schlanken Mann, der nun gar nicht mehr so riesig wirkte. Unter seinem Kopftuch kringelten sich rötliche Locken hervor. Er putzte an seinem Schwert herum. Das war nicht blutig, wie Stachel zuerst geglaubt hatte, sondern nur sehr rostig. Die kräftige Frau neben ihm wurde ihr als Carmina vorgestellt. Sie stocherte genervt im Feuer herum und schien sich zu langweilen. Der Zwerg namens Ohrelaus Minnfroh zupfte dagegen fröhlich ein Lied auf seiner Harfe. Dies schien die Frau nur noch weiter zu reizen.
+    Stachel könnte sich jetzt gleich schlafen legen. Der Tag war echt lang gewesen. Oder sie konnte eine der Personen ansprechen: Der Gläubige, Rost, Carmina oder den Zwerg. Selten hat man doch die Gelegenheit mit so außergewöhnlichen Leuten in Kontakt zu treten.
 - passage: Lagerfeuer_Auswahl
 
 :: Lagerfeuer_Auswahl [lagerfeuer_auswahl]
@@ -37,8 +37,8 @@
     - option: "Rost ansprechen"
       passage: Lagerfeuer_Rost
       unless: "treffen_rost"
-    - option: "Schlinge ansprechen"
-      passage: Lagerfeuer_Schlinge
+    - option: "Carmina ansprechen"
+      passage: Lagerfeuer_Carmina
       unless: "treffen_schlinge"
     - option: "Den Zwerg ansprechen"
       passage: "25"
@@ -137,7 +137,7 @@
     Er versank langsam in seine Gebete an die Faucher und Stachel wollte ihn dabei nicht stören.
 - passage: Lagerfeuer_Auswahl
 
-:: Lagerfeuer_Schlinge [akt1_9]
+:: Lagerfeuer_Carmina [akt1_9]
 - setup: 
     background: lagerfeuer
 
@@ -145,16 +145,16 @@
     name: treffen_schlinge 
     value: true
 - description: |-
-    Vorsichtig setzte Stachel sich neben Schlinge. Von nahem wirkten ihre Arme noch muskulöser und ihr Blick noch bohrender. Zögerlich versucht Stachel sie anzulächeln, doch das hatte keinerlei Wirkung auf die Frau. Ihre Geschichtsmuskeln schienen versteinert, nur ihr Mund bewegte sich mechanisch, als ob sie auf irgendetwas herum kaute. Das verunsicherte Stachel noch mehr. 
+    Vorsichtig setzte Stachel sich neben Carmina. Von nahem wirkten ihre Arme noch muskulöser und ihr Blick noch bohrender. Zögerlich versucht Stachel sie anzulächeln, doch das hatte keinerlei Wirkung auf die Frau. Ihre Geschichtsmuskeln schienen versteinert, nur ihr Mund bewegte sich mechanisch, als ob sie auf irgendetwas herum kaute. Das verunsicherte Stachel noch mehr. 
     "Äh, ganz schön kalt heute, oder?" versuchte sie das Gespräch anzufangen. 
-    "Ja", antwortete Schlinge gleichgültig. Sie schien nicht an einer Unterhaltung interessiert zu sein. Den ganzen Abend wirkte sie schon gelangweilt und genervt. 
-    "Was ist das?", blafft Schlinge plötzlich, ohne ihr Kauen einzustellen. Sie zeigt auf die schwarzen Muster an Stachels Arm, die unter ihrem Hemd hervorguckten. 
-    Stachel erkannte, dass Schlinge trotz ihrer scheinbaren Abwesenheit ihre Umgebung genau beobachtete. Sonst wäre ihr die Farbe kaum aufgefallen. 
-    Stachel schob ihren Ärmel beiseite und zeigte Schlinge ihr Familienwappen. Es stellte eine Maske dar, die von einem Dolch durchbohrt wurde. Alles war mit feinsten Linien in Stachels Haut gearbeitet und die Maske grinste unheimlich im flackernden Licht des Feuers. Schlinge spuckte erstaunt auf den Boden und fixierte Stachel. 
+    "Ja", antwortete Carmina gleichgültig. Sie schien nicht an einer Unterhaltung interessiert zu sein. Den ganzen Abend wirkte sie schon gelangweilt und genervt. 
+    "Was ist das?", blafft Carmina plötzlich, ohne ihr Kauen einzustellen. Sie zeigt auf die schwarzen Muster an Stachels Arm, die unter ihrem Hemd hervorguckten. 
+    Stachel erkannte, dass Carmina trotz ihrer scheinbaren Abwesenheit ihre Umgebung genau beobachtete. Sonst wäre ihr die Farbe kaum aufgefallen. 
+    Stachel schob ihren Ärmel beiseite und zeigte Carmina ihr Familienwappen. Es stellte eine Maske dar, die von einem Dolch durchbohrt wurde. Alles war mit feinsten Linien in Stachels Haut gearbeitet und die Maske grinste unheimlich im flackernden Licht des Feuers. Carmina spuckte erstaunt auf den Boden und fixierte Stachel. 
     "Ich habe von solchen Symbolen gehört. Hatte schon längst die Hoffnung aufgegeben, einen von euch zu treffen.", meinte sie, "und jetzt läufst du mir einfach so über den Weg. Eine echte Kopfgeldjägerin. Hinter wem bist du denn her? Wie viele gibt es denn von euch überhaupt noch? Da zerschelle doch mein Krug, das ich das noch erlebe!". 
-    Schlinges Neugier überraschte Stachel und war ihr unangenehm. Sie könnte natürlich die Fragen beantworten. Aber eigentlich wollte sie mehr über die Geschichte dieser komischen Truppe erfahren. Sie könnte Schlinges Stimmung ausnutzen, um sie auszuquetschen. 
+    Carminas Neugier überraschte Stachel und war ihr unangenehm. Sie könnte natürlich die Fragen beantworten. Aber eigentlich wollte sie mehr über die Geschichte dieser komischen Truppe erfahren. Sie könnte Carminas Stimmung ausnutzen, um sie auszuquetschen. 
 - choice:
-    - option: "Schlinges Fragen beantworten"
+    - option: "Carminas Fragen beantworten"
       passage: "Hintergrund_Kopfgeldjäger"
     - option: "Versuchen, mehr über diese komische Truppe erfahren"
       passage: "Hintergrund_Jäger"
@@ -166,10 +166,10 @@
     background: lagerfeuer
 - description: |-
     "Ich habe keine Ahnung, wie viele Kopfgeldjäger es gibt und wo sie sich aufhalten. Wir sind keine fest Gilde oder so. Die meisten sind Einzelgänger und verschmelzen regelrecht mit den Schatten. Außerdem hatte ich seit ein paar Jahren keinen Kontakt mehr zu ihnen.", sagte Stachel, "Auch bin ich noch nicht hinter irgendwem her. Meine Ausbildung ist nämlich nicht komplett abgeschlossen." 
-    Enttäuscht verzog Schlinge ihr Gesicht und trat einen Stein ins Feuer. Stachel war neugierig, wieso dieser Frau so viel an den Kopfgeldjägern lag (12). Sie wollte ihr aber auch noch mehr über sich selbst erzählen (11). Das verunsicherte Stachel, weil sie das sonst nie tat. Wollte sie Schlinge damit aufmuntern oder beeindrucken? 
+    Enttäuscht verzog Carmina ihr Gesicht und trat einen Stein ins Feuer. Stachel war neugierig, wieso dieser Frau so viel an den Kopfgeldjägern lag (12). Sie wollte ihr aber auch noch mehr über sich selbst erzählen (11). Das verunsicherte Stachel, weil sie das sonst nie tat. Wollte sie Carmina damit aufmuntern oder beeindrucken? 
 - choice:
-    - option: "Herausfinden, wieso Schlinge sich für die Kopfgeldjäger interessiert"
-      passage: "Kopfgeldjäger_Schlinge"
+    - option: "Herausfinden, wieso Carmina sich für die Kopfgeldjäger interessiert"
+      passage: "Kopfgeldjäger_Carmina"
     - option: "Mehr erzählen"
       passage: "Ausbildung_Stachel"
 
@@ -178,22 +178,22 @@
     background: lagerfeuer
 - description: |-
     "Ich kann dir zwar nicht wirklich weiterhelfen, aber vielleicht möchtest du etwas mehr über meine Ausbildung erfahren", bot Stachel an.
-     Schlinge richtete sich auf und nickt zustimmend. 
+     Carmina richtete sich auf und nickt zustimmend. 
     "Also, Mitglieder meiner Familie sind schon seit unzähligen Generationen als Kopfjäger tätig. An meine Eltern erinnere ich mich kaum. Früh haben sie mich zu einem anderen Kopfgeldjäger geschickt. Mit noch ein paar Kindern ging ich bei ihm in die Lehre. Kinder sind nämlich sehr praktisch. Sie fallen kaum auf, sehen immer unschuldig aus, ihnen wird kaum etwas zugetraut und sie sind klein genug, um durch jedes Fenster oder jeden Kanal zu kriechen. Wir haben gelernt, uns selbst zu versorgen. Dazu zählte Kochen, Flicken, Klauen und so was. Weitere Grundlagen waren Kämpfen, Klettern und Rennen." 
     "Doch das Wichtigste war nicht unserer Körper sondern unserer Geist. Wir lernten andere zu durchschauen, uns zu verstellen, zu lügen, zu planen, an wichtige Informationen zu gelangen und immer ruhig zu bleiben. Leider starb mein Meister während meiner Ausbildung. Die Arbeit als Kopfgeldjäger birgt solche Gefahren, doch für mich war es sehr ärgerlich. Ich kam in ein Kinderheim und konnte erst jetzt daraus abhauen", erzählte Stachel. 
-    Schlinge nickt nur. Anscheinend war in Stachels Erzählung nichts wirklich Neues oder Relevantes für sie gewesen. Stachel sah ein, dass das Gespräch zu nichts mehr führen würde.
+    Carmina nickt nur. Anscheinend war in Stachels Erzählung nichts wirklich Neues oder Relevantes für sie gewesen. Stachel sah ein, dass das Gespräch zu nichts mehr führen würde.
 - passage: Lagerfeuer_Auswahl
 
-:: Kopfgeldjäger_Schlinge [akt1_12]
+:: Kopfgeldjäger_Carmina [akt1_12]
 - setup: 
     background: lagerfeuer
 - description: |-
-    "Was interessiert dich eigentlich so an den Kopfgeldjägern?", wollte Stachel von Schlinge wissen. 
+    "Was interessiert dich eigentlich so an den Kopfgeldjägern?", wollte Stachel von Carmina wissen. 
     Diese schaute nachdenklich ins Feuer. "Ich bin in der Taverne einer großen Stadt aufgewachsen. Dort sollte eines Tages jemand bestraft werden, weil er irgendwen umgebracht hatte. Mir war damals oft langweilig und deshalb bin ich zum Markt gegangen, um mir die Hinrichtung anzusehen. Doch dazu kam es nicht."
     "Der Verurteilte wurde gerade durch die Menge geführt, da löste er seine Fesseln. Mit ein paar schnellen und gezielten Schlägen befreite er sich von den Wachen und tauchte in der Menge unter. Ich stand nahe dran und hatte alles genau beobachtet. Als er an mir vorbeihuschte, schnappte ich nach ihm. Ich wollte natürlich nicht der Gerechtigkeit helfen oder so nen Quatsch, sondern hoffte auf eine saftige Belohnung." 
     "Eigentlich war ich schon damals eine der Besten beim Faustkampf. Naja, in einer Taverne lernt man so einiges und ich hatte genug Möglichkeiten zu üben. Selbstverständlich braucht man dafür auch Talent, aber das habe ich. Ich wollte also diesen Halunken fassen. Doch er verdrehte mir rasch den Arm, stieß mir sein Knie in den Bauch und hatte dann noch die Frechheit mir zuzuzwinkern, bevor er mich auf den Boden schmiss."
-    "Bei dieser Gelegenheit habe ich zum ersten und einzigen Mal so ein Muster wie das auf deinem Arm gesehen. Seitdem habe ich noch härter trainiert und bald war mir im Kampf niemand mehr gewachsen. Ich suche immer noch nach einem Gegner, der mir ebenbürtig ist oder mich sogar besiegen kann. Ich bin schon lange umhergezogen und habe dabei nach den Kopfgeldjägern Ausschau gehalten. Mit ihnen könnte ich endlich einen Kampf auf Augenhöhe führen.", erzählte Schlinge, "Jetzt habe ich zwar dich gefunden, aber du bist ja noch ein halbes Kind." 
-    Schlinge tat Stachel fasst schon leid. Sie überließ die Frau ihren Gedanken und überlegte, was sie als nächstes machen sollte
+    "Bei dieser Gelegenheit habe ich zum ersten und einzigen Mal so ein Muster wie das auf deinem Arm gesehen. Seitdem habe ich noch härter trainiert und bald war mir im Kampf niemand mehr gewachsen. Ich suche immer noch nach einem Gegner, der mir ebenbürtig ist oder mich sogar besiegen kann. Ich bin schon lange umhergezogen und habe dabei nach den Kopfgeldjägern Ausschau gehalten. Mit ihnen könnte ich endlich einen Kampf auf Augenhöhe führen.", erzählte Carmina, "Jetzt habe ich zwar dich gefunden, aber du bist ja noch ein halbes Kind." 
+    Carmina tat Stachel fasst schon leid. Sie überließ die Frau ihren Gedanken und überlegte, was sie als nächstes machen sollte
 - passage: Lagerfeuer_Auswahl
 
 :: Hintergrund_Jäger [akt1_13]
@@ -201,60 +201,60 @@
     background: lagerfeuer
 - description: |-
     "Ich bin jedenfalls nicht hinter dir her. Ich habe nämlich noch keinen Auftrag", erklärte Stachel, "Zu allem was die anderen Kopfgeldjäger angeht, bin ich zu Verschwiegenheit verpflichtet." 
-    Schlinge machte ein enttäuschtes Gesicht und stopfte sich erneut etwas zum Kauen in den Mund.
+    Carmina machte ein enttäuschtes Gesicht und stopfte sich erneut etwas zum Kauen in den Mund.
     "Was macht ihr eigentlich hier? Ich meine, ihr seht aus wie eine schlagkräftige Truppe, die nicht gekommen ist, um bei der Ernte zu helfen. Wohin seit ihr unterwegs?", fragte Stachel.
      Dass ihr jede einzelne Person, die mit ihr ums Feuer saß, überaus komisch vorkam, verschwieg sie lieber. Es war entweder Zufall oder eine große Aufgabe, die diese unterschiedlichen Menschen zusammen gebracht hatte. 
-    Erstaunlich bereitwillig antwortete Schlinge: "Wir sind zum Clannthin unterwegs." 
+    Erstaunlich bereitwillig antwortete Carmina: "Wir sind zum Clannthin unterwegs." 
     "Ihr wollt doch nicht etwa den gefährlichen, unberechenbaren, heimtückischen Elfenwald betreten?", unterbrach Stachel sie entsetzt. Sie hatte schon so einige Schauermärchen gehört und die Bauern hier in der Nähe des Clannthin bestätigten diese auch noch. 
-    "Haste etwa Angst?", zog Schlinge Stachel auf, "Wir waren schon ein paar Mal im Wald und ich habe es immer überlebt. Die Hälfte unserer Gemeinschaft ist dort gestorben. Alles Schwächlinge. Nur um Flavius hat es mir leid getan. Er war nen echt guter Alchimist." 
-    Stachel empfand ehrlichen Respekt vor Schlinge. Sie klang so abgebrüht und selbstsicher. Eigentlich sollte sie auch so professionell wirken. Sie wollte Schlinge über ihre Erlebnisse im Clannthin aushorchen. Sie schienen sehr aufregend und könnten wertvolle Informationen enthalten. Aber auch der neue Auftrag interessierte sie. Was konnte diese Leute trotz der vielen Toten wieder in diesen Wald locken?
+    "Haste etwa Angst?", zog Carmina Stachel auf, "Wir waren schon ein paar Mal im Wald und ich habe es immer überlebt. Die Hälfte unserer Gemeinschaft ist dort gestorben. Alles Schwächlinge. Nur um Flavius hat es mir leid getan. Er war nen echt guter Alchimist." 
+    Stachel empfand ehrlichen Respekt vor Carmina. Sie klang so abgebrüht und selbstsicher. Eigentlich sollte sie auch so professionell wirken. Sie wollte Carmina über ihre Erlebnisse im Clannthin aushorchen. Sie schienen sehr aufregend und könnten wertvolle Informationen enthalten. Aber auch der neue Auftrag interessierte sie. Was konnte diese Leute trotz der vielen Toten wieder in diesen Wald locken?
 - choice:
-    - option: "Schlinge über ihre Erlebnisse im Clannthin aushorchen"
+    - option: "Carmina über ihre Erlebnisse im Clannthin aushorchen"
       passage: "Erfahrungen_Jäger"
     - option: "Etwas über den Auftrag herausfinden"
-      passage: "Teilnahme-Stachel_Schlinge"
+      passage: "Teilnahme-Stachel_Carmina"
 
 :: Erfahrungen_Jäger [akt1_14]
 - setup: 
     background: lagerfeuer
 - description: |-
     "Welchen Gefahren musstet ihr euch denn im Clannthin stellen?", wollte Stachel wissen. 
-    "Zum einen muss man genügend Vorräte mitnehmen.", erklärte Schlinge. "Man sollte nichts im Clannthin in den Mund nehmen, was man nicht selbst mitgebracht hat. Eine Spurenleserin ist mal gestorben, weil sie eine Erdbeere essen wollte. Natürlich waren es keine normalen Erdbeeren. Ihr ganzer Körper ist rot angeschwollen bis sie fast selbst aus sah wie eine Erdbeere."
-    "Oder Grunholt, der konnte mit seinen Pfeilen alles treffen, er hatte nur etwas Wasser aus einer Quelle geschöpft, um sich abzukühlen. Danach war er so blöd wie ein Kleinkind und stand nur teilnahmslos in der Gegend rum. Flavius hat ihn zwar mit seinen merkwürdigen Mixturen fast wieder hinbekommen, doch als Jäger taugte er natürlich nichts mehr.", erzählte Schlinge. 
-    Ihr schien es Spaß zu machen, Stachel zu ängstigen. Sie selbst musste schon so viel Schlimmes erlebt haben, dass sie diese wahren Gruselgeschichten so abgebrüht erzählen konnte. Stachel versuchte sich ihre Angst nicht anmerken zu lassen, sonst hätte Schlinge sie vermutlich noch mehr wie ein Kind behandelt. 
+    "Zum einen muss man genügend Vorräte mitnehmen.", erklärte Carmina. "Man sollte nichts im Clannthin in den Mund nehmen, was man nicht selbst mitgebracht hat. Eine Spurenleserin ist mal gestorben, weil sie eine Erdbeere essen wollte. Natürlich waren es keine normalen Erdbeeren. Ihr ganzer Körper ist rot angeschwollen bis sie fast selbst aus sah wie eine Erdbeere."
+    "Oder Grunholt, der konnte mit seinen Pfeilen alles treffen, er hatte nur etwas Wasser aus einer Quelle geschöpft, um sich abzukühlen. Danach war er so blöd wie ein Kleinkind und stand nur teilnahmslos in der Gegend rum. Flavius hat ihn zwar mit seinen merkwürdigen Mixturen fast wieder hinbekommen, doch als Jäger taugte er natürlich nichts mehr.", erzählte Carmina. 
+    Ihr schien es Spaß zu machen, Stachel zu ängstigen. Sie selbst musste schon so viel Schlimmes erlebt haben, dass sie diese wahren Gruselgeschichten so abgebrüht erzählen konnte. Stachel versuchte sich ihre Angst nicht anmerken zu lassen, sonst hätte Carmina sie vermutlich noch mehr wie ein Kind behandelt. 
     "Was habt ihr denn im Wald gesucht, das diese Mühen lohnte? Gold gibt es meines Wissens nicht im Clannthin. Auch Heilkräuter sollte man nicht im Clannthin sammeln, weil sie sich dort viele heilsame und giftige Pflanzen sehr ähneln. Und den Elfen will man doch erst recht nicht begegnen?", meinte Stachel. 
-    "Das mag sein,", antwortete Schlinge. "Wir haben ein Nolgorin - die Dunkelheit die den Geist frisst - gesucht und gefangen.  Das ist ein Wolf, der noch größer als Rost ist und in dessen skelettierten Schädel schwarze Augenhöhlen sitzen. Es gibt noch viel mehr solcher besonderen Monster im Clannthin und es gibt Leute, die viel Geld für sie bezahlen. Natürlich sind die Monster sehr gefährlich und es ist sehr schwer sie zu fangen, doch es lohnt sich.", erklärte Schlinge
-    "So, jetzt sollte ich lieber aufhören zu erzählen, du zitterst ja schon vor Furcht." Dabei war Schlinges Grinsen weder mitfühlend noch liebenswürdig, sondern nur hämisch. 
+    "Das mag sein,", antwortete Carmina. "Wir haben ein Nolgorin - die Dunkelheit die den Geist frisst - gesucht und gefangen.  Das ist ein Wolf, der noch größer als Rost ist und in dessen skelettierten Schädel schwarze Augenhöhlen sitzen. Es gibt noch viel mehr solcher besonderen Monster im Clannthin und es gibt Leute, die viel Geld für sie bezahlen. Natürlich sind die Monster sehr gefährlich und es ist sehr schwer sie zu fangen, doch es lohnt sich.", erklärte Carmina
+    "So, jetzt sollte ich lieber aufhören zu erzählen, du zitterst ja schon vor Furcht." Dabei war Carminas Grinsen weder mitfühlend noch liebenswürdig, sondern nur hämisch. 
     Stachel rechtfertigte sich trotzig: "Mir ist nur kalt."
-    Sie wollte nicht mehr mit Schlinge reden, die sich auf ihre Kosten zu amüsieren schien.
+    Sie wollte nicht mehr mit Carmina reden, die sich auf ihre Kosten zu amüsieren schien.
 - passage: Lagerfeuer_Auswahl
 
-:: Teilnahme-Stachel_Schlinge [akt1_15]
+:: Teilnahme-Stachel_Carmina [akt1_15]
 - setup: 
     background: lagerfeuer
 - description: |-
     "Was macht ihr denn im Clannthin?", erkundigte sich Stachel. 
-    "Wir jagen Monster", antwortete Schlinge. "Davon gibt es dort schließlich mehr als genug. Ein paar haben wir schon tot oder lebendig gefangen. Nun sind wir hinter dem schrecklichsten von allen her.", erklärte Schlinge ihr. 
+    "Wir jagen Monster", antwortete Carmina. "Davon gibt es dort schließlich mehr als genug. Ein paar haben wir schon tot oder lebendig gefangen. Nun sind wir hinter dem schrecklichsten von allen her.", erklärte Carmina ihr. 
     Jetzt machten die vielen Waffen und die viele Ausrüstung für Stachel auch Sinn. Sie hatte zwar noch nie von solchen Monsterjägern gehört, aber das vielleicht  nur daran, dass so wenige heil wieder aus dem Wald kamen. 
     "Und was ist das genau für ein Wesen, dass ihr jagt?", hakte Stachel nach. 
-    Schlinge lehnte sich zurück und schaute Stachel überheblich an. "Das wüsstest du gern, Kleine", sagte sie abschätzig, "Ich erzähle dir nichts mehr über unseren Auftrag. Nicht das du uns nach getaner Arbeit unseren Lohn noch abknöpfst." 
-    Schlinge fing an, im Feuer rumzustochern. Das hat sie bestimmt nur gemacht, weil ich ihr so wenig über die Kopfgeldjäger erzählt habe, dachte Stachel. 
-    Sie hatte sich schon von Schlinge abgewandt, als diese anfügte:
+    Carmina lehnte sich zurück und schaute Stachel überheblich an. "Das wüsstest du gern, Kleine", sagte sie abschätzig, "Ich erzähle dir nichts mehr über unseren Auftrag. Nicht das du uns nach getaner Arbeit unseren Lohn noch abknöpfst." 
+    Carmina fing an, im Feuer rumzustochern. Das hat sie bestimmt nur gemacht, weil ich ihr so wenig über die Kopfgeldjäger erzählt habe, dachte Stachel. 
+    Sie hatte sich schon von Carmina abgewandt, als diese anfügte:
     "Außer natürlich, du schließt dich uns an. Wir brauchen noch einen Ersatz für Flavius. Du kriegst auch deinen Anteil am Lohn." 
     Alle Jäger schauten sie abwartend  an. Das war Stachels Gelegenheit sich zu beweisen. Wenn sie einen bekannte Kopfgeldjägerin werden wollte, sollte sie mitmachen (16). Doch ihr Vater hätte dazu gesagt: "Suche keinen Kampf, den du nicht gewinnen kannst.", und der Clannthin gehörte eindeutig dazu. Es wäre wirklich einfacher abzulehnen und sich schlafen zu legen (28).
 - choice:
     - option: Mitmachen
-      passage: Auftrag_Schlinge
+      passage: Auftrag_Carmina
     - option: Sich schlafen legen
       passage: Lagerfeuer_schlafen
 
-:: Auftrag_Schlinge [akt1_16]
+:: Auftrag_Carmina [akt1_16]
 - setup: 
     background: lagerfeuer
 - description: |-
     "Ich mach mit", verkündete Stachel. 
-    Freudig klatschte Rost mit ihr ab und Schlinge schenkte ihr ein Lächeln. Also eher ein Zucken um die Mundwinkel, aber das war schon viel für sie. 
-    "Na dann will ich dir von unserem Auftrag berichten. Am besten ich schildere dir den Moment, als wir ihn bekommen haben", meinte Schlinge und begann zu erzählen:
+    Freudig klatschte Rost mit ihr ab und Carmina schenkte ihr ein Lächeln. Also eher ein Zucken um die Mundwinkel, aber das war schon viel für sie. 
+    "Na dann will ich dir von unserem Auftrag berichten. Am besten ich schildere dir den Moment, als wir ihn bekommen haben", meinte Carmina und begann zu erzählen:
 - setup: 
     background: jagschloss_saal
 
@@ -271,7 +271,7 @@
 - setup: 
     background: lagerfeuer
 - description: |-
-    Nach Schlinges Erzählung schickte der Gläubige alle schlafen. Stachel legte sich beunruhigt hin, weil sie Angst hatte. Worauf hatte sie sich da gerade eingelassen? Die Informationen, die Zita den Jägern verheimlicht hatte, malten bestimmt ein noch schrecklicheres Bild von dem Wesen.
+    Nach Carminas Erzählung schickte der Gläubige alle schlafen. Stachel legte sich beunruhigt hin, weil sie Angst hatte. Worauf hatte sie sich da gerade eingelassen? Die Informationen, die Zita den Jägern verheimlicht hatte, malten bestimmt ein noch schrecklicheres Bild von dem Wesen.
 - passage: Ankunft_Clannthin
 
 :: Lagerfeuer_Rost [akt1_17]
@@ -449,8 +449,8 @@
     Die große Glocke schellte. Stachel sprang sofort auf und wollte nach ihrem Kittel greifen. Wenn sie nicht vor dem letzten Glockenschlag unten zum Morgengebet angetreten wäre, würden die Fratisen sie wieder vorsingen lassen. Doch wo war ihr Kittel und die Schlafbetten? 
     Nachdem sie sich die Augen gerieben und gegähnt hatte, erinnerte sie sich an den gestrigen Abend. Sie sah sich um und entdeckte die anderen, die alle noch friedlich schliefen. Auch die Ursache des Lärms fand sie jetzt. 
     Über das Feld kam eine große Menge Männer angestapft. Sie trugen Mistgabeln und Fackeln bei sich und steuerten direkt auf sie zu.  Sie schienen aus dem letzten Dorf zu kommen und die ganze Nacht marschiert zu sein.
-    Aber bestimmt hatten sie das alles nicht auf sich genommen, um sich an Stachel zu rächen. Die paar Brotkanten und Käsestücken, die sie entwendet hatte, waren so einen Aufwand gewiss nicht wert. Wahrscheinlicher war es doch, dass der Zwerg die Dorfkasse gelehrt, Schlinge Tische zerkleinert  oder der Gläubige sie mit seinen Predigen genervt hat. 
-    Langsam war der Mob schon so nahe, dass sie die zornigen Gesichter und wütenden Stimmen wahrnahm. Wenn Stachel sich jetzt aus dem Staub machen würde, dann würde sie noch mit heiler Haut davon kommen. Oder sie weckt die anderen. Schlafend sahen sie alle so unschuldig und verletzlich aus. Naja, außer Schlinge, die anschneiden von einer Prügelei träumte, so wie sie mit den Armen in der Luft herum fuchtelt. 
+    Aber bestimmt hatten sie das alles nicht auf sich genommen, um sich an Stachel zu rächen. Die paar Brotkanten und Käsestücken, die sie entwendet hatte, waren so einen Aufwand gewiss nicht wert. Wahrscheinlicher war es doch, dass der Zwerg die Dorfkasse gelehrt, Carmina Tische zerkleinert  oder der Gläubige sie mit seinen Predigen genervt hat. 
+    Langsam war der Mob schon so nahe, dass sie die zornigen Gesichter und wütenden Stimmen wahrnahm. Wenn Stachel sich jetzt aus dem Staub machen würde, dann würde sie noch mit heiler Haut davon kommen. Oder sie weckt die anderen. Schlafend sahen sie alle so unschuldig und verletzlich aus. Naja, außer Carmina, die anschneiden von einer Prügelei träumte, so wie sie mit den Armen in der Luft herum fuchtelt. 
 - choice:
     - option: Sich aus dem Staub machen
       passage: Mob_abhauen
@@ -465,7 +465,7 @@
     sie schon von der Meute umzingelt worden. Es waren viel zu viele für sie.
     Außerdem waren sie gerade erst aufgestanden.
     Die anderen dagegen waren befeuert von ihrer Wut. Die Fackel beleuchten ihre
-    zusammengekniffenen Münder und blitzenden Augen. Schlinge schien das jedoch
+    zusammengekniffenen Münder und blitzenden Augen. Carmina schien das jedoch
     nicht zu beeindrucken.
     Sie baute sich vor ihnen auf, knackte angriffslustig mit ihren
     Fingerknöcheln und fuhr sie an: "Was wollt ihr hier? Schert euch weg, wenn
@@ -520,7 +520,7 @@
     eingefangen. Die Bauern suchen nur einen Sündenbock für ihre Missernten",
     erklärte der Gläubige und unterbrach damit Stachels Schreckensvorstellungen.
     "Genau. Das passiert uns jetzt schon zum dritten Mal. Langsam wird es echt
-    nervig.", fügte Schlinge an.
+    nervig.", fügte Carmina an.
     Stachel hofft, dass dies ihr erste und auch letzte Begegnung mit
     aufgescheuchten Bauern bleiben würde. So eine Menschenmenge ist einfach zu
     emotional aufgeladen und schlecht abschätzbar.
