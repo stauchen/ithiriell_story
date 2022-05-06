@@ -1,6 +1,7 @@
 :: Wanderschaft_Stachel [akt1_1]
 - setup: 
     background: weg_zwischen_huegel_und_feldern_sonnenuntergang
+- pause: true
 - description: "Ein paar Wochen später ... "
 - setup: 
     characters: 

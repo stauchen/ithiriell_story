@@ -153,16 +153,15 @@
             this.elements.$choiceLayer = $('<div id="choiceLayer" class="layer">');
             this.elements.$textLayer = $('<div id="textLayer" class="layer">');
             
-            // Characters
             this.elements.$leftCharacter = $('<div id="leftCharacter" class="character">');
-            this.elements.$twoCharacterLayer.append(this.elements.$leftCharacter);
-            
+            //this.elements.$twoCharacterLayer.append(this.elements.$leftCharacter);
+
             this.elements.$rightCharacter = $('<div id="rightCharacter" class="character">');
-            this.elements.$twoCharacterLayer.append(this.elements.$rightCharacter);
-            
-            
+            //this.elements.$twoCharacterLayer.append(this.elements.$rightCharacter);
+                        
+                    
             this.elements.$centerCharacter = $('<div id="centerCharacter" class="character">');
-            this.elements.$singleCharacterLayer.append(this.elements.$centerCharacter);
+            //this.elements.$singleCharacterLayer.append(this.elements.$centerCharacter);
             
             // Text
             this.elements.$textField = $('<div id="textField">');
@@ -509,6 +508,13 @@
                 }
                 // Go to next step
                 passage.scriptRunner.next().perform();
+            }
+        };
+    
+    Interpreters.pause = {
+            perform: function(instruction, passage) {
+                // Noop
+
             }
         };
 
