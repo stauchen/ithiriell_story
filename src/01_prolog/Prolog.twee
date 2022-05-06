@@ -1,68 +1,71 @@
 :: Prolog [start]
 - setup: 
     background: wald # Dunkler Wald. Nachts. Bläulich
-- pause: true
-- description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
-- description: "Ringsherum gab es nur das undurchdringliche Dickicht des Waldes. Wo waren die anderen? Rost, der Gläubige? Offenbar waren sie in eine andere Richtung gelaufen als er. "
-- description: "Er erlaubte sich eine kleine Pause und lehnte sich schwer atmend an einen Baum. "
-- description: "Unbewusst griff er nach seinem Messer, um sich seine Fingernägel zu reinigen. Das tat er immer, wenn er nervös wurde. Doch die Scheide war leer."
-- description: "Fluchend machte er sich auf die Suche nach seinem Messer, musste aber schnell feststellen, dass es im Unterholz verschwunden war und er es so schnell vermutlich nicht wieder sehen würde."  
-- description: "Das entlockte im ein weiteres unschönes Schimpfwort."
-- description: "Und dann hörte er es: Ein schriller Schrei und ein Trampeln. "
-- description: "Diese Geräusche fügten sich nicht in die ansonsten so abgestimmte Melodie ein. Das musste das Monster sein. Und es kam eindeutig näher."
-- description: "Er sah sich um und entschloss sich, zu fliehen. "
-- description: "Kämpfen konnte er gegen dieses Vieh eh nicht, erst recht nicht ohne sein Messer."
-- description: "Doch wohin?"
+
+- description: |- 
+    Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um.
+    Ringsherum gab es nur das undurchdringliche Dickicht des Waldes. Wo waren die anderen? Rost, der Gläubige? Offenbar waren sie in eine andere Richtung gelaufen als er. 
+    Er erlaubte sich eine kleine Pause und lehnte sich schwer atmend an einen Baum. 
+    Unbewusst griff er nach seinem Messer, um sich seine Fingernägel zu reinigen. Das tat er immer, wenn er nervös wurde. Doch die Scheide war leer.
+    Fluchend machte er sich auf die Suche nach seinem Messer, musste aber schnell feststellen, dass es im Unterholz verschwunden war und er es so schnell vermutlich nicht wieder sehen würde.  
+    Das entlockte im ein weiteres unschönes Schimpfwort.
+    Und dann hörte er es: Ein schriller Schrei und ein Trampeln. 
+    Diese Geräusche fügten sich nicht in die ansonsten so abgestimmte Melodie ein. Das musste das Monster sein. Und es kam eindeutig näher.
+    Er sah sich um und entschloss sich, zu fliehen. 
+    Kämpfen konnte er gegen dieses Vieh eh nicht, erst recht nicht ohne sein Messer.
+    Doch wohin?
 - choice:
-    - option: "Im Unterholz verstecken"
-      passage: "Prolog - Unterholz"
-    - option: "Auf einen Baum klettern"
-      passage: "Prolog - Baum"
-    - option: "Zur alten Holzhütte rennen"
-      passage: "Prolog - Holzhütte"
+    - option: Im Unterholz verstecken
+      passage: Prolog - Unterholz
+    - option: Auf einen Baum klettern
+      passage: Prolog - Baum
+    - option: Zur alten Holzhütte rennen
+      passage: Prolog - Holzhütte
 
 :: Prolog - Unterholz
 - setup: 
     background: wald 
-- pause: true
-- description: "Ein leiser Fluch drang über seine Lippen, dann umfing ihn vollkommene Stille. "
-- description: "Das Monster war auf dem Weg, es würde ihm folgen, garantiert. "
-- description: "Besser er versteckte sich."
-- description: "Sein Blick streifte über das Grün und das tote Holz, dass sich auf dem Boden stapelte. Fast übersah er den hohlen Baumstamm."
-- description: "Ein Glück, dass dieser breit war und er nicht zu dick, ansonsten hätte er garantiert nicht in den Stamm gepasst. So aber war es ein perfektes Versteck, welches das riesige Monster nicht sehen würde."
-- description: "Er quetschte sich hinein und versuchte die Würmer, Pilze und den Schleim zu ignorieren. Sein Herz pochte wie wild und der Baumstamm verstärkte das regelmäßige Klopfen auch noch. Aber das Monster war lauter."
-- description: "Allzu deutlich hörte er es vorbeigehen. Aber es ging vorbei. Es war so dumm. Er wollte laut auflachen, wurde aber im letzten Moment daran gehindert, als sich sein Versteck bewegte. "
-- description: "Vor dem Loch leuchtete ein kahler Arm, der sich in fast menschlichen Fingern auslief." 
-- description:  "Dann starrte er in die riesigen Augen der Bestie..."
-- passage: "Prolog - Ende"
+
+- description: |-
+    Ein leiser Fluch drang über seine Lippen, dann umfing ihn vollkommene Stille. 
+    Das Monster war auf dem Weg, es würde ihm folgen, garantiert. 
+    Besser er versteckte sich.
+    Sein Blick streifte über das Grün und das tote Holz, dass sich auf dem Boden stapelte. Fast übersah er den hohlen Baumstamm.
+    Ein Glück, dass dieser breit war und er nicht zu dick, ansonsten hätte er garantiert nicht in den Stamm gepasst. So aber war es ein perfektes Versteck, welches das riesige Monster nicht sehen würde.
+    Er quetschte sich hinein und versuchte die Würmer, Pilze und den Schleim zu ignorieren. Sein Herz pochte wie wild und der Baumstamm verstärkte das regelmäßige Klopfen auch noch. Aber das Monster war lauter.
+    Allzu deutlich hörte er es vorbeigehen. Aber es ging vorbei. Es war so dumm. Er wollte laut auflachen, wurde aber im letzten Moment daran gehindert, als sich sein Versteck bewegte. 
+    Vor dem Loch leuchtete ein kahler Arm, der sich in fast menschlichen Fingern auslief. 
+    Dann starrte er in die riesigen Augen der Bestie...
+- passage: Prolog - Ende
 
 :: Prolog - Baum 
 - setup: 
     background: wald 
-- pause: true
-- description: "Da es in diesem verdammten Wald so viele Bäume gab, konnte man sie auch nutzen. Er blickte nach oben und sprang, vermutlich nicht gerade elegant..." 
-- description: "Wie durch ein Wunder griff er nach einem Ast, an dem er sich hoch ziehen konnte. Wer weiß, ob er einen zweiten Versuch geschafft hätte."
-- description: "Er zog sich hoch und hielt sich an dem breiten Stamm des Baumes fest. Einmal verfluchte er die Bäume nicht, sondern dankte den Fauchern für den Schutz, den sie ihm gaben."
-- description: "Das Monster kam näher."
-- description: "Er lauschte den Schritten und dann sah er es unter sich. Es hatte eine langgestreckten Körper, vier Beine und einen breitgeklopften Kopf. Kurzes, struppiges, grünliches Fell bedeckte es. Von oben erinnerte es ihn fast an ein Stückchen Wiese."
-- description: "Direkt unter seinem sicheren Ast blieb das Monster stehen, als ob es sich fragen würde, wo seine Spur hinführte und wieso sie hier einfach endete."
-- description: "Fast war er gewillt, dem Monster auf den Kopf zu spucken, aber er begnügte sich mit einem spöttischen Lächeln und einem stummen Lob an sich selbst. Doch er hatte sich zu früh gefreut."
-- description: "Er wollte sich nur kurz bewegen, um besser nach unten gucken zu können, da knackte der Ast und schreiend fiel er nach unten."
-- description: "Das letzte was er sah, war der hungrige Blick der Bestie..."
-- passage: "Prolog - Ende"
+- description: |- 
+    Da es in diesem verdammten Wald so viele Bäume gab, konnte man sie auch nutzen. Er blickte nach oben und sprang, vermutlich nicht gerade elegant... 
+    Wie durch ein Wunder griff er nach einem Ast, an dem er sich hoch ziehen konnte. Wer weiß, ob er einen zweiten Versuch geschafft hätte.
+    Er zog sich hoch und hielt sich an dem breiten Stamm des Baumes fest. Einmal verfluchte er die Bäume nicht, sondern dankte den Fauchern für den Schutz, den sie ihm gaben.
+    Das Monster kam näher.
+    Er lauschte den Schritten und dann sah er es unter sich. Es hatte eine langgestreckten Körper, vier Beine und einen breitgeklopften Kopf. Kurzes, struppiges, grünliches Fell bedeckte es. Von oben erinnerte es ihn fast an ein Stückchen Wiese.
+    Direkt unter seinem sicheren Ast blieb das Monster stehen, als ob es sich fragen würde, wo seine Spur hinführte und wieso sie hier einfach endete.
+    Fast war er gewillt, dem Monster auf den Kopf zu spucken, aber er begnügte sich mit einem spöttischen Lächeln und einem stummen Lob an sich selbst. Doch er hatte sich zu früh gefreut.
+    Er wollte sich nur kurz bewegen, um besser nach unten gucken zu können, da knackte der Ast und schreiend fiel er nach unten.
+    Das letzte was er sah, war der hungrige Blick der Bestie...
+- passage: Prolog - Ende
 
 :: Prolog - Holzhütte
 - setup: 
     background: wald 
-- pause: true
-- description: "Seine Lunge würde ihn dafür hassen, aber er fing wieder an zu rennen. "
-- description: "Immer wieder blickte er kurz über seine Schulter, nur um sich zu vergewissern, dass die Bestie nicht schon direkt hinter ihm stand. Er war in die entgegengesetzte Richtung gelaufen, weg von dem Lärm."
-- description: "Aber er wusste, dass das Monster schnell rennen konnte, sehr viel schneller als er. Besonders in diesem Pflanzengestrüpp war dessen längliche Form und vier Beine von Vorteil."
-- description: "Keuchend und hustend fand er ein Haus mitten im Wald. Das konnte ihm als Schutz dienen!"
-- description: "Er riss die Tür auf und wollte schon aufatmen, da sah er das Monster. "
-- description: "Um es lagen die Reste derer, die einmal Menschen gewesen waren."
-- description: "Aber das Monster hatte immer noch Hunger..."
-- passage: "Prolog - Ende"
+
+- description: |-
+    Seine Lunge würde ihn dafür hassen, aber er fing wieder an zu rennen. 
+    Immer wieder blickte er kurz über seine Schulter, nur um sich zu vergewissern, dass die Bestie nicht schon direkt hinter ihm stand. Er war in die entgegengesetzte Richtung gelaufen, weg von dem Lärm.
+    Aber er wusste, dass das Monster schnell rennen konnte, sehr viel schneller als er. Besonders in diesem Pflanzengestrüpp war dessen längliche Form und vier Beine von Vorteil.
+    Keuchend und hustend fand er ein Haus mitten im Wald. Das konnte ihm als Schutz dienen!
+    Er riss die Tür auf und wollte schon aufatmen, da sah er das Monster. 
+    Um es lagen die Reste derer, die einmal Menschen gewesen waren.
+    Aber das Monster hatte immer noch Hunger...
+- passage: Prolog - Ende
 
 :: Prolog - Ende
 - passage: Wanderschaft_Stachel
