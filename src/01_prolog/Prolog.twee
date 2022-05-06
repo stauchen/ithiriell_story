@@ -1,11 +1,8 @@
 :: Prolog [start]
 - setup: 
     background: wald # Dunkler Wald. Nachts. Bläulich
+- pause: true
 - description: "Der Clannthin umwucherte ihn. Außer Atem blieb Flavius stehen und schaute sich um."
-- setup: 
-    characters: 
-        - name: flavius
-          caption: Flavius
 - description: "Ringsherum gab es nur das undurchdringliche Dickicht des Waldes. Wo waren die anderen? Rost, der Gläubige? Offenbar waren sie in eine andere Richtung gelaufen als er. "
 - description: "Er erlaubte sich eine kleine Pause und lehnte sich schwer atmend an einen Baum. "
 - description: "Unbewusst griff er nach seinem Messer, um sich seine Fingernägel zu reinigen. Das tat er immer, wenn er nervös wurde. Doch die Scheide war leer."
@@ -27,6 +24,7 @@
 :: Prolog - Unterholz
 - setup: 
     background: wald 
+- pause: true
 - description: "Ein leiser Fluch drang über seine Lippen, dann umfing ihn vollkommene Stille. "
 - description: "Das Monster war auf dem Weg, es würde ihm folgen, garantiert. "
 - description: "Besser er versteckte sich."
@@ -41,6 +39,7 @@
 :: Prolog - Baum 
 - setup: 
     background: wald 
+- pause: true
 - description: "Da es in diesem verdammten Wald so viele Bäume gab, konnte man sie auch nutzen. Er blickte nach oben und sprang, vermutlich nicht gerade elegant..." 
 - description: "Wie durch ein Wunder griff er nach einem Ast, an dem er sich hoch ziehen konnte. Wer weiß, ob er einen zweiten Versuch geschafft hätte."
 - description: "Er zog sich hoch und hielt sich an dem breiten Stamm des Baumes fest. Einmal verfluchte er die Bäume nicht, sondern dankte den Fauchern für den Schutz, den sie ihm gaben."
@@ -55,6 +54,7 @@
 :: Prolog - Holzhütte
 - setup: 
     background: wald 
+- pause: true
 - description: "Seine Lunge würde ihn dafür hassen, aber er fing wieder an zu rennen. "
 - description: "Immer wieder blickte er kurz über seine Schulter, nur um sich zu vergewissern, dass die Bestie nicht schon direkt hinter ihm stand. Er war in die entgegengesetzte Richtung gelaufen, weg von dem Lärm."
 - description: "Aber er wusste, dass das Monster schnell rennen konnte, sehr viel schneller als er. Besonders in diesem Pflanzengestrüpp war dessen längliche Form und vier Beine von Vorteil."
